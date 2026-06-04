@@ -1,0 +1,74 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "../backend/node_modules/.prisma/client"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Story {
+  id            Int      @id @default(autoincrement())
+  title         String
+  slug          String   @unique
+  category      String
+  age           String
+  duration      String
+  rating        Float
+  audio         Boolean
+  color         String
+  badgeColor    String
+  image         String
+  coverImageUrl String
+  description   String
+  moral         String
+  audioDuration Int
+  author        String
+  pages         String   // JSON string representing StoryPage[]
+  questions     String?  // JSON string representing QuizQuestion[] (optional)
+}
+
+// Khóa học lớn
+model Course {
+  id          Int      @id @default(autoincrement())
+  title       String   // Ví dụ: English For Kids Level 1
+  slug        String   @unique
+  description String
+  coverImage  String
+  level       String   // ví dụ: LV1, LV2
+  units       Unit[]
+}
+
+// Các Unit trong khóa học
+model Unit {
+  id          Int      @id @default(autoincrement())
+  title       String   // Ví dụ: Unit 1: My Body
+  description String
+  courseId    Int
+  course      Course   @relation(fields: [courseId], references: [id])
+  lessons     Lesson[]
+}
+
+// Các bài học trong mỗi Unit
+model Lesson {
+  id          Int      @id @default(autoincrement())
+  title       String   // Ví dụ: Story: This Is My Body
+  type        String   // "STORY", "VOCABULARY", "GAME"
+  points      Int      @default(10) // Số sao tối đa nhận được
+  unitId      Int
+  unit        Unit     @relation(fields: [unitId], references: [id])
+  pages       LessonPage[]
+}
+
+// Chi tiết các trang/nội dung bài học
+model LessonPage {
+  id          Int      @id @default(autoincrement())
+  pageNumber  Int
+  imageUrl    String   // Ảnh trích xuất từ trang PDF tương ứng
+  textContent String   // Đoạn text tiếng Anh
+  audioUrl    String   // Link file audio tiếng Anh sinh từ Vbee
+  lessonId    Int
+  lesson      Lesson   @relation(fields: [lessonId], references: [id])
+}
+
