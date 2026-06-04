@@ -1,26 +1,17 @@
 {
-  "name": "miniread-storefront",
-  "version": "0.1.0",
-  "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
-  },
-  "dependencies": {
-    "next": "16.2.6",
-    "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "db:migrate": "npx prisma migrate dev --schema=database/schema.prisma",
+    "db:reset": "npx prisma migrate reset --schema=database/schema.prisma --force",
+    "db:seed": "npm run db:seed:stories && npm run db:seed:courses && npm run db:seed:scraped && npm run db:seed:local",
+    "db:seed:stories": "cd backend && npx prisma db seed",
+    "db:seed:courses": "cd backend && npx ts-node --project tsconfig.json ../database/seed_courses.ts",
+    "db:seed:scraped": "cd backend && npx ts-node --project tsconfig.json ../database/seed_scraped.ts",
+    "db:seed:local": "cd backend && npx ts-node --project tsconfig.json ../database/seed_local_imported.ts"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "16.2.6",
-    "tailwindcss": "^4",
-    "typescript": "^5"
+    "prisma": "^6.19.3"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.19.3"
   }
 }
