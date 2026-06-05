@@ -40,6 +40,27 @@ export class CoursesService {
     });
   }
 
+  async findOne(id: number) {
+    return this.prisma.course.findUnique({
+      where: { id },
+      include: {
+        units: {
+          include: {
+            lessons: {
+              include: {
+                pages: {
+                  orderBy: {
+                    pageNumber: "asc"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    });
+  }
+
   async findLessonById(id: number) {
     return this.prisma.lesson.findUnique({
       where: { id },
