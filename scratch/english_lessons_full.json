@@ -1,0 +1,3228 @@
+[
+  {
+    "id": 101,
+    "title": "This Is My Body",
+    "slug": "this-is-my-body",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/this-is-my-body/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'This Is My Body'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 60,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "See my legs? I can run. See my hand? I can wave.",
+        "image": "http://localhost:3001/cdn/courses/lv1/this-is-my-body/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/this-is-my-body/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "See my head? I can think. See my arm? I can throw.",
+        "image": "http://localhost:3001/cdn/courses/lv1/this-is-my-body/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/this-is-my-body/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "See my feet? I can kick. See my neck? I can look up.",
+        "image": "http://localhost:3001/cdn/courses/lv1/this-is-my-body/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/this-is-my-body/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "See my shoulder? I can carry my bag. This is my body. I can do many things!",
+        "image": "http://localhost:3001/cdn/courses/lv1/this-is-my-body/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/this-is-my-body/page_4.mp3"
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "title": "Float or Sink",
+    "slug": "float-or-sink",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/float-or-sink/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'Float or Sink'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 60,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "The toy duck floats. My shoe sinks.",
+        "image": "http://localhost:3001/cdn/courses/lv1/float-or-sink/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/float-or-sink/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "The ball floats. My towel sinks.",
+        "image": "http://localhost:3001/cdn/courses/lv1/float-or-sink/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/float-or-sink/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "The cup floats. My spoon sinks.",
+        "image": "http://localhost:3001/cdn/courses/lv1/float-or-sink/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/float-or-sink/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "Uh-oh, here comes Mama! I sink!",
+        "image": "http://localhost:3001/cdn/courses/lv1/float-or-sink/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/float-or-sink/page_4.mp3"
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "title": "I Like Ice Cream",
+    "slug": "i-like-ice-cream",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/i-like-ice-cream/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'I Like Ice Cream'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 60,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "Grandma likes ice cream. “Mmmm!” Grandpa likes ice cream. “Mmmm!”",
+        "image": "http://localhost:3001/cdn/courses/lv1/i-like-ice-cream/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/i-like-ice-cream/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "Dad likes ice cream. “Mmmm!” Mom likes ice cream. “Mmmm!”",
+        "image": "http://localhost:3001/cdn/courses/lv1/i-like-ice-cream/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/i-like-ice-cream/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "Uncle Ted likes ice cream. “Mmmm!” My baby sister likes ice cream. “Yummy!”",
+        "image": "http://localhost:3001/cdn/courses/lv1/i-like-ice-cream/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/i-like-ice-cream/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "My brother likes ice cream. “Yummy!” I like ice cream too. “Yummy!”",
+        "image": "http://localhost:3001/cdn/courses/lv1/i-like-ice-cream/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/i-like-ice-cream/page_4.mp3"
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "title": "Merry Christmas!(1)",
+    "slug": "merry-christmas(1)",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/merry-christmas(1)/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'Merry Christmas!(1)'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 60,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "Dad puts up the tree. I put on the candy canes.",
+        "image": "http://localhost:3001/cdn/courses/lv1/merry-christmas(1)/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/merry-christmas(1)/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "Dad puts on the lights. I put on the ornaments.",
+        "image": "http://localhost:3001/cdn/courses/lv1/merry-christmas(1)/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/merry-christmas(1)/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "Dad puts on the angel. I put on the star.",
+        "image": "http://localhost:3001/cdn/courses/lv1/merry-christmas(1)/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/merry-christmas(1)/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "Santa puts the presents under the tree. “Merry Christmas! Ho! Ho! Ho!”",
+        "image": "http://localhost:3001/cdn/courses/lv1/merry-christmas(1)/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/merry-christmas(1)/page_4.mp3"
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "title": "I See",
+    "slug": "i-see",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/i-see/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'I See'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 60,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "I see a rock. I see an ant.",
+        "image": "http://localhost:3001/cdn/courses/lv1/i-see/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/i-see/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "I see a flower. I see a butterfly.",
+        "image": "http://localhost:3001/cdn/courses/lv1/i-see/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/i-see/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "I see a bee. I see a tree.",
+        "image": "http://localhost:3001/cdn/courses/lv1/i-see/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/i-see/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "I see a cat. Oh, run!",
+        "image": "http://localhost:3001/cdn/courses/lv1/i-see/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/i-see/page_4.mp3"
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "title": "Our Faces",
+    "slug": "our-faces",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/our-faces/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'Our Faces'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 60,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "“Let’s draw our faces,” Ms. White said. “Okay!” said the class. “I have a round face,” Tom said.",
+        "image": "http://localhost:3001/cdn/courses/lv1/our-faces/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/our-faces/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "“I have brown eyes,” Gina said. “I have a little nose,” Bob said.",
+        "image": "http://localhost:3001/cdn/courses/lv1/our-faces/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/our-faces/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "“I have a big mouth,” Jenny said. “I have two ears,” Roy said.",
+        "image": "http://localhost:3001/cdn/courses/lv1/our-faces/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/our-faces/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "“I have long hair,” Lisa said. “Great job, class!” Ms. White said. “What nice faces!”",
+        "image": "http://localhost:3001/cdn/courses/lv1/our-faces/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/our-faces/page_4.mp3"
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "title": "Sad, Sadder, Saddest",
+    "slug": "sad-sadder-saddest",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/sad-sadder-saddest/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'Sad, Sadder, Saddest'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 60,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "Timmy is sad. Aunt Tara is sadder.",
+        "image": "http://localhost:3001/cdn/courses/lv1/sad-sadder-saddest/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/sad-sadder-saddest/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "Mr. Tan is saddest. Mr. Tan needs a hug!",
+        "image": "http://localhost:3001/cdn/courses/lv1/sad-sadder-saddest/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/sad-sadder-saddest/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "Stan’s shoes are old. Sarah’s shoes are older.",
+        "image": "http://localhost:3001/cdn/courses/lv1/sad-sadder-saddest/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/sad-sadder-saddest/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "Sam’s shoes are oldest. Sam needs new shoes!",
+        "image": "http://localhost:3001/cdn/courses/lv1/sad-sadder-saddest/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/sad-sadder-saddest/page_4.mp3"
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "title": "Snowball",
+    "slug": "snowball",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/snowball/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'Snowball'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 60,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "This is Snowball. I love her.",
+        "image": "http://localhost:3001/cdn/courses/lv1/snowball/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/snowball/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "I feed her. I pet her.",
+        "image": "http://localhost:3001/cdn/courses/lv1/snowball/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/snowball/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "I play with her. I wash her.",
+        "image": "http://localhost:3001/cdn/courses/lv1/snowball/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/snowball/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "I chase her! Come back, Snowball!",
+        "image": "http://localhost:3001/cdn/courses/lv1/snowball/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/snowball/page_4.mp3"
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "title": "Don t Be Sad! Be Happy!",
+    "slug": "don-t-be-sad-be-happy",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/don-t-be-sad-be-happy/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'Don t Be Sad! Be Happy!'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 105,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "It’s a sunny day. Don’t play inside!",
+        "image": "http://localhost:3001/cdn/courses/lv1/don-t-be-sad-be-happy/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/don-t-be-sad-be-happy/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "Play outside! It’s her bike.",
+        "image": "http://localhost:3001/cdn/courses/lv1/don-t-be-sad-be-happy/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/don-t-be-sad-be-happy/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "Don’t be mean! Be nice!",
+        "image": "http://localhost:3001/cdn/courses/lv1/don-t-be-sad-be-happy/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/don-t-be-sad-be-happy/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "It’s an accident. Don’t fight!",
+        "image": "http://localhost:3001/cdn/courses/lv1/don-t-be-sad-be-happy/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/don-t-be-sad-be-happy/page_4.mp3"
+      },
+      {
+        "pageNumber": 5,
+        "textContent": "Be friends! Surprise!",
+        "image": "http://localhost:3001/cdn/courses/lv1/don-t-be-sad-be-happy/page_5.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/don-t-be-sad-be-happy/page_5.mp3"
+      },
+      {
+        "pageNumber": 6,
+        "textContent": "It’s your birthday! Don’t be sad!",
+        "image": "http://localhost:3001/cdn/courses/lv1/don-t-be-sad-be-happy/page_6.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/don-t-be-sad-be-happy/page_6.mp3"
+      },
+      {
+        "pageNumber": 7,
+        "textContent": "Be happy!",
+        "image": "http://localhost:3001/cdn/courses/lv1/don-t-be-sad-be-happy/page_7.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/don-t-be-sad-be-happy/page_7.mp3"
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "title": "Splat!",
+    "slug": "splat",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/splat/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'Splat!'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 75,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "Splat! Buzz!",
+        "image": "http://localhost:3001/cdn/courses/lv1/splat/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/splat/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "Whew! Splash!",
+        "image": "http://localhost:3001/cdn/courses/lv1/splat/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/splat/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "Boom! Drip-drop!",
+        "image": "http://localhost:3001/cdn/courses/lv1/splat/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/splat/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "Click! Vroom!",
+        "image": "http://localhost:3001/cdn/courses/lv1/splat/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/splat/page_4.mp3"
+      },
+      {
+        "pageNumber": 5,
+        "textContent": "Slam!",
+        "image": "http://localhost:3001/cdn/courses/lv1/splat/page_5.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/splat/page_5.mp3"
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "title": "Freddy, Fanny, and Felix",
+    "slug": "freddy-fanny-and-felix",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/freddy-fanny-and-felix/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'Freddy, Fanny, and Felix'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 90,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "Freddy hops in yellow. Freddy hops in red.",
+        "image": "http://localhost:3001/cdn/courses/lv1/freddy-fanny-and-felix/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/freddy-fanny-and-felix/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "Freddy is orange! Fanny hops in red.",
+        "image": "http://localhost:3001/cdn/courses/lv1/freddy-fanny-and-felix/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/freddy-fanny-and-felix/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "Fanny hops in blue. Fanny is purple!",
+        "image": "http://localhost:3001/cdn/courses/lv1/freddy-fanny-and-felix/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/freddy-fanny-and-felix/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "Felix hops in blue. Felix hops in yellow.",
+        "image": "http://localhost:3001/cdn/courses/lv1/freddy-fanny-and-felix/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/freddy-fanny-and-felix/page_4.mp3"
+      },
+      {
+        "pageNumber": 5,
+        "textContent": "Felix is green! “I missed you!”",
+        "image": "http://localhost:3001/cdn/courses/lv1/freddy-fanny-and-felix/page_5.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/freddy-fanny-and-felix/page_5.mp3"
+      },
+      {
+        "pageNumber": 6,
+        "textContent": "Now they are all brown! “Oh no! My paint!”",
+        "image": "http://localhost:3001/cdn/courses/lv1/freddy-fanny-and-felix/page_6.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/freddy-fanny-and-felix/page_6.mp3"
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "title": "Red Light, Green Light",
+    "slug": "red-light-green-light",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/red-light-green-light/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'Red Light, Green Light'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 75,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "Green light. Go! Red light. Stop!",
+        "image": "http://localhost:3001/cdn/courses/lv1/red-light-green-light/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/red-light-green-light/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "Y ou’re out! Green light. Go!",
+        "image": "http://localhost:3001/cdn/courses/lv1/red-light-green-light/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/red-light-green-light/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "Y ellow light. Go slow! Y ou’re out!",
+        "image": "http://localhost:3001/cdn/courses/lv1/red-light-green-light/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/red-light-green-light/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "Red light. Stop! Y ou’re out!",
+        "image": "http://localhost:3001/cdn/courses/lv1/red-light-green-light/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/red-light-green-light/page_4.mp3"
+      },
+      {
+        "pageNumber": 5,
+        "textContent": "Green light. Go! “Hooray! I win!”",
+        "image": "http://localhost:3001/cdn/courses/lv1/red-light-green-light/page_5.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/red-light-green-light/page_5.mp3"
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "title": "My Team",
+    "slug": "my-team",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/my-team/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'My Team'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 90,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "She is first. He is second.",
+        "image": "http://localhost:3001/cdn/courses/lv1/my-team/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/my-team/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "She is third. He is fourth.",
+        "image": "http://localhost:3001/cdn/courses/lv1/my-team/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/my-team/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "He is fifth. She is sixth.",
+        "image": "http://localhost:3001/cdn/courses/lv1/my-team/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/my-team/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "He is seventh. She is eighth.",
+        "image": "http://localhost:3001/cdn/courses/lv1/my-team/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/my-team/page_4.mp3"
+      },
+      {
+        "pageNumber": 5,
+        "textContent": "She is ninth. I am tenth.",
+        "image": "http://localhost:3001/cdn/courses/lv1/my-team/page_5.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/my-team/page_5.mp3"
+      },
+      {
+        "pageNumber": 6,
+        "textContent": "My team is great!",
+        "image": "http://localhost:3001/cdn/courses/lv1/my-team/page_6.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/my-team/page_6.mp3"
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "title": "Look Left, Look Right",
+    "slug": "look-left-look-right",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/look-left-look-right/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'Look Left, Look Right'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 90,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "Look! Wait! Look left. Look right.",
+        "image": "http://localhost:3001/cdn/courses/lv1/look-left-look-right/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/look-left-look-right/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "Okay, cross! Look! Wait!",
+        "image": "http://localhost:3001/cdn/courses/lv1/look-left-look-right/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/look-left-look-right/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "Look left. Look right. Okay, cross!",
+        "image": "http://localhost:3001/cdn/courses/lv1/look-left-look-right/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/look-left-look-right/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "Look! Wait! Look left. Look right.",
+        "image": "http://localhost:3001/cdn/courses/lv1/look-left-look-right/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/look-left-look-right/page_4.mp3"
+      },
+      {
+        "pageNumber": 5,
+        "textContent": "Okay, cross! Wait! Stop!",
+        "image": "http://localhost:3001/cdn/courses/lv1/look-left-look-right/page_5.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/look-left-look-right/page_5.mp3"
+      },
+      {
+        "pageNumber": 6,
+        "textContent": "We’re here!",
+        "image": "http://localhost:3001/cdn/courses/lv1/look-left-look-right/page_6.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/look-left-look-right/page_6.mp3"
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "title": "It s Snowy",
+    "slug": "it-s-snowy",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/it-s-snowy/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'It s Snowy'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 60,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "It’s foggy! It’s chilly!",
+        "image": "http://localhost:3001/cdn/courses/lv1/it-s-snowy/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/it-s-snowy/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "It’s cloudy! It’s windy!",
+        "image": "http://localhost:3001/cdn/courses/lv1/it-s-snowy/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/it-s-snowy/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "It’s stormy! It’s snowy!",
+        "image": "http://localhost:3001/cdn/courses/lv1/it-s-snowy/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/it-s-snowy/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "It’s sunny! Now I can play outside!",
+        "image": "http://localhost:3001/cdn/courses/lv1/it-s-snowy/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/it-s-snowy/page_4.mp3"
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "title": "Who Is It",
+    "slug": "who-is-it",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/who-is-it/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'Who Is It'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 75,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "Who is playing in the bushes? A bird!",
+        "image": "http://localhost:3001/cdn/courses/lv1/who-is-it/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/who-is-it/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "Who is hiding in the tree? A squirrel!",
+        "image": "http://localhost:3001/cdn/courses/lv1/who-is-it/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/who-is-it/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "Who is sleeping in the rocks? A snake!",
+        "image": "http://localhost:3001/cdn/courses/lv1/who-is-it/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/who-is-it/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "Who is swimming in the river? A duck!",
+        "image": "http://localhost:3001/cdn/courses/lv1/who-is-it/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/who-is-it/page_4.mp3"
+      },
+      {
+        "pageNumber": 5,
+        "textContent": "Who is in the tent? Me!",
+        "image": "http://localhost:3001/cdn/courses/lv1/who-is-it/page_5.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/who-is-it/page_5.mp3"
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "title": "The Best",
+    "slug": "the-best",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/the-best/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'The Best'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 60,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "Here they come! This one is too fat.",
+        "image": "http://localhost:3001/cdn/courses/lv1/the-best/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/the-best/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "This one is too skinny. This one is the best.",
+        "image": "http://localhost:3001/cdn/courses/lv1/the-best/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/the-best/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "This one is too hairy. This one is too bald.",
+        "image": "http://localhost:3001/cdn/courses/lv1/the-best/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/the-best/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "This one is the best. He is the best dog!",
+        "image": "http://localhost:3001/cdn/courses/lv1/the-best/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/the-best/page_4.mp3"
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "title": "Dinosaurs",
+    "slug": "dinosaurs",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/dinosaurs/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'Dinosaurs'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 60,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "This one has a small head. This one has a big mouth.",
+        "image": "http://localhost:3001/cdn/courses/lv1/dinosaurs/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/dinosaurs/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "This one has a long tail. This one has large wings.",
+        "image": "http://localhost:3001/cdn/courses/lv1/dinosaurs/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/dinosaurs/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "This one has sharp horns. This one has a long neck.",
+        "image": "http://localhost:3001/cdn/courses/lv1/dinosaurs/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/dinosaurs/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "This one has tiny arms. But it has huge teeth! “Ah!”",
+        "image": "http://localhost:3001/cdn/courses/lv1/dinosaurs/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/dinosaurs/page_4.mp3"
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "title": "Baseball!",
+    "slug": "baseball",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/baseball/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'Baseball!'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 60,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "I have a ball. This is my ball.",
+        "image": "http://localhost:3001/cdn/courses/lv1/baseball/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/baseball/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "Laura has a bat. This is her bat.",
+        "image": "http://localhost:3001/cdn/courses/lv1/baseball/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/baseball/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "Mike has a glove. This is his glove.",
+        "image": "http://localhost:3001/cdn/courses/lv1/baseball/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/baseball/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "Dad is our coach. Let’s play baseball!",
+        "image": "http://localhost:3001/cdn/courses/lv1/baseball/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/baseball/page_4.mp3"
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "title": "Morning, Afternoon, Evening, Night",
+    "slug": "morning-afternoon-evening-night",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/morning-afternoon-evening-night/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'Morning, Afternoon, Evening, Night'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 75,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "It is morning. We eat breakfast.",
+        "image": "http://localhost:3001/cdn/courses/lv1/morning-afternoon-evening-night/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/morning-afternoon-evening-night/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "It is afternoon. We eat lunch.",
+        "image": "http://localhost:3001/cdn/courses/lv1/morning-afternoon-evening-night/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/morning-afternoon-evening-night/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "It is evening. We eat dinner.",
+        "image": "http://localhost:3001/cdn/courses/lv1/morning-afternoon-evening-night/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/morning-afternoon-evening-night/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "It is night. We go to bed.",
+        "image": "http://localhost:3001/cdn/courses/lv1/morning-afternoon-evening-night/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/morning-afternoon-evening-night/page_4.mp3"
+      },
+      {
+        "pageNumber": 5,
+        "textContent": "Good night!",
+        "image": "http://localhost:3001/cdn/courses/lv1/morning-afternoon-evening-night/page_5.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/morning-afternoon-evening-night/page_5.mp3"
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "title": "At the Zoo",
+    "slug": "at-the-zoo",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/at-the-zoo/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'At the Zoo'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 75,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "We go here. We go there.",
+        "image": "http://localhost:3001/cdn/courses/lv1/at-the-zoo/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/at-the-zoo/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "Animals are everywhere. We look at this.",
+        "image": "http://localhost:3001/cdn/courses/lv1/at-the-zoo/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/at-the-zoo/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "We look at that. There is so much to look at!",
+        "image": "http://localhost:3001/cdn/courses/lv1/at-the-zoo/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/at-the-zoo/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "We hear these. We hear those.",
+        "image": "http://localhost:3001/cdn/courses/lv1/at-the-zoo/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/at-the-zoo/page_4.mp3"
+      },
+      {
+        "pageNumber": 5,
+        "textContent": "Those must be the hippos!",
+        "image": "http://localhost:3001/cdn/courses/lv1/at-the-zoo/page_5.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/at-the-zoo/page_5.mp3"
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "title": "One Cloud, Many Clouds",
+    "slug": "one-cloud-many-clouds",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/one-cloud-many-clouds/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'One Cloud, Many Clouds'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 60,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "One cloud. Many clouds.",
+        "image": "http://localhost:3001/cdn/courses/lv1/one-cloud-many-clouds/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/one-cloud-many-clouds/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "One drop. Many drops.",
+        "image": "http://localhost:3001/cdn/courses/lv1/one-cloud-many-clouds/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/one-cloud-many-clouds/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "One umbrella. Many umbrellas.",
+        "image": "http://localhost:3001/cdn/courses/lv1/one-cloud-many-clouds/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/one-cloud-many-clouds/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "One kid. Many kids.",
+        "image": "http://localhost:3001/cdn/courses/lv1/one-cloud-many-clouds/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/one-cloud-many-clouds/page_4.mp3"
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "title": "My Piggy Bank",
+    "slug": "my-piggy-bank",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/my-piggy-bank/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'My Piggy Bank'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 105,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "Look! A penny!",
+        "image": "http://localhost:3001/cdn/courses/lv1/my-piggy-bank/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/my-piggy-bank/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "That’s one cent. Oh! A nickel!",
+        "image": "http://localhost:3001/cdn/courses/lv1/my-piggy-bank/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/my-piggy-bank/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "That’s five cents. Cool! A dime!",
+        "image": "http://localhost:3001/cdn/courses/lv1/my-piggy-bank/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/my-piggy-bank/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "That’s ten cents. Ooh! A quarter!",
+        "image": "http://localhost:3001/cdn/courses/lv1/my-piggy-bank/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/my-piggy-bank/page_4.mp3"
+      },
+      {
+        "pageNumber": 5,
+        "textContent": "That’s twenty-five cents. Wow! A dollar!",
+        "image": "http://localhost:3001/cdn/courses/lv1/my-piggy-bank/page_5.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/my-piggy-bank/page_5.mp3"
+      },
+      {
+        "pageNumber": 6,
+        "textContent": "That’s one hundred cents. A penny! A nickel! A dime! A quarter! A dollar!",
+        "image": "http://localhost:3001/cdn/courses/lv1/my-piggy-bank/page_6.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/my-piggy-bank/page_6.mp3"
+      },
+      {
+        "pageNumber": 7,
+        "textContent": "My piggy bank is full. Happy Father’s Day!",
+        "image": "http://localhost:3001/cdn/courses/lv1/my-piggy-bank/page_7.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/my-piggy-bank/page_7.mp3"
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "title": "On the Hill",
+    "slug": "on-the-hill",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/on-the-hill/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'On the Hill'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 120,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "A table. An apple.",
+        "image": "http://localhost:3001/cdn/courses/lv1/on-the-hill/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/on-the-hill/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "The apple is on the table. A pot.",
+        "image": "http://localhost:3001/cdn/courses/lv1/on-the-hill/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/on-the-hill/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "A flower. The flower is in the pot.",
+        "image": "http://localhost:3001/cdn/courses/lv1/on-the-hill/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/on-the-hill/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "A box. An egg.",
+        "image": "http://localhost:3001/cdn/courses/lv1/on-the-hill/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/on-the-hill/page_4.mp3"
+      },
+      {
+        "pageNumber": 5,
+        "textContent": "The egg is in the box. A hill.",
+        "image": "http://localhost:3001/cdn/courses/lv1/on-the-hill/page_5.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/on-the-hill/page_5.mp3"
+      },
+      {
+        "pageNumber": 6,
+        "textContent": "A cow. The cow is on the hill.",
+        "image": "http://localhost:3001/cdn/courses/lv1/on-the-hill/page_6.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/on-the-hill/page_6.mp3"
+      },
+      {
+        "pageNumber": 7,
+        "textContent": "The apple is on the box on the cow . . . . . . on the table on the hill!",
+        "image": "http://localhost:3001/cdn/courses/lv1/on-the-hill/page_7.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/on-the-hill/page_7.mp3"
+      },
+      {
+        "pageNumber": 8,
+        "textContent": "Whoa!",
+        "image": "http://localhost:3001/cdn/courses/lv1/on-the-hill/page_8.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/on-the-hill/page_8.mp3"
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "title": "Cute!",
+    "slug": "cute",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/cute/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'Cute!'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 60,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "The kitten is cute. The puppy is cute.",
+        "image": "http://localhost:3001/cdn/courses/lv1/cute/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/cute/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "The duckling is cute. The chick is cute.",
+        "image": "http://localhost:3001/cdn/courses/lv1/cute/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/cute/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "The piglet is cute. The lamb is cute.",
+        "image": "http://localhost:3001/cdn/courses/lv1/cute/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/cute/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "The calf is cute. I love them all!",
+        "image": "http://localhost:3001/cdn/courses/lv1/cute/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/cute/page_4.mp3"
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "title": "Musical Chairs",
+    "slug": "musical-chairs",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/musical-chairs/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'Musical Chairs'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 60,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "One, two, three, four, five, six, seven, eight. Eight chairs. “I’m out!” One, two, three, four, five, six, seven. Seven chairs. “I’m out!”",
+        "image": "http://localhost:3001/cdn/courses/lv1/musical-chairs/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/musical-chairs/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "One, two, three, four, five, six. Six chairs. “I’m out!” One, two, three, four, five. Five chairs. “I’m out!”",
+        "image": "http://localhost:3001/cdn/courses/lv1/musical-chairs/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/musical-chairs/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "One, two, three, four. Four chairs. “I’m out!” One, two, three. Three chairs. “I’m out!”",
+        "image": "http://localhost:3001/cdn/courses/lv1/musical-chairs/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/musical-chairs/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "One, two. Two chairs. “I’m out!” One. One chair! “I win!”",
+        "image": "http://localhost:3001/cdn/courses/lv1/musical-chairs/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/musical-chairs/page_4.mp3"
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "title": "The Ant",
+    "slug": "the-ant",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/the-ant/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'The Ant'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 60,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "Crawl down the wall. Climb over the sofa.",
+        "image": "http://localhost:3001/cdn/courses/lv1/the-ant/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/the-ant/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "Crawl under the table. Climb over the slippers.",
+        "image": "http://localhost:3001/cdn/courses/lv1/the-ant/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/the-ant/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "Crawl past the cat. Climb up the chair.",
+        "image": "http://localhost:3001/cdn/courses/lv1/the-ant/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/the-ant/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "Crawl onto the plate. A piece of pie. Yum, yum, yum!",
+        "image": "http://localhost:3001/cdn/courses/lv1/the-ant/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/the-ant/page_4.mp3"
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "title": "Lift and Look with Maxie",
+    "slug": "lift-and-look-with-maxie",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/lift-and-look-with-maxie/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'Lift and Look with Maxie'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 75,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "Open the car. Grandma has one box. Open the gate. Two pets.",
+        "image": "http://localhost:3001/cdn/courses/lv1/lift-and-look-with-maxie/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/lift-and-look-with-maxie/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "Open the door. Three friends. Open the window. Four flowers.",
+        "image": "http://localhost:3001/cdn/courses/lv1/lift-and-look-with-maxie/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/lift-and-look-with-maxie/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "Open the book. Five butterflies. Open the box. Six toys.",
+        "image": "http://localhost:3001/cdn/courses/lv1/lift-and-look-with-maxie/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/lift-and-look-with-maxie/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "Open the closet. Seven hats. Open the refrigerator. Eight bottles.",
+        "image": "http://localhost:3001/cdn/courses/lv1/lift-and-look-with-maxie/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/lift-and-look-with-maxie/page_4.mp3"
+      },
+      {
+        "pageNumber": 5,
+        "textContent": "Open the oven. Nine cookies. Open the lid. Ten candles on a cake.",
+        "image": "http://localhost:3001/cdn/courses/lv1/lift-and-look-with-maxie/page_5.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/lift-and-look-with-maxie/page_5.mp3"
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "title": "Sledding",
+    "slug": "sledding",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/sledding/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'Sledding'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 60,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "Snow, snow, snow everywhere. Put on a coat.",
+        "image": "http://localhost:3001/cdn/courses/lv1/sledding/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/sledding/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "Put on a scarf. Put on mittens.",
+        "image": "http://localhost:3001/cdn/courses/lv1/sledding/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/sledding/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "Put on boots. Go out.",
+        "image": "http://localhost:3001/cdn/courses/lv1/sledding/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/sledding/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "Pull the sled up, up, up. Down, down, down we go. Weee!",
+        "image": "http://localhost:3001/cdn/courses/lv1/sledding/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/sledding/page_4.mp3"
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "title": "Me Too!",
+    "slug": "me-too",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/me-too/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'Me Too!'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 75,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "Daddy builds. I build too.",
+        "image": "http://localhost:3001/cdn/courses/lv1/me-too/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/me-too/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "Mommy cooks. I cook too.",
+        "image": "http://localhost:3001/cdn/courses/lv1/me-too/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/me-too/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "Daddy paints. I paint too.",
+        "image": "http://localhost:3001/cdn/courses/lv1/me-too/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/me-too/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "Mommy drives. I drive too.",
+        "image": "http://localhost:3001/cdn/courses/lv1/me-too/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/me-too/page_4.mp3"
+      },
+      {
+        "pageNumber": 5,
+        "textContent": "Daddy sleeps. I sleep too.",
+        "image": "http://localhost:3001/cdn/courses/lv1/me-too/page_5.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/me-too/page_5.mp3"
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "title": "Pick Up a Leaf",
+    "slug": "pick-up-a-leaf",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/pick-up-a-leaf/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'Pick Up a Leaf'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 60,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "It is Autumn. The leaves are falling.",
+        "image": "http://localhost:3001/cdn/courses/lv1/pick-up-a-leaf/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/pick-up-a-leaf/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "Red, orange, yellow and brown. Pick up a leaf! Pick up a leaf!",
+        "image": "http://localhost:3001/cdn/courses/lv1/pick-up-a-leaf/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/pick-up-a-leaf/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "Crayons and paper. Color.",
+        "image": "http://localhost:3001/cdn/courses/lv1/pick-up-a-leaf/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/pick-up-a-leaf/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "What do you see? It’s a leaf print.",
+        "image": "http://localhost:3001/cdn/courses/lv1/pick-up-a-leaf/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/pick-up-a-leaf/page_4.mp3"
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "title": "At the Beach",
+    "slug": "at-the-beach",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/at-the-beach/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'At the Beach'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 60,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "The sun is hot. The water is cold.",
+        "image": "http://localhost:3001/cdn/courses/lv1/at-the-beach/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/at-the-beach/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "My swim ring floats. My shoe sinks.",
+        "image": "http://localhost:3001/cdn/courses/lv1/at-the-beach/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/at-the-beach/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "I throw the ball. I catch the ball.",
+        "image": "http://localhost:3001/cdn/courses/lv1/at-the-beach/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/at-the-beach/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "It is sunny. It is rainy!",
+        "image": "http://localhost:3001/cdn/courses/lv1/at-the-beach/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/at-the-beach/page_4.mp3"
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "title": "On a Rainy Day",
+    "slug": "on-a-rainy-day",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/on-a-rainy-day/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'On a Rainy Day'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 90,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "On a rainy day, I wear my raincoat.",
+        "image": "http://localhost:3001/cdn/courses/lv1/on-a-rainy-day/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/on-a-rainy-day/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "I wear my boots. I dress my dog too.",
+        "image": "http://localhost:3001/cdn/courses/lv1/on-a-rainy-day/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/on-a-rainy-day/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "I jump in the puddles. My dog jumps too.",
+        "image": "http://localhost:3001/cdn/courses/lv1/on-a-rainy-day/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/on-a-rainy-day/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "I sing and dance. My dog sings and dances too.",
+        "image": "http://localhost:3001/cdn/courses/lv1/on-a-rainy-day/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/on-a-rainy-day/page_4.mp3"
+      },
+      {
+        "pageNumber": 5,
+        "textContent": "I take a shower. My dog takes a shower too.",
+        "image": "http://localhost:3001/cdn/courses/lv1/on-a-rainy-day/page_5.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/on-a-rainy-day/page_5.mp3"
+      },
+      {
+        "pageNumber": 6,
+        "textContent": "We have cookies and hot chocolate.",
+        "image": "http://localhost:3001/cdn/courses/lv1/on-a-rainy-day/page_6.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/on-a-rainy-day/page_6.mp3"
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "title": "Costume Party",
+    "slug": "costume-party",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/costume-party/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'Costume Party'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 60,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "Sally is a princess. Jack is a pirate.",
+        "image": "http://localhost:3001/cdn/courses/lv1/costume-party/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/costume-party/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "Jane is an astronaut. Tommy is a clown.",
+        "image": "http://localhost:3001/cdn/courses/lv1/costume-party/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/costume-party/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "Lisa is an angel. Jason is a cowboy.",
+        "image": "http://localhost:3001/cdn/courses/lv1/costume-party/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/costume-party/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "Julie is a wizard. I am a ghost. Boo!",
+        "image": "http://localhost:3001/cdn/courses/lv1/costume-party/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/costume-party/page_4.mp3"
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "title": "Dark Cloud",
+    "slug": "dark-cloud",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/dark-cloud/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'Dark Cloud'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 60,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "Here come the dark clouds. Here comes the wind.",
+        "image": "http://localhost:3001/cdn/courses/lv1/dark-cloud/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/dark-cloud/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "Here comes the lightning. Here comes the thunder!",
+        "image": "http://localhost:3001/cdn/courses/lv1/dark-cloud/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/dark-cloud/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "Here comes the rain. The horse goes to the barn.",
+        "image": "http://localhost:3001/cdn/courses/lv1/dark-cloud/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/dark-cloud/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "The farmer goes to the house. The ants go to the anthill.",
+        "image": "http://localhost:3001/cdn/courses/lv1/dark-cloud/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/dark-cloud/page_4.mp3"
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "title": "Ouch!",
+    "slug": "ouch",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/ouch/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'Ouch!'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 60,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "I have a sore throat. I have a broken leg.",
+        "image": "http://localhost:3001/cdn/courses/lv1/ouch/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/ouch/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "I have a toothache. I have a stomachache.",
+        "image": "http://localhost:3001/cdn/courses/lv1/ouch/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/ouch/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "I have an earache. I have a bruised tail.",
+        "image": "http://localhost:3001/cdn/courses/lv1/ouch/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/ouch/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "I have a stuffy nose. I have a headache.",
+        "image": "http://localhost:3001/cdn/courses/lv1/ouch/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/ouch/page_4.mp3"
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "title": "Surprise, Teacher!",
+    "slug": "surprise-teacher",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/surprise-teacher/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'Surprise, Teacher!'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 60,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "“Are they pencils?” said the teacher. “No,” said the children. “Are they erasers?” said the teacher. “No,” said the children. “Surprise!”",
+        "image": "http://localhost:3001/cdn/courses/lv1/surprise-teacher/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/surprise-teacher/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "“Are they rulers?” said the teacher. “No,” said the children. “Are they scissors?” said the teacher. “No,” said the children.",
+        "image": "http://localhost:3001/cdn/courses/lv1/surprise-teacher/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/surprise-teacher/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "“Are they colored markers?” said the teacher. “No,” said the children. “Are they notebooks?” said the teacher. “No,” said the children.",
+        "image": "http://localhost:3001/cdn/courses/lv1/surprise-teacher/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/surprise-teacher/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "“Are they pencil cases?” said the teacher. “No,” said the children. “Are they rubber stamps?” said the teacher. “Yes, they are. Happy birthday, Teacher!”",
+        "image": "http://localhost:3001/cdn/courses/lv1/surprise-teacher/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/surprise-teacher/page_4.mp3"
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "title": "New Home",
+    "slug": "new-home",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/new-home/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'New Home'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 60,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "Look at the elephant! Look at the tiger!",
+        "image": "http://localhost:3001/cdn/courses/lv1/new-home/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/new-home/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "Look at the camel! Look at the giraffe!",
+        "image": "http://localhost:3001/cdn/courses/lv1/new-home/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/new-home/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "Look at the monkeys! Look at the zebra!",
+        "image": "http://localhost:3001/cdn/courses/lv1/new-home/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/new-home/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "Look at the rhino! Where are you going? We are going to our new home.",
+        "image": "http://localhost:3001/cdn/courses/lv1/new-home/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/new-home/page_4.mp3"
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "title": "What Do You See",
+    "slug": "what-do-you-see",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/what-do-you-see/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'What Do You See'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 120,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "What do you see? I see a starfish.",
+        "image": "http://localhost:3001/cdn/courses/lv1/what-do-you-see/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/what-do-you-see/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "What do you see? I see a turtle.",
+        "image": "http://localhost:3001/cdn/courses/lv1/what-do-you-see/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/what-do-you-see/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "What do you see? I see an octopus.",
+        "image": "http://localhost:3001/cdn/courses/lv1/what-do-you-see/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/what-do-you-see/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "What do you see? I see a shark.",
+        "image": "http://localhost:3001/cdn/courses/lv1/what-do-you-see/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/what-do-you-see/page_4.mp3"
+      },
+      {
+        "pageNumber": 5,
+        "textContent": "What do you see? I see a crab.",
+        "image": "http://localhost:3001/cdn/courses/lv1/what-do-you-see/page_5.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/what-do-you-see/page_5.mp3"
+      },
+      {
+        "pageNumber": 6,
+        "textContent": "What do you see? I see a clam.",
+        "image": "http://localhost:3001/cdn/courses/lv1/what-do-you-see/page_6.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/what-do-you-see/page_6.mp3"
+      },
+      {
+        "pageNumber": 7,
+        "textContent": "What do you see? I see a seal.",
+        "image": "http://localhost:3001/cdn/courses/lv1/what-do-you-see/page_7.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/what-do-you-see/page_7.mp3"
+      },
+      {
+        "pageNumber": 8,
+        "textContent": "What do you see? I see a dolphin.",
+        "image": "http://localhost:3001/cdn/courses/lv1/what-do-you-see/page_8.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/what-do-you-see/page_8.mp3"
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "title": "Pop the Popcorn!",
+    "slug": "pop-the-popcorn",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/pop-the-popcorn/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'Pop the Popcorn!'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 60,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "Put a pan on the stove. Turn on the stove.",
+        "image": "http://localhost:3001/cdn/courses/lv1/pop-the-popcorn/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/pop-the-popcorn/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "Pour the oil in the pan. Add some corn.",
+        "image": "http://localhost:3001/cdn/courses/lv1/pop-the-popcorn/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/pop-the-popcorn/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "Put the lid on. Wait, wait, wait. Pop, pop, pop.",
+        "image": "http://localhost:3001/cdn/courses/lv1/pop-the-popcorn/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/pop-the-popcorn/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "Shake, shake, shake the salt. Popcorn is everywhere!",
+        "image": "http://localhost:3001/cdn/courses/lv1/pop-the-popcorn/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/pop-the-popcorn/page_4.mp3"
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "title": "On the Stage",
+    "slug": "on-the-stage",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/on-the-stage/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'On the Stage'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 60,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "I want to play the violin. I want to play the guitar.",
+        "image": "http://localhost:3001/cdn/courses/lv1/on-the-stage/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/on-the-stage/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "I want to play the harp. I want to play the flute.",
+        "image": "http://localhost:3001/cdn/courses/lv1/on-the-stage/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/on-the-stage/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "I want to play the xylophone. I want to play the piano.",
+        "image": "http://localhost:3001/cdn/courses/lv1/on-the-stage/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/on-the-stage/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "I want to play the drums. We want to play music together!",
+        "image": "http://localhost:3001/cdn/courses/lv1/on-the-stage/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/on-the-stage/page_4.mp3"
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "title": "Where Is Fluffy",
+    "slug": "where-is-fluffy",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/where-is-fluffy/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'Where Is Fluffy'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 75,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "Where is Fluffy? Not under the bed.",
+        "image": "http://localhost:3001/cdn/courses/lv1/where-is-fluffy/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/where-is-fluffy/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "Where is Fluffy? Not under the sofa.",
+        "image": "http://localhost:3001/cdn/courses/lv1/where-is-fluffy/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/where-is-fluffy/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "Where is Fluffy? Not under the table.",
+        "image": "http://localhost:3001/cdn/courses/lv1/where-is-fluffy/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/where-is-fluffy/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "Where is Fluffy? Not under the car.",
+        "image": "http://localhost:3001/cdn/courses/lv1/where-is-fluffy/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/where-is-fluffy/page_4.mp3"
+      },
+      {
+        "pageNumber": 5,
+        "textContent": "Where is Fluffy? She’s under the tree!",
+        "image": "http://localhost:3001/cdn/courses/lv1/where-is-fluffy/page_5.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/where-is-fluffy/page_5.mp3"
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "title": "Sharing",
+    "slug": "sharing",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/sharing/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'Sharing'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 60,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "I share my books. I share my games.",
+        "image": "http://localhost:3001/cdn/courses/lv1/sharing/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/sharing/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "I share my blocks. I share my toys.",
+        "image": "http://localhost:3001/cdn/courses/lv1/sharing/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/sharing/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "I share my computer. I share my crayons.",
+        "image": "http://localhost:3001/cdn/courses/lv1/sharing/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/sharing/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "I share my cookies. I don’t share my mommy.",
+        "image": "http://localhost:3001/cdn/courses/lv1/sharing/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/sharing/page_4.mp3"
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "title": "We Smile",
+    "slug": "we-smile",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/we-smile/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'We Smile'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 60,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "We run on the track. We climb up and down.",
+        "image": "http://localhost:3001/cdn/courses/lv1/we-smile/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/we-smile/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "We turn around. We blow bubbles.",
+        "image": "http://localhost:3001/cdn/courses/lv1/we-smile/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/we-smile/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "We go through the tunnel. We touch the pole.",
+        "image": "http://localhost:3001/cdn/courses/lv1/we-smile/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/we-smile/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "We shoot the ball. We wave our hands. We smile.",
+        "image": "http://localhost:3001/cdn/courses/lv1/we-smile/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/we-smile/page_4.mp3"
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "title": "I Can Walk",
+    "slug": "i-can-walk",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/i-can-walk/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'I Can Walk'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 60,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "I can walk. I can climb.",
+        "image": "http://localhost:3001/cdn/courses/lv1/i-can-walk/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/i-can-walk/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "I can hug. I can jump.",
+        "image": "http://localhost:3001/cdn/courses/lv1/i-can-walk/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/i-can-walk/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "I can swim. I can hop.",
+        "image": "http://localhost:3001/cdn/courses/lv1/i-can-walk/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/i-can-walk/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "I can crawl. I can fly.",
+        "image": "http://localhost:3001/cdn/courses/lv1/i-can-walk/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/i-can-walk/page_4.mp3"
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "title": "Dressing Up",
+    "slug": "dressing-up",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/dressing-up/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'Dressing Up'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 90,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "I put on Mommy’s dress. I put on Daddy’s shirt.",
+        "image": "http://localhost:3001/cdn/courses/lv1/dressing-up/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/dressing-up/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "I put on Mommy’s scarf. I put on Daddy’s tie.",
+        "image": "http://localhost:3001/cdn/courses/lv1/dressing-up/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/dressing-up/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "I put on Mommy’s shoes. I put on Daddy’s boots.",
+        "image": "http://localhost:3001/cdn/courses/lv1/dressing-up/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/dressing-up/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "I put on Mommy’s jewelry. I put on Daddy’s watch.",
+        "image": "http://localhost:3001/cdn/courses/lv1/dressing-up/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/dressing-up/page_4.mp3"
+      },
+      {
+        "pageNumber": 5,
+        "textContent": "I put on Mommy’s hat. I put on Daddy’s hat.",
+        "image": "http://localhost:3001/cdn/courses/lv1/dressing-up/page_5.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/dressing-up/page_5.mp3"
+      },
+      {
+        "pageNumber": 6,
+        "textContent": "We are going out!",
+        "image": "http://localhost:3001/cdn/courses/lv1/dressing-up/page_6.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/dressing-up/page_6.mp3"
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "title": "At School",
+    "slug": "at-school",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/at-school/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'At School'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 60,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "I like to say “Hello.” I like to listen.",
+        "image": "http://localhost:3001/cdn/courses/lv1/at-school/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/at-school/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "I like to talk. I like to dance.",
+        "image": "http://localhost:3001/cdn/courses/lv1/at-school/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/at-school/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "I like to sing. I like to play.",
+        "image": "http://localhost:3001/cdn/courses/lv1/at-school/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/at-school/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "I like to eat. I like to say “Good-bye.”",
+        "image": "http://localhost:3001/cdn/courses/lv1/at-school/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/at-school/page_4.mp3"
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "title": "Seasons Are Fun",
+    "slug": "seasons-are-fun",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/seasons-are-fun/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'Seasons Are Fun'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 60,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "Wintertime, wintertime. Cold winds, cold winds. Winter is cold.",
+        "image": "http://localhost:3001/cdn/courses/lv1/seasons-are-fun/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/seasons-are-fun/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "Springtime, springtime. Chirping birds, chirping birds. Spring is warm.",
+        "image": "http://localhost:3001/cdn/courses/lv1/seasons-are-fun/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/seasons-are-fun/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "Summertime, summertime. Hot sun, hot sun. Summer is hot.",
+        "image": "http://localhost:3001/cdn/courses/lv1/seasons-are-fun/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/seasons-are-fun/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "Now it’s fall, now it’s fall. Falling leaves, falling leaves. Fall is cool.",
+        "image": "http://localhost:3001/cdn/courses/lv1/seasons-are-fun/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/seasons-are-fun/page_4.mp3"
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "title": "Dig a Little Hole",
+    "slug": "dig-a-little-hole",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/dig-a-little-hole/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'Dig a Little Hole'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 60,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "Dig a little hole. Plant a little seed.",
+        "image": "http://localhost:3001/cdn/courses/lv1/dig-a-little-hole/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/dig-a-little-hole/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "Pour a little water. Pull a little weed.",
+        "image": "http://localhost:3001/cdn/courses/lv1/dig-a-little-hole/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/dig-a-little-hole/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "Chase a little bug. Heigh-ho, there he goes.",
+        "image": "http://localhost:3001/cdn/courses/lv1/dig-a-little-hole/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/dig-a-little-hole/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "Give a little sunshine. Grow a little bean.",
+        "image": "http://localhost:3001/cdn/courses/lv1/dig-a-little-hole/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/dig-a-little-hole/page_4.mp3"
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "title": "What Is Missing",
+    "slug": "what-is-missing",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/what-is-missing/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'What Is Missing'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 120,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "What is missing? The eye is missing.",
+        "image": "http://localhost:3001/cdn/courses/lv1/what-is-missing/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/what-is-missing/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "What is missing? The door is missing.",
+        "image": "http://localhost:3001/cdn/courses/lv1/what-is-missing/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/what-is-missing/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "What is missing? The handle is missing.",
+        "image": "http://localhost:3001/cdn/courses/lv1/what-is-missing/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/what-is-missing/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "What is missing? The button is missing.",
+        "image": "http://localhost:3001/cdn/courses/lv1/what-is-missing/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/what-is-missing/page_4.mp3"
+      },
+      {
+        "pageNumber": 5,
+        "textContent": "What is missing? The lid is missing.",
+        "image": "http://localhost:3001/cdn/courses/lv1/what-is-missing/page_5.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/what-is-missing/page_5.mp3"
+      },
+      {
+        "pageNumber": 6,
+        "textContent": "What is missing? The mouse is missing.",
+        "image": "http://localhost:3001/cdn/courses/lv1/what-is-missing/page_6.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/what-is-missing/page_6.mp3"
+      },
+      {
+        "pageNumber": 7,
+        "textContent": "What is missing? The wheel is missing.",
+        "image": "http://localhost:3001/cdn/courses/lv1/what-is-missing/page_7.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/what-is-missing/page_7.mp3"
+      },
+      {
+        "pageNumber": 8,
+        "textContent": "What is missing? My tooth is missing!",
+        "image": "http://localhost:3001/cdn/courses/lv1/what-is-missing/page_8.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/what-is-missing/page_8.mp3"
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "title": "Go, Go, Go!",
+    "slug": "go-go-go",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/go-go-go/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'Go, Go, Go!'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 60,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "I will take my car. I will take my bus.",
+        "image": "http://localhost:3001/cdn/courses/lv1/go-go-go/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/go-go-go/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "I will take my truck. I will take my train.",
+        "image": "http://localhost:3001/cdn/courses/lv1/go-go-go/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/go-go-go/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "I will take my skateboard. I will take my motorcycle.",
+        "image": "http://localhost:3001/cdn/courses/lv1/go-go-go/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/go-go-go/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "I will take my bicycle. I will take my broom!",
+        "image": "http://localhost:3001/cdn/courses/lv1/go-go-go/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/go-go-go/page_4.mp3"
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "title": "Grandpa s Farm",
+    "slug": "grandpa-s-farm",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/grandpa-s-farm/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'Grandpa s Farm'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 60,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "“Cocka-doodle-doo.” It is morning on Grandpa’s farm. “Cluck, cluck, peep, peep. I'm hungry,” said the chickens.",
+        "image": "http://localhost:3001/cdn/courses/lv1/grandpa-s-farm/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/grandpa-s-farm/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "“Baa, baa. I’m hungry,” said the sheep. “Quack, quack. I am hungry,” said the ducks.",
+        "image": "http://localhost:3001/cdn/courses/lv1/grandpa-s-farm/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/grandpa-s-farm/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "“Neigh, neigh. I am hungry,” said the horse. “Moo, moo. I am hungry,” said the cow.",
+        "image": "http://localhost:3001/cdn/courses/lv1/grandpa-s-farm/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/grandpa-s-farm/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "“Oink, oink. I am hungry,” said the pig. “Bark, bark, bark,” said my dog. “Oh, you are hungry too.”",
+        "image": "http://localhost:3001/cdn/courses/lv1/grandpa-s-farm/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/grandpa-s-farm/page_4.mp3"
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "title": "I See a Pattern",
+    "slug": "i-see-a-pattern",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/i-see-a-pattern/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'I See a Pattern'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 60,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "I see a pattern in the sky. I see a pattern at the beach.",
+        "image": "http://localhost:3001/cdn/courses/lv1/i-see-a-pattern/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/i-see-a-pattern/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "I see a pattern at the store. I see a pattern in the garden.",
+        "image": "http://localhost:3001/cdn/courses/lv1/i-see-a-pattern/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/i-see-a-pattern/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "I see a pattern on the school. I see a pattern in the parking lot.",
+        "image": "http://localhost:3001/cdn/courses/lv1/i-see-a-pattern/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/i-see-a-pattern/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "I see a pattern on the sidewalk. I see a pattern on my shirt.",
+        "image": "http://localhost:3001/cdn/courses/lv1/i-see-a-pattern/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/i-see-a-pattern/page_4.mp3"
+      }
+    ]
+  },
+  {
+    "id": 154,
+    "title": "Mr. Shapey",
+    "slug": "mr.-shapey",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/mr.-shapey/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'Mr. Shapey'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 60,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "My head is a circle. My hat is a triangle.",
+        "image": "http://localhost:3001/cdn/courses/lv1/mr.-shapey/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/mr.-shapey/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "My body is a square. My arms are rectangles.",
+        "image": "http://localhost:3001/cdn/courses/lv1/mr.-shapey/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/mr.-shapey/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "My legs are rectangles too. My hands are diamonds.",
+        "image": "http://localhost:3001/cdn/courses/lv1/mr.-shapey/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/mr.-shapey/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "My feet are ovals. Mr. Shapey is my name!",
+        "image": "http://localhost:3001/cdn/courses/lv1/mr.-shapey/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/mr.-shapey/page_4.mp3"
+      }
+    ]
+  },
+  {
+    "id": 155,
+    "title": "Spring Is Here",
+    "slug": "spring-is-here",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/spring-is-here/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'Spring Is Here'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 60,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "Spring is here. Winter is gone.",
+        "image": "http://localhost:3001/cdn/courses/lv1/spring-is-here/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/spring-is-here/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "The birds are here. The snow is gone.",
+        "image": "http://localhost:3001/cdn/courses/lv1/spring-is-here/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/spring-is-here/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "The flowers are here. The old coats are gone.",
+        "image": "http://localhost:3001/cdn/courses/lv1/spring-is-here/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/spring-is-here/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "The new coats are here. Spring is here.",
+        "image": "http://localhost:3001/cdn/courses/lv1/spring-is-here/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/spring-is-here/page_4.mp3"
+      }
+    ]
+  },
+  {
+    "id": 156,
+    "title": "Pass the Pie Please",
+    "slug": "pass-the-pie-please",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/pass-the-pie-please/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'Pass the Pie Please'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 60,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "Pass the bread please. Pass the butter please.",
+        "image": "http://localhost:3001/cdn/courses/lv1/pass-the-pie-please/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/pass-the-pie-please/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "Pass the chicken please. Pass the rice please.",
+        "image": "http://localhost:3001/cdn/courses/lv1/pass-the-pie-please/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/pass-the-pie-please/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "Pass the corn please. Pass the milk please.",
+        "image": "http://localhost:3001/cdn/courses/lv1/pass-the-pie-please/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/pass-the-pie-please/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "Pass the pie please. Thank you.",
+        "image": "http://localhost:3001/cdn/courses/lv1/pass-the-pie-please/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/pass-the-pie-please/page_4.mp3"
+      }
+    ]
+  },
+  {
+    "id": 157,
+    "title": "Big and Small",
+    "slug": "big-and-small",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/big-and-small/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'Big and Small'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 60,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "My hat is small. Your hat is big.",
+        "image": "http://localhost:3001/cdn/courses/lv1/big-and-small/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/big-and-small/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "My bag is light. Your bag is heavy.",
+        "image": "http://localhost:3001/cdn/courses/lv1/big-and-small/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/big-and-small/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "My train is short. Your train is long.",
+        "image": "http://localhost:3001/cdn/courses/lv1/big-and-small/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/big-and-small/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "My book is open. Your book is closed.",
+        "image": "http://localhost:3001/cdn/courses/lv1/big-and-small/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/big-and-small/page_4.mp3"
+      }
+    ]
+  },
+  {
+    "id": 158,
+    "title": "Who Is Working",
+    "slug": "who-is-working",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/who-is-working/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'Who Is Working'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 60,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "The firefighter is working. The nurse is working.",
+        "image": "http://localhost:3001/cdn/courses/lv1/who-is-working/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/who-is-working/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "The sailor is working. The police officer is working.",
+        "image": "http://localhost:3001/cdn/courses/lv1/who-is-working/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/who-is-working/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "The engineer is working. The chef is working.",
+        "image": "http://localhost:3001/cdn/courses/lv1/who-is-working/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/who-is-working/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "The baseball player is working. “Have a nice day!”",
+        "image": "http://localhost:3001/cdn/courses/lv1/who-is-working/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/who-is-working/page_4.mp3"
+      }
+    ]
+  },
+  {
+    "id": 159,
+    "title": "Dreams",
+    "slug": "dreams",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/dreams/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'Dreams'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 60,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "In my dreams, I can fly.",
+        "image": "http://localhost:3001/cdn/courses/lv1/dreams/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/dreams/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "I can drive. I can cook.",
+        "image": "http://localhost:3001/cdn/courses/lv1/dreams/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/dreams/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "I can run. I can play music.",
+        "image": "http://localhost:3001/cdn/courses/lv1/dreams/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/dreams/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "I can swim. Sweet dreams!",
+        "image": "http://localhost:3001/cdn/courses/lv1/dreams/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/dreams/page_4.mp3"
+      }
+    ]
+  },
+  {
+    "id": 160,
+    "title": "Teddy s Day",
+    "slug": "teddy-s-day",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/teddy-s-day/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'Teddy s Day'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 60,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "Teddy is happy. Teddy is angry.",
+        "image": "http://localhost:3001/cdn/courses/lv1/teddy-s-day/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/teddy-s-day/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "Teddy is sad. Teddy is thirsty. “I want water.”",
+        "image": "http://localhost:3001/cdn/courses/lv1/teddy-s-day/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/teddy-s-day/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "Teddy is tired. Teddy is hungry.",
+        "image": "http://localhost:3001/cdn/courses/lv1/teddy-s-day/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/teddy-s-day/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "Teddy is sleepy. Good night!",
+        "image": "http://localhost:3001/cdn/courses/lv1/teddy-s-day/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/teddy-s-day/page_4.mp3"
+      }
+    ]
+  },
+  {
+    "id": 161,
+    "title": "Winter",
+    "slug": "winter",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/winter/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'Winter'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 60,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "Frost on the window. Dark sky.",
+        "image": "http://localhost:3001/cdn/courses/lv1/winter/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/winter/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "Snowflakes. Snowsuit and boots.",
+        "image": "http://localhost:3001/cdn/courses/lv1/winter/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/winter/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "Mittens. Snowman.",
+        "image": "http://localhost:3001/cdn/courses/lv1/winter/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/winter/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "Hot chocolate. Fireplace. Oh, winter!",
+        "image": "http://localhost:3001/cdn/courses/lv1/winter/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/winter/page_4.mp3"
+      }
+    ]
+  },
+  {
+    "id": 162,
+    "title": "Snowman",
+    "slug": "snowman",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/snowman/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'Snowman'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 60,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "Three little snowballs. Roll, roll, roll.",
+        "image": "http://localhost:3001/cdn/courses/lv1/snowman/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/snowman/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "Big, bigger, biggest! Stack them up!",
+        "image": "http://localhost:3001/cdn/courses/lv1/snowman/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/snowman/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "Two eyes and a nose. Two arms and a mouth.",
+        "image": "http://localhost:3001/cdn/courses/lv1/snowman/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/snowman/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "Red mittens and a scarf. And now, a hat. A snowman!",
+        "image": "http://localhost:3001/cdn/courses/lv1/snowman/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/snowman/page_4.mp3"
+      }
+    ]
+  },
+  {
+    "id": 163,
+    "title": "Rainbow Car",
+    "slug": "rainbow-car",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/rainbow-car/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'Rainbow Car'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 75,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "Red car. Pink car.",
+        "image": "http://localhost:3001/cdn/courses/lv1/rainbow-car/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/rainbow-car/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "Orange car. Y ellow car.",
+        "image": "http://localhost:3001/cdn/courses/lv1/rainbow-car/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/rainbow-car/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "Green car. Blue car.",
+        "image": "http://localhost:3001/cdn/courses/lv1/rainbow-car/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/rainbow-car/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "Brown car. Purple car.",
+        "image": "http://localhost:3001/cdn/courses/lv1/rainbow-car/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/rainbow-car/page_4.mp3"
+      },
+      {
+        "pageNumber": 5,
+        "textContent": "Rainbow car.",
+        "image": "http://localhost:3001/cdn/courses/lv1/rainbow-car/page_5.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/rainbow-car/page_5.mp3"
+      }
+    ]
+  },
+  {
+    "id": 164,
+    "title": "Christmas Is Coming",
+    "slug": "christmas-is-coming",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/christmas-is-coming/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'Christmas Is Coming'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 60,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "We hang. We shop.",
+        "image": "http://localhost:3001/cdn/courses/lv1/christmas-is-coming/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/christmas-is-coming/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "We wrap. We share.",
+        "image": "http://localhost:3001/cdn/courses/lv1/christmas-is-coming/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/christmas-is-coming/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "We bake. We eat.",
+        "image": "http://localhost:3001/cdn/courses/lv1/christmas-is-coming/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/christmas-is-coming/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "We sing. We speak. “Merry Christmas!”",
+        "image": "http://localhost:3001/cdn/courses/lv1/christmas-is-coming/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/christmas-is-coming/page_4.mp3"
+      }
+    ]
+  },
+  {
+    "id": 165,
+    "title": "Into the Pot",
+    "slug": "into-the-pot",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/into-the-pot/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'Into the Pot'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 60,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "Green beans go into the pot. White onions go into the pot.",
+        "image": "http://localhost:3001/cdn/courses/lv1/into-the-pot/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/into-the-pot/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "Orange carrots go into the pot. Brown potatoes go into the pot.",
+        "image": "http://localhost:3001/cdn/courses/lv1/into-the-pot/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/into-the-pot/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "Y ellow corn goes into the pot. Purple cabbage goes into the pot.",
+        "image": "http://localhost:3001/cdn/courses/lv1/into-the-pot/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/into-the-pot/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "Red tomatoes go into the pot. Silver spoons go into the pot.",
+        "image": "http://localhost:3001/cdn/courses/lv1/into-the-pot/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/into-the-pot/page_4.mp3"
+      }
+    ]
+  },
+  {
+    "id": 166,
+    "title": "Balloons",
+    "slug": "balloons",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/balloons/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'Balloons'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 90,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "One balloon. Two balloons.",
+        "image": "http://localhost:3001/cdn/courses/lv1/balloons/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/balloons/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "Three balloons. Four balloons.",
+        "image": "http://localhost:3001/cdn/courses/lv1/balloons/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/balloons/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "Five balloons. Six balloons.",
+        "image": "http://localhost:3001/cdn/courses/lv1/balloons/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/balloons/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "Seven balloons. Eight balloons.",
+        "image": "http://localhost:3001/cdn/courses/lv1/balloons/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/balloons/page_4.mp3"
+      },
+      {
+        "pageNumber": 5,
+        "textContent": "Nine balloons. Ten balloons.",
+        "image": "http://localhost:3001/cdn/courses/lv1/balloons/page_5.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/balloons/page_5.mp3"
+      },
+      {
+        "pageNumber": 6,
+        "textContent": "Oh! I am going up, up, up!",
+        "image": "http://localhost:3001/cdn/courses/lv1/balloons/page_6.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/balloons/page_6.mp3"
+      }
+    ]
+  },
+  {
+    "id": 167,
+    "title": "Greedy Monkey",
+    "slug": "greedy-monkey",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/greedy-monkey/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'Greedy Monkey'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 60,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "I want an apple. I want a banana.",
+        "image": "http://localhost:3001/cdn/courses/lv1/greedy-monkey/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/greedy-monkey/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "I want a pear. I want an orange.",
+        "image": "http://localhost:3001/cdn/courses/lv1/greedy-monkey/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/greedy-monkey/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "I want a peach. I want a strawberry.",
+        "image": "http://localhost:3001/cdn/courses/lv1/greedy-monkey/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/greedy-monkey/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "I want a watermelon. Oh! Poor monkey.",
+        "image": "http://localhost:3001/cdn/courses/lv1/greedy-monkey/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/greedy-monkey/page_4.mp3"
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "title": "Happy Birthday",
+    "slug": "happy-birthday",
+    "category": "English for Kids",
+    "age": "3-6 tuổi",
+    "duration": "2 phút",
+    "rating": 4.9,
+    "audio": true,
+    "color": "bg-violet-50",
+    "badgeColor": "bg-violet-100 text-violet-850",
+    "image": "🇬🇧",
+    "coverImageUrl": "http://localhost:3001/cdn/courses/lv1/happy-birthday/cover.png",
+    "description": "Học tiếng Anh sinh động qua câu chuyện 'Happy Birthday'. Bé sẽ được làm quen với từ vựng mới và luyện nghe phát âm tiếng Anh chuẩn Mỹ.",
+    "moral": "Learn English happily every day!",
+    "audioDuration": 60,
+    "author": "MiniRead English",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "textContent": "Balloons. Hats.",
+        "image": "http://localhost:3001/cdn/courses/lv1/happy-birthday/page_1.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/happy-birthday/page_1.mp3"
+      },
+      {
+        "pageNumber": 2,
+        "textContent": "Cookies and candies. Cups and plates.",
+        "image": "http://localhost:3001/cdn/courses/lv1/happy-birthday/page_2.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/happy-birthday/page_2.mp3"
+      },
+      {
+        "pageNumber": 3,
+        "textContent": "Gifts and cards. A cake.",
+        "image": "http://localhost:3001/cdn/courses/lv1/happy-birthday/page_3.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/happy-birthday/page_3.mp3"
+      },
+      {
+        "pageNumber": 4,
+        "textContent": "Candles. Surprise! Happy birthday!",
+        "image": "http://localhost:3001/cdn/courses/lv1/happy-birthday/page_4.png",
+        "audioUrl": "http://localhost:3001/cdn/courses/lv1/happy-birthday/page_4.mp3"
+      }
+    ]
+  }
+]

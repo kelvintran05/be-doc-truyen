@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "BéĐọc Store",
+    "slug": "miniread-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "miniread",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.miniread.mobile",
+      "infoPlist": {
+        "NSAppTransportSecurity": {
+          "NSAllowsArbitraryLoads": true
+        }
+      }
+    },
+    "android": {
+      "package": "com.miniread.mobile",
+      "usesCleartextTraffic": true
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

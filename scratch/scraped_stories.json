@@ -1,0 +1,1088 @@
+[
+  {
+    "id": 21,
+    "title": "Berta và Cơn Gió Lốc",
+    "slug": "berta-va-con-gio-loc",
+    "category": "Truyện phiêu lưu, Truyện giáo dục nhân cách",
+    "age": "8-12 tuổi",
+    "duration": "8 phút",
+    "rating": 4.8,
+    "audio": true,
+    "color": "#FAF6EE",
+    "badgeColor": "#8FA781",
+    "image": "🍃",
+    "coverImageUrl": "http://localhost:3001/cdn/images/berta-va-con-gio-loc_cover.png",
+    "description": "Một cô ruồi thành thị vô tình bị cuốn vào một nhà kho cũ, nơi cô khám phá ra những nguy hiểm thót tim và cả những bất ngờ ấm áp. Một câu chuyện tuyệt vời về tình bạn và lòng dũng cảm!",
+    "moral": "Hãy luôn dũng cảm đối mặt với khó khăn và tự tin vào bản thân mình.",
+    "audioDuration": 615,
+    "author": "Runruneando",
+    "pages": [
+      {
+        "text": "Berta là một cô ruồi thành thị chính hiệu. Cô thuộc nằm lòng từng thùng rác trong con hẻm nhỏ của mình và biết cách né những cú chổi chà của bác thợ làm bánh mà gần như chẳng cần nhìn. Nhưng cô chưa từng trải qua một cơn bão mùa thu thực sự nào.",
+        "enText": "Beatrix was a city fly through and through. She knew every dumpster in her alleyway and could dodge the local baker’s flyswatter without even looking. But she had never experienced a real autumn windstorm.",
+        "image": "http://localhost:3001/cdn/images/berta-va-con-gio-loc_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/berta-va-con-gio-loc_page_1.mp3"
+      },
+      {
+        "text": "Gió ập đến bất ngờ, gầm rú giữa những tòa nhà cao tầng. Vù vù vù. Một luồng gió khổng lồ xô lấy cô, bứt cô khỏi bức tường gạch yêu thích nhẹ bẫng như một chiếc lá khô.",
+        "enText": "The wind arrived suddenly, howling between the brick buildings. Whoooosh. A massive gust shoved her, lifting her off her favorite brick wall as if she were a dried leaf.",
+        "image": "http://localhost:3001/cdn/images/berta-va-con-gio-loc_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/berta-va-con-gio-loc_page_2.mp3"
+      },
+      {
+        "text": "Berta cố gắng giữ thăng bằng, đập cánh bằng tất cả sức lực, nhưng cơn gió lốc đã cuốn cô đi rất xa khỏi thành phố. Cô lộn vòng qua những mái nhà, những con đường quốc lộ và cả những cánh đồng mênh mông mà cô chưa từng thấy bao giờ.",
+        "enText": "She tried to keep her balance, flapping her wings with all her might, but the gale dragged her far away from the city. She tumbled over rooftops, highways, and endless fields she had never seen before.",
+        "image": "http://localhost:3001/cdn/images/berta-va-con-gio-loc_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/berta-va-con-gio-loc_page_3.mp3"
+      },
+      {
+        "text": "Khi gió cuối cùng cũng yếu đi, Berta rơi xoay vòng rồi hạ cánh cái phịch xuống một tấm ván gỗ cũ kỹ. Cô nằm đó vài giây, chóng mặt và mệt lử, cố gắng hiểu xem mình đang ở đâu.",
+        "enText": "When the wind finally lost its strength, Beatrix spiraled downward until she crash-landed on an old wooden plank. She laid there for a few seconds, dizzy and exhausted, trying to figure out where she was.",
+        "image": "http://localhost:3001/cdn/images/berta-va-con-gio-loc_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/berta-va-con-gio-loc_page_4.mp3"
+      },
+      {
+        "text": "Cô dùng những chiếc chân nhỏ xíu dụi mắt rồi nhìn quanh.",
+        "enText": "She rubbed her eyes with her front legs and looked around.",
+        "image": "http://localhost:3001/cdn/images/berta-va-con-gio-loc_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/berta-va-con-gio-loc_page_5.mp3"
+      },
+      {
+        "text": "Nơi này chẳng giống chút nào với những con phố ồn ào mà cô từng biết. Đây là một nhà kho khổng lồ, chất đầy những đống rơm rạ, những thanh xà gồ bằng gỗ và những góc tối nơi mọi thứ thỉnh thoảng lại kêu cót két khe khẽ.",
+        "enText": "This place looked nothing like the noisy streets she knew. It was a massive barn, filled with mounds of hay, thick wooden beams, and shadowy corners where everything creaked softly.",
+        "image": "http://localhost:3001/cdn/images/berta-va-con-gio-loc_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/berta-va-con-gio-loc_page_6.mp3"
+      },
+      {
+        "text": "Berta bỗng thấy nhớ mùi hương quen thuộc của thành phố, nhưng nơi này cũng có một điều gì đó rất đặc biệt: nó mang mùi của gỗ mục, mùi lúa mì khô và mùi ngai ngái của cơn mưa vừa dứt.",
+        "enText": "Beatrix missed the familiar smells of the city, but this place had something special, too: it smelled of aged wood, dry wheat, and fresh rain.",
+        "image": "http://localhost:3001/cdn/images/berta-va-con-gio-loc_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/berta-va-con-gio-loc_page_7.mp3"
+      },
+      {
+        "text": "Cô quyết định bay về phía một khe sáng trên mái nhà. Đôi cánh của cô vẫn còn run rẩy lóng ngóng sau chuyến đi dài.",
+        "enText": "She decided to fly toward a glowing crack in the roof. Her wings still buzzed clumsily from the long journey.",
+        "image": "http://localhost:3001/cdn/images/berta-va-con-gio-loc_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/berta-va-con-gio-loc_page_8.mp3"
+      },
+      {
+        "text": "Chợt cô cảm thấy có thứ gì đó dinh dính vướng vào một bên chân.",
+        "enText": "Suddenly, she felt something sticky on one of her legs.",
+        "image": "http://localhost:3001/cdn/images/berta-va-con-gio-loc_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/berta-va-con-gio-loc_page_9.mp3"
+      },
+      {
+        "text": "Berta cẩn thận tìm cách gỡ ra, nhưng càng cố kéo, cô càng bị mắc kẹt sâu hơn vào những sợi tơ trong suốt của một mạng nhện khổng lồ.",
+        "enText": "She tried to pull free carefully, but the harder she tugged, the more tangled she became in the clear threads of a massive spiderweb.",
+        "image": "http://localhost:3001/cdn/images/berta-va-con-gio-loc_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/berta-va-con-gio-loc_page_10.mp3"
+      },
+      {
+        "text": "Cô bắt đầu thấy hoảng hốt khi từ một góc trên trần nhà, một mụ nhện chăng tơ đang thò đầu ra ngó nghiêng.",
+        "enText": "She felt a jolt of panic when, from a dark corner of the ceiling, a weaver spider crept out.",
+        "image": "http://localhost:3001/cdn/images/berta-va-con-gio-loc_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/berta-va-con-gio-loc_page_11.mp3"
+      },
+      {
+        "text": "Đột nhiên, một vật thể nhỏ xíu phóng vút ra từ thanh xà gồ gần đó, tông thẳng vào một trong những sợi tơ chính.",
+        "enText": "Out of nowhere, something tiny shot out from a nearby beam and slammed into one of the main threads.",
+        "image": "http://localhost:3001/cdn/images/berta-va-con-gio-loc_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/berta-va-con-gio-loc_page_12.mp3"
+      },
+      {
+        "text": "Bốp!",
+        "enText": "Thwack!",
+        "image": "http://localhost:3001/cdn/images/berta-va-con-gio-loc_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/berta-va-con-gio-loc_page_13.mp3"
+      },
+      {
+        "text": "Mạng nhện rung lên bần bật, và Berta bị treo lơ lửng chỉ bằng một sợi tơ duy nhất.",
+        "enText": "The web shook violently, and Beatrix was left dangling by a single strand.",
+        "image": "http://localhost:3001/cdn/images/berta-va-con-gio-loc_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/berta-va-con-gio-loc_page_14.mp3"
+      },
+      {
+        "text": "Vật thể kia không phải là một hòn đá.",
+        "enText": "The projectile wasn't a pebble.",
+        "image": "http://localhost:3001/cdn/images/berta-va-con-gio-loc_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/berta-va-con-gio-loc_page_15.mp3"
+      },
+      {
+        "text": "Đó là Paco, một cậu bọ chét cực kỳ hiếu động vừa đáp xuống cạnh cô bằng một cú nhảy ngoạn mục. Không chần chừ một giây, cậu dùng đôi chân sau đẩy mạnh cô ruồi, làm đứt phăng sợi tơ dính cuối cùng.",
+        "enText": "It was Pip, a highly energetic flea who had landed next to her with an impressive leap. Wasting no time, he pushed the fly with his powerful hind legs until the last sticky thread snapped.",
+        "image": "http://localhost:3001/cdn/images/berta-va-con-gio-loc_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/berta-va-con-gio-loc_page_16.mp3"
+      },
+      {
+        "text": "Cả hai rơi tõm xuống những bao lúa mì, để lại mụ nhện đong đưa phía trên với vẻ mặt ngơ ngác sững sờ.",
+        "enText": "The two of them tumbled down onto some sacks of wheat while the spider was left swaying high above, looking completely bewildered.",
+        "image": "http://localhost:3001/cdn/images/berta-va-con-gio-loc_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/berta-va-con-gio-loc_page_17.mp3"
+      },
+      {
+        "text": "Berta thở phào nhẹ nhõm, trong khi Paco phủi bụi trên người với vẻ mặt đầy tự hào.",
+        "enText": "Beatrix sighed in relief, while Pip dusted himself off with a proud grin.",
+        "image": "http://localhost:3001/cdn/images/berta-va-con-gio-loc_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/berta-va-con-gio-loc_page_18.mp3"
+      },
+      {
+        "text": "Từ trên đỉnh đống bao tải, Silvia nhẹ nhàng bay xuống.",
+        "enText": "From the top of the sacks, Stella drifted down.",
+        "image": "http://localhost:3001/cdn/images/berta-va-con-gio-loc_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/berta-va-con-gio-loc_page_19.mp3"
+      },
+      {
+        "text": "Cô là một nàng bướm đêm với đôi cánh mềm mại nhưng đã sờn cũ, bước đi chậm rãi và quan sát mọi thứ bằng một phong thái vô cùng điềm tĩnh. Cô tiến lại gần người bạn mới đến và vẫy vẫy đôi ăng-ten đầy tò mò.",
+        "enText": "She was a moth with soft, worn wings, who walked slowly and observed everything with a profound sense of calm. She approached the newcomer and twitched her antennae curiously.",
+        "image": "http://localhost:3001/cdn/images/berta-va-con-gio-loc_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/berta-va-con-gio-loc_page_20.mp3"
+      },
+      {
+        "text": "Paco nhìn Berta từ đầu đến chân.",
+        "enText": "Pip looked Beatrix up and down.",
+        "image": "http://localhost:3001/cdn/images/berta-va-con-gio-loc_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/berta-va-con-gio-loc_page_21.mp3"
+      },
+      {
+        "text": "Cô ruồi tội nghiệp có một bên cánh tả tơi, vài mảnh mạng nhện còn vương trên người và mang một khuôn mặt ngơ ngác như chẳng hiểu chuyện gì đang xảy ra.",
+        "enText": "The poor fly had a ruffled wing, bits of spiderweb stuck to her, and a look of total confusion on her face.",
+        "image": "http://localhost:3001/cdn/images/berta-va-con-gio-loc_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/berta-va-con-gio-loc_page_22.mp3"
+      },
+      {
+        "text": "Có lẽ vì lý do đó, cả cậu bọ chét và nàng bướm đêm đều quyết định giúp đỡ cô. Ở một nơi tĩnh lặng và hẻo lánh như nhà kho này, bất kỳ tình bạn mới nào cũng đều được chào đón nồng nhiệt.",
+        "enText": "Perhaps for that very reason, both the flea and the moth decided to help her. In a place as quiet and secluded as that barn, any new friend was a welcome addition.",
+        "image": "http://localhost:3001/cdn/images/berta-va-con-gio-loc_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/berta-va-con-gio-loc_page_23.mp3"
+      },
+      {
+        "text": "Những ngày sau đó ngập tràn những khám phá mới mẻ.",
+        "enText": "The following days were full of discoveries.",
+        "image": "http://localhost:3001/cdn/images/berta-va-con-gio-loc_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/berta-va-con-gio-loc_page_24.mp3"
+      },
+      {
+        "text": "Berta nhanh chóng học được rằng cuộc sống ở nông thôn vận hành theo một cách rất khác so với thành phố, và ở đây, cô cần phải chú ý đến từng tiếng động và từng cử động nhỏ nhất.",
+        "enText": "Beatrix learned very quickly that the country worked differently than the city, and that here, you had to pay close attention to every sound and movement.",
+        "image": "http://localhost:3001/cdn/images/berta-va-con-gio-loc_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/berta-va-con-gio-loc_page_25.mp3"
+      },
+      {
+        "text": "Paco dạy cô cách di chuyển cẩn thận giữa những thanh xà gồ và cách tung những cú nhảy nhỏ trước khi cất cánh bay. Lúc đầu, Berta cứ va đụng lung tung và cuối cùng lăn lông lốc vào đống rơm, làm Paco cười nắc nẻ.",
+        "enText": "Pip taught her how to carefully navigate the beams and to use little hops before taking flight. At first, Beatrix bumped into everything and ended up rolling around in the hay, which made Pip laugh hysterically.",
+        "image": "http://localhost:3001/cdn/images/berta-va-con-gio-loc_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/berta-va-con-gio-loc_page_26.mp3"
+      },
+      {
+        "text": "Silvia, ngược lại, có một cách dạy dỗ từ tốn hơn nhiều.",
+        "enText": "Stella, on the other hand, had a much gentler way of teaching.",
+        "image": "http://localhost:3001/cdn/images/berta-va-con-gio-loc_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/berta-va-con-gio-loc_page_27.mp3"
+      },
+      {
+        "text": "Cô chỉ cho Berta biết đâu là những góc ấm áp nhất trong nhà kho, cách định hướng bằng ánh trăng, và nơi có thể tìm thấy những mẩu thức ăn vụn sau khi con người ghé qua.",
+        "enText": "She showed her where the warmest corners of the barn were, how to navigate by following the moonlight, and where to find tiny crumbs of food after the humans had visited.",
+        "image": "http://localhost:3001/cdn/images/berta-va-con-gio-loc_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/berta-va-con-gio-loc_page_28.mp3"
+      },
+      {
+        "text": "Thỉnh thoảng Berta vẫn mắc sai lầm. Như cái ngày mà, chỉ vì tò mò, cô suýt chút nữa bay đến quá gần chú mèo đang ngủ gật trong kho. Paco đã phải đánh lạc hướng chú mèo bằng một cú nhảy trêu chọc ngay trước mũi để cô ruồi có thể trốn thoát.",
+        "enText": "Sometimes, Beatrix still messed up. Like the day she got a little too curious and flew way too close to the barn's sleepy resident cat. Pip had to distract it with a playful jump right in front of its nose so the fly could escape.",
+        "image": "http://localhost:3001/cdn/images/berta-va-con-gio-loc_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/berta-va-con-gio-loc_page_29.mp3"
+      },
+      {
+        "text": "Chuyện đó khiến Berta nhận ra một điều quan trọng: những người bạn mới luôn luôn dõi theo và bảo vệ cô.",
+        "enText": "That moment made Beatrix realize something important: her new friends were always looking out for her.",
+        "image": "http://localhost:3001/cdn/images/berta-va-con-gio-loc_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/berta-va-con-gio-loc_page_30.mp3"
+      },
+      {
+        "text": "Dần dần, cô cảm thấy bớt hậu đậu và tự tin hơn. Cô học được cách né những mạng nhện mà không hề sợ hãi, cách tìm những chỗ trú ẩn êm ái giữa các bao lúa mì, và biết tận hưởng âm thanh của những hạt mưa gõ nhịp trên mái nhà.",
+        "enText": "Little by little, she started feeling less clumsy and more confident. She learned to dodge spiderwebs without fear, to find cozy hideouts among the wheat sacks, and to enjoy the rhythmic sound of rain drumming on the tin roof.",
+        "image": "http://localhost:3001/cdn/images/berta-va-con-gio-loc_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/berta-va-con-gio-loc_page_31.mp3"
+      },
+      {
+        "text": "Nhà kho không còn là một nơi xa lạ nữa.",
+        "enText": "The barn stopped feeling like a strange place.",
+        "image": "http://localhost:3001/cdn/images/berta-va-con-gio-loc_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/berta-va-con-gio-loc_page_32.mp3"
+      },
+      {
+        "text": "Nó đã bắt đầu giống như một tổ ấm.",
+        "enText": "It started to feel like home.",
+        "image": "http://localhost:3001/cdn/images/berta-va-con-gio-loc_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/berta-va-con-gio-loc_page_33.mp3"
+      },
+      {
+        "text": "Bên ngoài, cơn gió mùa đông thổi đến nghe như một tiếng thì thầm, mơn trớn qua những bức tường gỗ. Vù vù vù.",
+        "enText": "Outside, the winter wind blew like a whisper, brushing against the wooden walls. Whoooosh.",
+        "image": "http://localhost:3001/cdn/images/berta-va-con-gio-loc_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/berta-va-con-gio-loc_page_34.mp3"
+      },
+      {
+        "text": "Tuy nhiên, bên trong nhà kho, mọi thứ đều thật bình yên.",
+        "enText": "Inside the barn, however, everything was perfectly calm.",
+        "image": "http://localhost:3001/cdn/images/berta-va-con-gio-loc_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/berta-va-con-gio-loc_page_35.mp3"
+      },
+      {
+        "text": "Berta nằm cuộn tròn nghỉ ngơi giữa hai bao lúa mì, an toàn tránh khỏi cái lạnh giá.",
+        "enText": "Beatrix rested snugly between two sacks of wheat, safe from the cold.",
+        "image": "http://localhost:3001/cdn/images/berta-va-con-gio-loc_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/berta-va-con-gio-loc_page_36.mp3"
+      },
+      {
+        "text": "Ở một bên, Paco đang ngủ say sưa, thu mình thành một quả bóng nhỏ xíu, thỉnh thoảng lại giật giật đôi chân như thể cậu vẫn đang mải miết nhảy nhót trong giấc mơ.",
+        "enText": "On one side, Pip was fast asleep, curled into a tiny ball, his legs twitching every now and then as if he were still jumping in his dreams.",
+        "image": "http://localhost:3001/cdn/images/berta-va-con-gio-loc_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/berta-va-con-gio-loc_page_37.mp3"
+      },
+      {
+        "text": "Ở bên kia, Silvia dang rộng đôi cánh mềm mại che chở cho những người bạn của mình, tạo thành một nơi trú ẩn ấm áp và yên bình.",
+        "enText": "On the other side, Stella had spread her soft wings over her friends, creating a warm, peaceful shelter.",
+        "image": "http://localhost:3001/cdn/images/berta-va-con-gio-loc_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/berta-va-con-gio-loc_page_38.mp3"
+      },
+      {
+        "text": "Mùi rơm rạ giờ đây không còn xa lạ với Berta nữa.",
+        "enText": "The smell of hay didn't seem strange to Beatrix anymore.",
+        "image": "http://localhost:3001/cdn/images/berta-va-con-gio-loc_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/berta-va-con-gio-loc_page_39.mp3"
+      },
+      {
+        "text": "Nó gợi cho cô nhớ về gia đình.",
+        "enText": "It reminded her of home.",
+        "image": "http://localhost:3001/cdn/images/berta-va-con-gio-loc_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/berta-va-con-gio-loc_page_40.mp3"
+      },
+      {
+        "text": "Cô ruồi nhỏ từ từ nhắm mắt lại trong khi lắng nghe tiếng gió rít bên ngoài. Cô không còn sợ hãi những cơn bão nữa.",
+        "enText": "The little fly slowly closed her eyes as she listened to the wind outside. She wasn't afraid of storms anymore.",
+        "image": "http://localhost:3001/cdn/images/berta-va-con-gio-loc_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/berta-va-con-gio-loc_page_41.mp3"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Góc nhỏ diệu kỳ giữa khu vườn",
+    "slug": "goc-nho-dieu-ky-giua-khu-vuon",
+    "category": "Truyện giáo dục nhân cách, Truyện về tình bạn",
+    "age": "5-10 tuổi",
+    "duration": "6 phút",
+    "rating": 4.8,
+    "audio": true,
+    "color": "#FFF0F2",
+    "badgeColor": "#FFB7C5",
+    "image": "🌱",
+    "coverImageUrl": "http://localhost:3001/cdn/images/goc-nho-dieu-ky-giua-khu-vuon_cover.png",
+    "description": "Câu chuyện cảm động về tình bạn và lòng dũng cảm giữa cô Cà rốt và chàng Dưa lưới. Một bài học tuyệt vời cho bé về sự bao dung, vượt qua định kiến và giá trị của tình yêu thương chân thành.",
+    "moral": "Tình bạn chân thành có thể vượt qua mọi rào cản và định kiến.",
+    "audioDuration": 225,
+    "author": "Runruneando",
+    "pages": [
+      {
+        "text": "Trong một góc nhỏ của khu vườn thần tiên, nơi rau củ và trái cây chung sống chan hòa, có một xóm nhỏ rộn rã tiếng cười. Ở đây, phép màu hiện hữu khắp nơi, mọi điều đều có thể xảy ra, ngoại trừ một chuyện tình bị cấm đoán vừa chớm nở giữa một cô cà rốt và một chàng dưa.",
+        "enText": "In a corner of a magical garden, where the veggies and fruits lived in peace and harmony, there was a small community of food. This garden was a place where anything was possible, except for a forbidden love that blossomed between a carrot and a melon.",
+        "image": "http://localhost:3001/cdn/images/goc-nho-dieu-ky-giua-khu-vuon_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/goc-nho-dieu-ky-giua-khu-vuon_page_1.mp3"
+      },
+      {
+        "text": "Carlota, cô Cà rốt 🥕 nổi tiếng khắp vườn với màu cam rực rỡ và tinh thần lạc quan hiếm thấy. Cô luôn sẵn lòng giúp đỡ mọi người, và nụ cười của cô tỏa nắng, làm bừng sáng cả ngày dài của cư dân trong vườn. Một hôm, khi Carlota đang tưới nước cho những đóa hoa, cô tình cờ gặp Melvin, chàng Dưa 🍈. Melvin có dáng người tròn trịa, chắc nịch, với lớp vỏ xanh sọc dưa che giấu bên trong một tấm lòng ngọt ngào. Ngay khoảnh khắc ánh mắt họ chạm nhau, Carlota cảm nhận được một rung động lạ kỳ.",
+        "enText": "Carol, the carrot 🥕, was known for her bright orange color and her always optimistic attitude. She was always willing to help others, and her smile brightened everyone's day in the garden. One day, while Carol was watering the flowers, she met Melvin, the melon 🍈. Melvin was round and sturdy, with a striped green rind that hid his sweet inside. From the first moment their eyes met, Carol felt a special spark.",
+        "image": "http://localhost:3001/cdn/images/goc-nho-dieu-ky-giua-khu-vuon_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/goc-nho-dieu-ky-giua-khu-vuon_page_2.mp3"
+      },
+      {
+        "text": "Melvin vốn nhút nhát và kín tiếng, nhưng cậu cũng cảm thấy bị thu hút mãnh liệt bởi sự ấm áp của Carlota. Họ bắt đầu dành thời gian bên nhau, trò chuyện dưới ánh nắng vàng và tận hưởng niềm vui khi có người bầu bạn. Chẳng bao lâu, tình cảm ấy lớn dần thành một tình yêu chân thành. Thế nhưng, mối quan hệ này lại không vừa mắt một số kẻ trong vườn.",
+        "enText": "Melvin was shy and reserved, but he also felt an irresistible attraction to Carol. They started spending time together, chatting under the sun and enjoying each other's company. Soon, their feelings turned into true love. However, their relationship wasn't well-received by everyone in the garden.",
+        "image": "http://localhost:3001/cdn/images/goc-nho-dieu-ky-giua-khu-vuon_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/goc-nho-dieu-ky-giua-khu-vuon_page_3.mp3"
+      },
+      {
+        "text": "Ở ngay trung tâm khu vườn, có Manuela, mụ Táo độc ác 🍎. Manuela luôn ghen tị với niềm vui của Carlota và không chịu nổi khi thấy người khác hạnh phúc. Khi biết chuyện giữa Carlota và Melvin, mụ quyết tâm tìm mọi cách để chia rẽ họ.",
+        "enText": "In the center of the garden lived a mean apple named Mandy 🍎. Mandy had always envied Carol's joy and couldn't stand to see others happy. When she found out about the love between Carol and Melvin, she decided she would do everything she could to separate them.",
+        "image": "http://localhost:3001/cdn/images/goc-nho-dieu-ky-giua-khu-vuon_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/goc-nho-dieu-ky-giua-khu-vuon_page_4.mp3"
+      },
+      {
+        "text": "Manuela tìm đến Sandro, anh Dưa hấu 🍉 to xác và Perico, cậu Lê 🍐, hai kẻ tay sai đắc lực của mụ. \"Chúng ta phải làm gì đó để ngăn chặn chuyện tình lố bịch này,\" Manuela nói với giọng lạnh tanh như băng. \"Một củ cà rốt mà đi với một quả dưa là điều trái khoáy. Chúng ta không thể để chuyện này tiếp diễn.\"",
+        "enText": "Mandy approached Sammy, the watermelon 🍉, and Perry, the pear 🍐, two of her loyal followers. \"We have to do something to stop this ridiculous love,\" Mandy said in an icy voice. \"A carrot and a melon together is an abomination. We can't let them continue.\"",
+        "image": "http://localhost:3001/cdn/images/goc-nho-dieu-ky-giua-khu-vuon_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/goc-nho-dieu-ky-giua-khu-vuon_page_5.mp3"
+      },
+      {
+        "text": "Sandro tuy to lớn, khỏe mạnh nhưng lại dễ bị giật dây, còn Perico thì lúc nào cũng muốn được khen ngợi nên sẵn sàng làm theo bất cứ kế hoạch nào Manuela vạch ra. Cả ba ủ mưu bôi nhọ danh dự của Carlota và Melvin trước mặt cả khu vườn.",
+        "enText": "Sammy, although big and strong, was easily manipulated, and Perry, always seeking approval, was willing to follow any plan Mandy proposed. The three of them devised a plan to discredit Carol and Melvin in the eyes of the garden.",
+        "image": "http://localhost:3001/cdn/images/goc-nho-dieu-ky-giua-khu-vuon_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/goc-nho-dieu-ky-giua-khu-vuon_page_6.mp3"
+      },
+      {
+        "text": "Một đêm nọ, khi vạn vật đang say giấc, Manuela, Sandro và Perico bắt đầu tung những tin đồn ác ý. Chúng rỉ tai nhau rằng Carlota đã bỏ bê trách nhiệm và Melvin là kẻ không đáng tin. Tin đồn lan nhanh như gió, và chẳng mấy chốc, cộng đồng bắt đầu nhìn đôi bạn với ánh mắt nghi ngờ.",
+        "enText": "One night, while everyone was sleeping, Mandy, Sammy, and Perry started spreading nasty rumors about Carol and Melvin. They said that Carol had abandoned her responsibilities and that Melvin was untrustworthy. The rumors spread quickly, and soon, the community began to look at them with suspicion.",
+        "image": "http://localhost:3001/cdn/images/goc-nho-dieu-ky-giua-khu-vuon_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/goc-nho-dieu-ky-giua-khu-vuon_page_7.mp3"
+      },
+      {
+        "text": "Carlota và Melvin nhận ra có điều chẳng lành khi bạn bè bắt đầu lảng tránh họ. Bầu không khí trở nên căng thẳng, và họ cảm thấy cô đơn hơn bao giờ hết. Cả hai quyết định đối mặt với Manuela để tìm hiểu nguyên do của sự thù ghét vô lý này.",
+        "enText": "Carol and Melvin realized something was wrong when their friends started avoiding them. The tension grew, and they felt increasingly isolated. They decided to confront Mandy to understand the reason behind so much hostility.",
+        "image": "http://localhost:3001/cdn/images/goc-nho-dieu-ky-giua-khu-vuon_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/goc-nho-dieu-ky-giua-khu-vuon_page_8.mp3"
+      },
+      {
+        "text": "\"Manuela, tại sao chị lại làm vậy?\" Carlota hỏi, đôi mắt ngấn lệ. \"Chúng tôi chỉ muốn được ở bên nhau và sống hạnh phúc thôi mà.\"",
+        "enText": "\"Mandy, why are you doing this?\" Carol asked with tears in her eyes. \"We just want to be together and be happy.\"",
+        "image": "http://localhost:3001/cdn/images/goc-nho-dieu-ky-giua-khu-vuon_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/goc-nho-dieu-ky-giua-khu-vuon_page_9.mp3"
+      },
+      {
+        "text": "Manuela cười khẩy đầy khinh miệt. \"Ta sẽ không để một củ cà rốt và một quả dưa phá hỏng trật tự của khu vườn này. Các ngươi không giống nhau, lẽ ra không bao giờ nên đi cùng nhau.\"",
+        "enText": "Mandy laughed scornfully. \"I won't allow a carrot and a melon to destroy the harmony of this garden. You aren't the same; you should never have been together.\"",
+        "image": "http://localhost:3001/cdn/images/goc-nho-dieu-ky-giua-khu-vuon_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/goc-nho-dieu-ky-giua-khu-vuon_page_10.mp3"
+      },
+      {
+        "text": "Sandro và Perico, khi nhìn thấy nỗi buồn sâu thẳm trong mắt Carlota và Melvin, bắt đầu tự hỏi về những việc mình đang làm. Họ nhận ra mình đã bị Manuela thao túng, và rằng tình yêu không nên bị phán xét bởi vẻ bề ngoài hay sự khác biệt.",
+        "enText": "Sammy and Perry, seeing the sadness in Carol and Melvin's eyes, began to question their actions. They realized that they had been manipulated by Mandy and that love shouldn't be judged by superficial differences.",
+        "image": "http://localhost:3001/cdn/images/goc-nho-dieu-ky-giua-khu-vuon_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/goc-nho-dieu-ky-giua-khu-vuon_page_11.mp3"
+      },
+      {
+        "text": "Cuối cùng, Sandro lên tiếng dõng dạc: \"Manuela, chuyện này không đúng. Carlota và Melvin chẳng làm gì sai cả. Chính chúng ta mới là những kẻ gây chia rẽ trong khu vườn này.\"",
+        "enText": "Finally, Sammy spoke up. \"Mandy, this isn't right. Carol and Melvin haven't done anything wrong. We're the ones who have brought discord to the garden.\"",
+        "image": "http://localhost:3001/cdn/images/goc-nho-dieu-ky-giua-khu-vuon_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/goc-nho-dieu-ky-giua-khu-vuon_page_12.mp3"
+      },
+      {
+        "text": "Perico gật đầu tán thành: \"Tình yêu là điều trong sáng và đẹp đẽ. Chúng ta không nên phá hủy nó chỉ vì định kiến hẹp hòi.\"",
+        "enText": "Perry nodded and added, \"Love is something pure and beautiful. We shouldn't destroy it because of prejudice.\"",
+        "image": "http://localhost:3001/cdn/images/goc-nho-dieu-ky-giua-khu-vuon_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/goc-nho-dieu-ky-giua-khu-vuon_page_13.mp3"
+      },
+      {
+        "text": "Cả khu vườn sau đó đã cùng nhau xin lỗi Carlota và Melvin, hứa sẽ ủng hộ và chúc phúc cho tình yêu của họ. Manuela, bẽ bàng và mất hết đồng minh, lủi thủi rút vào một góc tối tăm của khu vườn, nơi chẳng ai còn bận tâm đến những mưu mô độc ác của mụ nữa.",
+        "enText": "The entire garden came together to apologize to Carol and Melvin, promising to support them and celebrate their love. Mandy, humiliated and without allies, retreated to a dark corner of the garden, where no one else paid attention to her evil plans.",
+        "image": "http://localhost:3001/cdn/images/goc-nho-dieu-ky-giua-khu-vuon_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/goc-nho-dieu-ky-giua-khu-vuon_page_14.mp3"
+      },
+      {
+        "text": "Carlota và Melvin, dù tổn thương, nhưng đã tìm thấy sự an ủi trong vòng tay bạn bè và quyết định cùng nhau bước tiếp. Tình yêu của họ, giờ đây mạnh mẽ hơn bao giờ hết, trở thành biểu tượng của sự đoàn kết và bao dung trong khu vườn. Và thế là, góc nhỏ diệu kỳ ấy lại trở về là nơi chốn bình yên, hạnh phúc, nơi mọi người đều học được bài học rằng: tình yêu chân chính không bao giờ có rào cản.",
+        "enText": "Carol and Melvin, although hurt by the experience, found comfort in the support of their friends and decided to move forward. Their love, now stronger than ever, became a symbol of unity and tolerance in the garden. And so, the magical spot returned to being a place of peace and happiness, where everyone learned that true love knows no barriers.",
+        "image": "http://localhost:3001/cdn/images/goc-nho-dieu-ky-giua-khu-vuon_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/goc-nho-dieu-ky-giua-khu-vuon_page_15.mp3"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Emma và Những Chiếc Tất Bị Lạc",
+    "slug": "emma-va-nhung-chiec-tat-bi-lac",
+    "category": "Truyện phiêu lưu, Truyện cổ tích",
+    "age": "5-9 tuổi",
+    "duration": "7 phút",
+    "rating": 4.8,
+    "audio": true,
+    "color": "#F4F8F0",
+    "badgeColor": "#8FA781",
+    "image": "🧦",
+    "coverImageUrl": "http://localhost:3001/cdn/images/emma-va-nhung-chiec-tat-bi-lac_cover.png",
+    "description": "Công chúa nhỏ Emma dũng cảm lên đường tìm lại những chiếc tất bị đánh cắp của vương quốc. Một câu chuyện ngọt ngào về trí tưởng tượng, lòng can đảm và những điệu nhảy vui nhộn, giúp bé yêu thêm gắn kết với gia đình trước giờ đi ngủ.",
+    "moral": "Sự can đảm và lòng quyết tâm sẽ giúp chúng ta vượt qua mọi thử thách.",
+    "audioDuration": 375,
+    "author": "Runruneando",
+    "pages": [
+      {
+        "text": "Ngày xửa ngày xưa, tại một vương quốc nọ cũng không xa lắm, có một nàng công chúa nhỏ tên là Emma 👑. Cô bé không phải là một nàng công chúa bình thường, bởi vì ngoài lòng dũng cảm phi thường, cô bé còn mang theo một thanh kiếm thần bằng cao su luôn tỏa hương kẹo sing-gum dâu tây thơm lừng. Emma năm nay 10 tuổi, và thay vì dành thời gian chải chuốt cho những chú ngựa pony màu hồng, cô bé thích luyện tập cùng các hiệp sĩ trong cung điện, giải những câu đố hóc búa nhất và thám hiểm những hang động bí ẩn của vương quốc.",
+        "enText": "Once upon a time, in a kingdom not so far away, lived a little princess named Emma 👑. She wasn't an ordinary princess, because besides being very brave, she carried a magical foam sword that always smelled like strawberry bubble gum. Emma was 10 years old, and instead of spending her time brushing pink ponies, she preferred to train with the knights of the court, solve impossible riddles, and explore the most mysterious caves in the kingdom.",
+        "image": "http://localhost:3001/cdn/images/emma-va-nhung-chiec-tat-bi-lac_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/emma-va-nhung-chiec-tat-bi-lac_page_1.mp3"
+      },
+      {
+        "text": "Một ngày nọ, khi Emma đang chơi trò nhào lộn trên một lâu đài làm bằng gối, mẹ của cô bé, Nữ hoàng Margarita 👑, chạy vào phòng với vẻ mặt vô cùng lo lắng.",
+        "enText": "One day, while Emma was doing somersaults on a castle of pillows, her mother, Queen Daisy 👑, rushed into her room with a very worried look on her face.",
+        "image": "http://localhost:3001/cdn/images/emma-va-nhung-chiec-tat-bi-lac_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/emma-va-nhung-chiec-tat-bi-lac_page_2.mp3"
+      },
+      {
+        "text": "— Emma ơi, có chuyện khủng khiếp xảy ra rồi — Nữ hoàng Margarita nói với giọng run rẩy — Tất cả tất trong vương quốc đã biến mất sạch trơn!",
+        "enText": "“Emma, something terrible has happened,” said Queen Daisy with a shaky voice. “All the socks in the kingdom have disappeared.”",
+        "image": "http://localhost:3001/cdn/images/emma-va-nhung-chiec-tat-bi-lac_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/emma-va-nhung-chiec-tat-bi-lac_page_3.mp3"
+      },
+      {
+        "text": "Emma bật dậy như lò xo, làm rơi cả thanh kiếm cao su xuống sàn.",
+        "enText": "Emma leaped up, dropping her foam sword on the floor.",
+        "image": "http://localhost:3001/cdn/images/emma-va-nhung-chiec-tat-bi-lac_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/emma-va-nhung-chiec-tat-bi-lac_page_4.mp3"
+      },
+      {
+        "text": "— Không thể nào! — cô bé thốt lên — Nếu không có tất, cả vương quốc sẽ bị lạnh chân mất thôi!",
+        "enText": "“No way!” she exclaimed. “Without socks, the whole kingdom will have cold feet!”",
+        "image": "http://localhost:3001/cdn/images/emma-va-nhung-chiec-tat-bi-lac_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/emma-va-nhung-chiec-tat-bi-lac_page_5.mp3"
+      },
+      {
+        "text": "Với nhiệm vụ rõ ràng trong tâm trí, Emma khoác lên mình chiếc áo choàng nhung tím, buộc chặt dây giày (tất nhiên là đi giày mà không có tất), và lên đường đi đến Khu Rừng Của Những Đồ Vật Bị Thất Lạc 🌲. Theo truyền thuyết, đây là nơi mà mọi thứ bị thất lạc trên thế giới đều trôi dạt về.",
+        "enText": "With a clear mission in her mind, Emma put on her purple velvet cape, pulled on her boots (without socks, of course), and set off for the Forest of Lost Things 🌲, a place where, according to legends, everything that was ever lost in the world ended up.",
+        "image": "http://localhost:3001/cdn/images/emma-va-nhung-chiec-tat-bi-lac_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/emma-va-nhung-chiec-tat-bi-lac_page_6.mp3"
+      },
+      {
+        "text": "Khu Rừng Của Những Đồ Vật Bị Thất Lạc là một nơi vô cùng kỳ lạ. Những cái cây được làm từ kẹo bông gòn và đổi màu tùy theo hương vị của ngày hôm đó. Có những dòng sông sữa trôi lững lờ những chiếc bánh quy giòn tan, và thay vì chim chóc, bay lượn trên bầu trời là những chiếc đồng hồ cúc cu đang hót vang theo giọng Đô trưởng. Emma bước đi cẩn thận, tránh những vũng mứt dính dáp và những cái hố ảo ảnh chỉ chực chờ để đánh lừa người qua đường.",
+        "enText": "The Forest of Lost Things was a very strange place. The trees were made of cotton candy that changed color depending on the flavor of the day. There were rivers of milk with cookies floating on them, and instead of birds, cuckoo clocks that sang in C major flew through the air. Emma walked carefully, avoiding the puddles of jam and the puddles that were just there to trick you.",
+        "image": "http://localhost:3001/cdn/images/emma-va-nhung-chiec-tat-bi-lac_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/emma-va-nhung-chiec-tat-bi-lac_page_7.mp3"
+      },
+      {
+        "text": "Bỗng nhiên, Emma nhìn thấy một chiếc đồng hồ quả quýt khổng lồ đang ngồi trên một tảng đá. Chiếc đồng hồ này không chỉ báo giờ mà còn báo cả tâm trạng trong ngày.",
+        "enText": "Suddenly, Emma found a huge pocket watch sitting on a rock. This watch not only told the time, but also the mood of the day.",
+        "image": "http://localhost:3001/cdn/images/emma-va-nhung-chiec-tat-bi-lac_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/emma-va-nhung-chiec-tat-bi-lac_page_8.mp3"
+      },
+      {
+        "text": "— Cháu đang tìm gì thế, cô công chúa nhỏ? — chiếc đồng hồ hỏi với giọng điệu nghe buồn bã như một buổi chiều thứ Năm mưa dầm dề.",
+        "enText": "“What are you looking for, young princess?” asked the watch in a tone that sounded like a rainy Thursday afternoon.",
+        "image": "http://localhost:3001/cdn/images/emma-va-nhung-chiec-tat-bi-lac_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/emma-va-nhung-chiec-tat-bi-lac_page_9.mp3"
+      },
+      {
+        "text": "— Cháu đang đi tìm tất cả những chiếc tất bị lạc của vương quốc. Bác có biết chúng ở đâu không ạ?",
+        "enText": "“I’m looking for all the missing socks from the kingdom. Do you know where they might be?”",
+        "image": "http://localhost:3001/cdn/images/emma-va-nhung-chiec-tat-bi-lac_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/emma-va-nhung-chiec-tat-bi-lac_page_10.mp3"
+      },
+      {
+        "text": "Chiếc đồng hồ cười khúc khích, dù nó chẳng có miệng. Nó chỉ phát ra tiếng tích-tắc nghe lảnh lót hơn bình thường.",
+        "enText": "The watch laughed, even though it didn’t have a mouth. It just made a tick-tock sound that was sharper than usual.",
+        "image": "http://localhost:3001/cdn/images/emma-va-nhung-chiec-tat-bi-lac_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/emma-va-nhung-chiec-tat-bi-lac_page_11.mp3"
+      },
+      {
+        "text": "— Nếu là tất thì cháu phải đi hỏi Vua Ngón Chân 🦶, ông ấy biết tuốt về các loại tất. Cháu cứ đi theo con đường này đến Cây Giày Cũ, rồi rẽ trái khi thấy đám mây nấc cụt đang nhảy nhót nhé.",
+        "enText": "“If it’s socks you’re looking for, you must speak with the King of the Toes 🦶, he knows everything about socks. Follow the path to the Tree of Old Shoes and turn left when you see the bouncing hiccup cloud.”",
+        "image": "http://localhost:3001/cdn/images/emma-va-nhung-chiec-tat-bi-lac_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/emma-va-nhung-chiec-tat-bi-lac_page_12.mp3"
+      },
+      {
+        "text": "Emma cảm ơn bác đồng hồ và làm theo chỉ dẫn. Cây Giày Cũ rất dễ nhận ra, vì trên cây treo lủng lẳng hàng trăm chiếc giày đủ mọi hình dáng và kích cỡ. Có những chiếc to đến mức như thể của người khổng lồ để lại. Và đúng như lời bác đồng hồ nói, bên cạnh cái cây là một đám mây đang bị nấc cụt, cứ phát ra tiếng “híc!” và “híc!” mỗi khi nảy tưng tưng.",
+        "enText": "Emma thanked the watch and followed its instructions. The Tree of Old Shoes was impossible to miss, because hundreds of shoes of all shapes and sizes were hanging from it. Some were even so big they looked like they had been worn by giants. And just as the watch had said, there was a bouncing hiccup cloud next to it, going “hic!” and “hop!” every time it bounced.",
+        "image": "http://localhost:3001/cdn/images/emma-va-nhung-chiec-tat-bi-lac_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/emma-va-nhung-chiec-tat-bi-lac_page_13.mp3"
+      },
+      {
+        "text": "— Lối này rồi — Emma nói, rẽ trái và bước vào một con đường mòn thoang thoảng mùi giày mới.",
+        "enText": "“This is the way,” said Emma, turning left and heading down a path that smelled like new shoes.",
+        "image": "http://localhost:3001/cdn/images/emma-va-nhung-chiec-tat-bi-lac_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/emma-va-nhung-chiec-tat-bi-lac_page_14.mp3"
+      },
+      {
+        "text": "Một lúc sau, Emma đến được lâu đài của Vua Ngón Chân. Đây là một tòa lâu đài được xây hoàn toàn bằng chăn len, bên trong nóng đến mức các ngón chân phải nhảy múa liên tục để làm mát.",
+        "enText": "After a while, Emma arrived at the castle of the King of the Toes. It was a castle made entirely of woolly blankets, where it was so warm that the Toes danced non-stop to cool off.",
+        "image": "http://localhost:3001/cdn/images/emma-va-nhung-chiec-tat-bi-lac_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/emma-va-nhung-chiec-tat-bi-lac_page_15.mp3"
+      },
+      {
+        "text": "Vua Ngón Chân 🦶 là một người đàn ông nhỏ bé rất vui tính, nhưng ngai vàng của ông ta lại được làm từ những hộp tất, trông có vẻ hơi đáng ngờ.",
+        "enText": "The King of the Toes 🦶 was a very friendly little man, but his throne was made of sock boxes, which seemed a bit suspicious.",
+        "image": "http://localhost:3001/cdn/images/emma-va-nhung-chiec-tat-bi-lac_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/emma-va-nhung-chiec-tat-bi-lac_page_16.mp3"
+      },
+      {
+        "text": "— Thưa Bệ hạ, cháu đến để xin ngài trả lại tất cho vương quốc — Emma nói, cố gắng giữ giọng nghiêm túc nhất có thể, dù những ngón chân xung quanh cứ nhảy múa không ngừng.",
+        "enText": "“Your Majesty, I’ve come to ask you to return the kingdom's socks,” said Emma, trying to sound as serious as possible, even though the toes kept dancing.",
+        "image": "http://localhost:3001/cdn/images/emma-va-nhung-chiec-tat-bi-lac_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/emma-va-nhung-chiec-tat-bi-lac_page_17.mp3"
+      },
+      {
+        "text": "— À, mấy chiếc tất đó hả! — nhà vua nói, lấy ngón chân này gãi gãi cho ngón chân kia — Cháu thấy đấy, ở vương quốc của ta, tất là tiền tệ. Chúng ta đã thu gom tất từ khắp nơi trên thế giới để xây dựng nền kinh tế dựa trên tất. Nhưng mà... ta nghĩ chúng ta có thể thỏa thuận.",
+        "enText": "“Ah, those socks!” said the king, scratching one toe with another. “You see, here in my kingdom, socks are what we use for money. We’ve collected them from all over the world to build our sock-based economy. But… I think we could make a deal.”",
+        "image": "http://localhost:3001/cdn/images/emma-va-nhung-chiec-tat-bi-lac_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/emma-va-nhung-chiec-tat-bi-lac_page_18.mp3"
+      },
+      {
+        "text": "— Thỏa thuận gì ạ? — Emma tò mò hỏi.",
+        "enText": "“What kind of deal?” asked Emma, curious.",
+        "image": "http://localhost:3001/cdn/images/emma-va-nhung-chiec-tat-bi-lac_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/emma-va-nhung-chiec-tat-bi-lac_page_19.mp3"
+      },
+      {
+        "text": "— Một cuộc thi nhảy — nhà vua tuyên bố với nụ cười rạng rỡ — Nếu cháu có thể đánh bại các Ngón Chân của ta trong một cuộc thi khiêu vũ, ta sẽ trả lại toàn bộ số tất.",
+        "enText": "“A dance-off,” the king announced with a smile. “If you can beat my Toes in a dance competition, I’ll give you back all the socks.”",
+        "image": "http://localhost:3001/cdn/images/emma-va-nhung-chiec-tat-bi-lac_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/emma-va-nhung-chiec-tat-bi-lac_page_20.mp3"
+      },
+      {
+        "text": "Emma đồng ý ngay lập tức, mặc dù cô bé chưa bao giờ nhảy múa với đôi chân trần. Khi tiếng nhạc cất lên, các Ngón Chân chuyển động điêu luyện chưa từng thấy, nhảy nhót và xoay tròn trên không trung. Nhưng Emma không hề nao núng. Cô bé nhớ lại tất cả những bước di chuyển đã học được từ các hiệp sĩ trong cung điện, và với sự uyển chuyển của một chú sư tử con cùng sự chính xác như đồng hồ, cô bé bắt đầu nhảy.",
+        "enText": "Emma accepted without hesitation, even though she had never danced barefoot before. When the music started, the Toes moved like never before, jumping and doing pirouettes in the air. But Emma wasn't scared. She remembered all the steps she had learned from the knights of the court and, with the grace of a lioness and the precision of a spinning top, she began to dance.",
+        "image": "http://localhost:3001/cdn/images/emma-va-nhung-chiec-tat-bi-lac_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/emma-va-nhung-chiec-tat-bi-lac_page_21.mp3"
+      },
+      {
+        "text": "Trận đấu diễn ra thật kịch tính. Có những cú nhảy cao, những cú xoay vòng và cả vài cú nhào lộn đẹp mắt. Cuối cùng, các Ngón Chân đành chịu thua, nằm vật ra vì kiệt sức sau khi nhảy quá nhiều.",
+        "enText": "The dance-off was epic. There were jumps, spins, and even a couple of flips. In the end, the Toes fell down, exhausted from so much dancing.",
+        "image": "http://localhost:3001/cdn/images/emma-va-nhung-chiec-tat-bi-lac_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/emma-va-nhung-chiec-tat-bi-lac_page_22.mp3"
+      },
+      {
+        "text": "Vua Ngón Chân, vốn là một vị vua công bằng, đã giữ đúng lời hứa. Ông trả lại tất cả số tất và Emma, tự hào với chiến công của mình, trở về lâu đài với một bao tải đầy ắp tất cho mọi người trong vương quốc.",
+        "enText": "The King of the Toes, being a fair king, kept his promise. He returned all the socks, and Emma, proud of her achievement, returned to the castle with a sack full of socks for everyone in the kingdom.",
+        "image": "http://localhost:3001/cdn/images/emma-va-nhung-chiec-tat-bi-lac_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/emma-va-nhung-chiec-tat-bi-lac_page_23.mp3"
+      },
+      {
+        "text": "Và thế là, nhờ vào lòng dũng cảm và sự khéo léo của nàng công chúa chiến binh nhỏ bé, đôi bàn chân của mọi người trong vương quốc lại được ấm áp và hạnh phúc một lần nữa.",
+        "enText": "And so, thanks to the bravery and skill of the little warrior princess, everyone in the kingdom had warm, happy feet once more.",
+        "image": "http://localhost:3001/cdn/images/emma-va-nhung-chiec-tat-bi-lac_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/emma-va-nhung-chiec-tat-bi-lac_page_24.mp3"
+      },
+      {
+        "text": "Câu chuyện đến đây là hết rồi, chúc các bé ngủ ngon! 🧦",
+        "enText": "And that's the end of this sock-tastic story. 🧦",
+        "image": "http://localhost:3001/cdn/images/emma-va-nhung-chiec-tat-bi-lac_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/emma-va-nhung-chiec-tat-bi-lac_page_25.mp3"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Tito và Ngọn Núi Biết Nói",
+    "slug": "tito-va-ngon-nui-biet-noi",
+    "category": "Truyện giáo dục nhân cách, Truyện động vật",
+    "age": "5-8 tuổi",
+    "duration": "6 phút",
+    "rating": 4.8,
+    "audio": true,
+    "color": "#FAF8F5",
+    "badgeColor": "#4A3F35",
+    "image": "🐘",
+    "coverImageUrl": "http://localhost:3001/cdn/images/tito-va-ngon-nui-biet-noi_cover.png",
+    "description": "Một câu chuyện ấm áp về chú voi con Tito, người luôn mơ ước biết bay. Qua tình bạn bất ngờ với một ngọn núi cô đơn, Tito khám phá ra rằng đôi khi để 'bay cao', ta không cần đôi cánh mà cần những người bạn chân thành. Một bài học tuyệt vời về sự tự tin và kết nối cảm xúc.",
+    "moral": "Mỗi người đều có những thế mạnh riêng, hãy tự tin khám phá khả năng của mình.",
+    "audioDuration": 360,
+    "author": "Runruneando",
+    "pages": [
+      {
+        "text": "Trong sâu thẳm một khu rừng già, nơi những tán cây vươn cao chạm tới tận trời xanh và những bông hoa tỏa sáng lấp lánh như ngọc quý dưới ánh mặt trời, có một chú voi con tên là Tito 🐘. Dù là một chú voi to lớn, Tito lại luôn ấp ủ một ước mơ kỳ lạ: chú muốn được bay. Chú thường dành hàng giờ ngẩn ngơ ngắm nhìn những đàn chim và bướm lượn lờ, trong lòng khao khát mãnh liệt được bay vút lên không trung giống như chúng.",
+        "enText": "Deep in a jungle where the trees touched the sky and the flowers sparkled like jewels in the sun, lived a little elephant named Tito 🐘. Even though he was an elephant, Tito had always dreamed of flying. He would spend hours watching the birds and butterflies, wishing with all his heart that he could soar through the air just like them.",
+        "image": "http://localhost:3001/cdn/images/tito-va-ngon-nui-biet-noi_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/tito-va-ngon-nui-biet-noi_page_1.mp3"
+      },
+      {
+        "text": "\"Giá mà mình có đôi cánh nhỉ,\" Tito thở dài thườn thượt mỗi ngày. Nhưng dù chú có cố sức vẫy đôi tai to bè của mình mạnh đến đâu, chú vẫn chẳng thể nhấc mình lên khỏi mặt đất dù chỉ một xíu.",
+        "enText": "\"If only I had wings,\" Tito would sigh every day. But no matter how hard he tried to flap his big ears, he couldn't lift himself even an inch off the ground.",
+        "image": "http://localhost:3001/cdn/images/tito-va-ngon-nui-biet-noi_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/tito-va-ngon-nui-biet-noi_page_2.mp3"
+      },
+      {
+        "text": "Một ngày nọ, khi đang lủi thủi bước đi trong rừng với vẻ mặt buồn thiu, Tito bỗng nghe thấy một tiếng rì rầm vọng lại từ trung tâm khu rừng. Đó là một âm thanh trầm ấm nhưng đầy uy lực, cứ như thể chính mặt đất đang cất tiếng nói. Tò mò, Tito lần theo âm thanh ấy cho đến khi đứng trước Rocatón 🏔️, ngọn núi thần kỳ mà muôn loài đều lảng tránh. Rocatón to lớn sừng sững, phủ đầy những loài hoa rực rỡ sắc màu và có những dòng thác đổ xuống từ tận mây xanh. Nhưng điều đáng kinh ngạc nhất ở Rocatón không phải là vẻ ngoài hùng vĩ, mà là sự thật rằng... ngọn núi ấy biết nói!",
+        "enText": "One day, as he was walking with his head hanging low, Tito heard a murmur coming from the heart of the forest. It was a soft yet powerful sound, as if the earth itself were speaking. Curious, Tito followed the sound until he reached Mount Whisperwind 🏔️, the magical mountain that all the other animals ran away from. Mount Whisperwind was huge, covered in flowers of every color and with waterfalls that tumbled down from the clouds. But the most surprising thing about Mount Whisperwind wasn't how it looked, but the fact that… it could talk!",
+        "image": "http://localhost:3001/cdn/images/tito-va-ngon-nui-biet-noi_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/tito-va-ngon-nui-biet-noi_page_3.mp3"
+      },
+      {
+        "text": "\"Xin chào!\" một giọng nói ồm ồm vang lên từ vách núi. Tito đứng chôn chân tại chỗ, không phải vì sợ hãi, mà vì quá đỗi ngạc nhiên. \"Ai... ai đang nói đó?\" chú ấp úng hỏi.",
+        "enText": "\"Hello!\" a deep voice echoed from the mountain. Tito froze, not from fear, but from surprise.",
+        "image": "http://localhost:3001/cdn/images/tito-va-ngon-nui-biet-noi_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/tito-va-ngon-nui-biet-noi_page_4.mp3"
+      },
+      {
+        "text": "\"Ta là Rocatón, ngọn núi đây. Ta thấy cậu là một chú voi rất dũng cảm mới dám đến gần ta. Tất cả các loài vật khác đều tránh xa vì nghĩ rằng ta thật đáng sợ.\"",
+        "enText": "\"Who… who's there?\" he asked hesitantly.",
+        "image": "http://localhost:3001/cdn/images/tito-va-ngon-nui-biet-noi_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/tito-va-ngon-nui-biet-noi_page_5.mp3"
+      },
+      {
+        "text": "Von con Tito, vốn tính tò mò, quyết định nán lại. \"Bác trông đâu có đáng sợ... Chà, cũng có một chút, nhưng bác cũng rất đẹp mà. Tại sao bác lại biết nói thế ạ?\"",
+        "enText": "\"I am Mount Whisperwind. And I see you are a very brave elephant to come so close. All the other animals avoid me because they think I'm scary.\"",
+        "image": "http://localhost:3001/cdn/images/tito-va-ngon-nui-biet-noi_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/tito-va-ngon-nui-biet-noi_page_6.mp3"
+      },
+      {
+        "text": "Rocatón bật cười, tiếng cười làm rung chuyển nhẹ mặt đất dưới chân Tito. Hahaha! \"Ngày xửa ngày xưa, một vị pháp sư đã ban cho ta khả năng nói chuyện, nhưng ông ấy cũng bỏ ta lại đây một mình. Ta đã chờ đợi suốt bao năm nay để có ai đó cùng trò chuyện.\"",
+        "enText": "Tito, who had always been very curious, decided to stay. \"You don't seem scary… Well, maybe a little, but you're also beautiful. Why can you talk?\"",
+        "image": "http://localhost:3001/cdn/images/tito-va-ngon-nui-biet-noi_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/tito-va-ngon-nui-biet-noi_page_7.mp3"
+      },
+      {
+        "text": "Cảm nhận được nỗi buồn trong giọng nói của Rocatón, Tito quyết định ở lại bầu bạn với ngọn núi. \"Cháu cũng vậy, cháu chẳng thể bay như ước mơ của mình. Hay là chúng ta làm bạn với nhau nhé?\"",
+        "enText": "Mount Whisperwind let out a laugh that made the ground tremble under Tito's feet. \"A long time ago, a wizard gave me the gift of speech, but he also left me here all alone. I've been waiting for someone to talk to for years.\"",
+        "image": "http://localhost:3001/cdn/images/tito-va-ngon-nui-biet-noi_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/tito-va-ngon-nui-biet-noi_page_8.mp3"
+      },
+      {
+        "text": "Thế là tình bạn kỳ lạ giữa một chú voi con và một ngọn núi thần kỳ bắt đầu đơm hoa kết trái. Ngày nào Tito cũng đến thăm Rocatón, và mỗi lần như thế, chú lại học được điều gì đó mới mẻ. Rocatón kể cho chú nghe những câu chuyện về thời xa xưa, về những sinh vật huyền bí và những bí mật ẩn giấu sâu trong lòng rừng già. Đổi lại, Tito kể cho bác núi nghe về khát khao được bay lượn, về những giấc mơ và tất cả những gì chú nhìn thấy trong những chuyến đi dạo của mình.",
+        "enText": "Tito, sensing the sadness in Mount Whisperwind's voice, decided to keep him company. \"Well, I can't fly like I've always dreamed. Maybe we can keep each other company.\"",
+        "image": "http://localhost:3001/cdn/images/tito-va-ngon-nui-biet-noi_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/tito-va-ngon-nui-biet-noi_page_9.mp3"
+      },
+      {
+        "text": "Một hôm, sau khi kể xong một câu chuyện vô cùng ly kỳ về những chú rồng 🐉 và các lâu đài trên mây, Rocatón bảo: \"Tito này, ta đang nghĩ... Có lẽ cậu không cần đôi cánh để bay đâu.\"",
+        "enText": "And that's how the strange friendship between a little elephant and a magical mountain began. Tito visited Mount Whisperwind every day, and each time he did, he learned something new. Mount Whisperwind told him stories of ancient times, of fantastic creatures and mysteries hidden deep within the jungle. Tito, in turn, told him about his wishes to fly, his dreams, and all the things he saw on his walks.",
+        "image": "http://localhost:3001/cdn/images/tito-va-ngon-nui-biet-noi_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/tito-va-ngon-nui-biet-noi_page_10.mp3"
+      },
+      {
+        "text": "Tito chớp mắt, ngơ ngác. \"Sao cơ ạ? Nghe chẳng hợp lý chút nào!\"",
+        "enText": "One day, after telling a particularly exciting story about dragons 🐉 and castles in the clouds, Mount Whisperwind said, \"Tito, I've been thinking… Maybe you don't need wings to fly.\"",
+        "image": "http://localhost:3001/cdn/images/tito-va-ngon-nui-biet-noi_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/tito-va-ngon-nui-biet-noi_page_11.mp3"
+      },
+      {
+        "text": "\"Nghe kỹ nhé,\" Rocatón tiếp lời, \"Bay lượn không phải lúc nào cũng có nghĩa là vỗ cánh bay lên trời. Đôi khi, 'bay' chính là cảm giác tự do, hạnh phúc và lâng lâng như đang ở trên đỉnh cao, dù đôi chân cậu vẫn chạm đất. Và điều đó có được nhờ những người bạn luôn ủng hộ và nâng đỡ cậu bằng tình yêu thương.\" 💖",
+        "enText": "Tito blinked, confused. \"How? That doesn't make any sense!\"",
+        "image": "http://localhost:3001/cdn/images/tito-va-ngon-nui-biet-noi_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/tito-va-ngon-nui-biet-noi_page_12.mp3"
+      },
+      {
+        "text": "Tito im lặng, ngẫm nghĩ về những lời của bác núi. Cuối cùng, chú mỉm cười rạng rỡ. \"Ý bác là... được ở bên cạnh bác và trò chuyện về những điều này khiến cháu 'bay' theo một cách khác sao?\"",
+        "enText": "\"Listen closely,\" Mount Whisperwind continued. \"Flying doesn't always mean soaring with wings. Sometimes, flying is about feeling free, happy, and on top of the world, even if your feet are still on the ground. And you get that from friends who support you and lift you up with their love.\" 💖",
+        "image": "http://localhost:3001/cdn/images/tito-va-ngon-nui-biet-noi_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/tito-va-ngon-nui-biet-noi_page_13.mp3"
+      },
+      {
+        "text": "\"Chính xác,\" Rocatón đáp lại với một nụ cười ẩn trong giọng nói trầm ấm. \"Đôi khi, những giấc mơ trở thành hiện thực theo cách mà ta không ngờ tới. Tình bạn là một trong những phép màu có thể nâng chúng ta lên cao hơn bất kỳ đôi cánh nào.\"",
+        "enText": "Tito fell silent, thinking about the mountain's words. Finally, he smiled. \"Do you mean that… being with you and talking about all these things makes me fly in a different way?\"",
+        "image": "http://localhost:3001/cdn/images/tito-va-ngon-nui-biet-noi_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/tito-va-ngon-nui-biet-noi_page_14.mp3"
+      },
+      {
+        "text": "Tito cảm thấy lòng mình nhẹ bẫng hơn bao giờ hết, cứ như thể chú thực sự có thể bay lên. Kể từ ngày đó, chú không còn nhìn những chú chim và đàn bướm 🦋 với ánh mắt ghen tị nữa. Giờ đây chú đã hiểu rằng bay lượn không chỉ là chuyện ở trên không trung, mà là cảm giác tự do và tràn ngập hạnh phúc trong tim. Và Rocatón, người bạn lớn của chú, đã giúp chú nhận ra điều đó.",
+        "enText": "\"Exactly,\" Mount Whisperwind replied, a smile in his deep voice. \"Sometimes, dreams come true in ways we don't expect. Friendship is one of those magical things that can lift us higher than any pair of wings.\"",
+        "image": "http://localhost:3001/cdn/images/tito-va-ngon-nui-biet-noi_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/tito-va-ngon-nui-biet-noi_page_15.mp3"
+      },
+      {
+        "text": "Ngày qua ngày, tháng qua tháng, tình bạn giữa Tito và Rocatón ngày càng bền chặt. Các loài vật khác trong rừng, vì tò mò khi thấy Tito vui vẻ bên cạnh ngọn núi, cũng bắt đầu lân la đến gần. Chẳng mấy chốc, khu rừng từng sợ hãi Rocatón giờ đây ngập tràn tiếng cười đùa rộn rã quanh chân núi. Rocatón không còn cô đơn nữa, và Tito đã có những người bạn nâng đỡ tâm hồn chú mỗi ngày bằng tình thương và sự sẻ chia.",
+        "enText": "Tito felt lighter than ever, as if he really could fly. From that day on, he stopped looking at the birds and butterflies 🦋 with envy. He now understood that flying wasn't just about being in the air, but about feeling free and full of happiness in your heart. And Mount Whisperwind, his great friend, had helped him discover it.",
+        "image": "http://localhost:3001/cdn/images/tito-va-ngon-nui-biet-noi_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/tito-va-ngon-nui-biet-noi_page_16.mp3"
+      },
+      {
+        "text": "Một đêm nọ, khi bầu trời rợp bóng đom đóm và khu rừng tỏa sáng lấp lánh như được phủ đầy sao ✨, Tito ngồi dưới chân Rocatón và ngước nhìn lên những dòng thác đổ xuống từ trên cao. \"Bác Rocatón ơi, bác biết không? Cháu nghĩ cháu đã tìm ra cách để bay rồi.\"",
+        "enText": "Days, weeks, and months passed, and the friendship between Tito and Mount Whisperwind grew stronger. Other animals in the jungle, curious to see Tito so happy next to the mountain, began to come closer too. Little by little, the jungle that once feared Mount Whisperwind was filled with laughter and games all around the mountain. Mount Whisperwind was no longer alone, and Tito had friends who lifted him up every day with their kindness and company.",
+        "image": "http://localhost:3001/cdn/images/tito-va-ngon-nui-biet-noi_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/tito-va-ngon-nui-biet-noi_page_17.mp3"
+      },
+      {
+        "text": "\"Ồ, thật sao?\" ngọn núi hỏi với giọng trêu đùa.",
+        "enText": "One night, as the sky filled with fireflies and the jungle sparkled as if it were covered in stars ✨, Tito sat at the foot of Mount Whisperwind and looked up at the waterfalls cascading from above. \"Mount Whisperwind, you know what? I think I've found my way to fly.\"",
+        "image": "http://localhost:3001/cdn/images/tito-va-ngon-nui-biet-noi_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/tito-va-ngon-nui-biet-noi_page_18.mp3"
+      },
+      {
+        "text": "\"Vâng,\" Tito đáp với nụ cười tươi rói 😊. \"Mỗi khi cháu ở đây, cùng với bác và tất cả bạn bè, cháu cảm thấy mình đang ở cao hơn bao giờ hết. Cháu không cần đôi cánh để cảm thấy mình đang lướt giữa những tầng mây.\"",
+        "enText": "\"Oh, really?\" the mountain asked in a playful tone.",
+        "image": "http://localhost:3001/cdn/images/tito-va-ngon-nui-biet-noi_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/tito-va-ngon-nui-biet-noi_page_19.mp3"
+      },
+      {
+        "text": "Rocatón khẽ gật đầu, hạnh phúc vì đã giúp Tito nhận ra một điều quan trọng đến thế. \"Đó chính là điều tuyệt diệu của cuộc sống, Tito à. Đôi khi, thứ chúng ta tìm kiếm lại ở ngay trước mắt, chỉ cần ta mở rộng đôi mắt và trái tim để nhìn thấy nó mà thôi.\"",
+        "enText": "\"Yes,\" Tito answered with a big smile 😊. \"Every time I'm here with you and all our friends, I feel like I'm higher than ever. I don't need wings to feel like I'm on a cloud.\"",
+        "image": "http://localhost:3001/cdn/images/tito-va-ngon-nui-biet-noi_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/tito-va-ngon-nui-biet-noi_page_20.mp3"
+      },
+      {
+        "text": "Kể từ đó, Tito trở thành chú voi hạnh phúc nhất khu rừng 🌳. Và dù chú chẳng bao giờ bay lượn như loài chim, nhưng trái tim chú luôn bay bổng trên cao, nhờ vào tình bạn tuyệt vời mà chú đã tìm thấy ở Rocatón và muôn loài. Bởi vì, suy cho cùng, bay lượn không phải là chuyện có đôi cánh, mà là có những người bạn nâng bước ta bằng tình yêu và sự ủng hộ.",
+        "enText": "Mount Whisperwind nodded gently, happy to have helped Tito discover something so important. \"That's the wonderful thing about life, Tito. Sometimes, what we're looking for is right in front of us; we just have to open our eyes and our hearts to see it.\"",
+        "image": "http://localhost:3001/cdn/images/tito-va-ngon-nui-biet-noi_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/tito-va-ngon-nui-biet-noi_page_21.mp3"
+      },
+      {
+        "text": "Bài học nhỏ: Bạn không cần đôi cánh để bay cao, chỉ cần những người bạn luôn ủng hộ bạn trên mỗi bước đường. Hơn nữa, đôi khi những người trông có vẻ đáng sợ lại chỉ đang chờ một cơ hội để cho bạn thấy trái tim ấm áp của họ mà thôi. 💖",
+        "enText": "From then on, Tito became the happiest elephant in the jungle 🌳. And although he never flew like the birds, his heart was always soaring, thanks to the friendship he had found in Mount Whisperwind and all the other animals. Because, at the end of the day, flying isn't about having wings, but about having friends who lift you up with their love and support.",
+        "image": "http://localhost:3001/cdn/images/tito-va-ngon-nui-biet-noi_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/tito-va-ngon-nui-biet-noi_page_22.mp3"
+      },
+      {
+        "text": "Thế là, trong khu rừng già nhiệm màu, Tito và Rocatón đã sống hạnh phúc bên nhau, vây quanh là những người bạn, chứng minh rằng với một chút tình bạn, tất cả chúng ta đều có thể chạm tới những vì sao. 🌟",
+        "enText": "Moral of the story: You don't need wings to fly high, just friends who support you every step of the way. Also, sometimes, those who seem scary are just waiting for a chance to show their true heart. 💖",
+        "image": "http://localhost:3001/cdn/images/tito-va-ngon-nui-biet-noi_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/tito-va-ngon-nui-biet-noi_page_23.mp3"
+      },
+      {
+        "text": "Hết.",
+        "enText": "And so, in the magical jungle, Tito and Mount Whisperwind lived happily, surrounded by friends, proving that with a little friendship, we can all reach the stars. 🌟",
+        "image": "http://localhost:3001/cdn/images/tito-va-ngon-nui-biet-noi_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/tito-va-ngon-nui-biet-noi_page_24.mp3"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Runi và Hòn Đảo Phép Lịch Sự",
+    "slug": "runi-va-hon-dao-phep-lich-su",
+    "category": "Truyện giáo dục nhân cách, Truyện phiêu lưu",
+    "age": "5-8 tuổi",
+    "duration": "8 phút",
+    "rating": 4.8,
+    "audio": true,
+    "color": "#FAF0E6",
+    "badgeColor": "#CD5C5C",
+    "image": "🦁",
+    "coverImageUrl": "http://localhost:3001/cdn/images/runi-va-hon-dao-phep-lich-su_cover.png",
+    "description": "Trong chuyến phiêu lưu đến hòn đảo kỳ diệu, cậu bé Runi tinh nghịch nhận ra rằng những lời nói tử tế mang sức mạnh to lớn hơn cậu nghĩ. Một câu chuyện ấm áp về lòng tốt dành cho bé.",
+    "moral": "Lời nói lịch sự và hành động tử tế chính là phép màu làm đẹp cuộc sống.",
+    "audioDuration": 600,
+    "author": "Runruneando",
+    "pages": [
+      {
+        "text": "Ngày xửa ngày xưa, có một cậu bé tên là Runi 👦. Cậu bé rất thông minh, tò mò về thế giới xung quanh và có trí tưởng tượng bay bổng, lúc nào cũng có sẵn câu trả lời cho mọi thắc mắc. Tuy nhiên, Runi lại mắc một tật xấu nho nhỏ: cậu luôn nói toạc những gì mình nghĩ mà chẳng mảy may để ý đến cảm xúc của người khác. Nếu không thích món gì, cậu chê bai thẳng thừng. Nếu ai đó mắc lỗi, cậu lập tức vạch trần ngay mà chẳng bận tâm xem lời nói của mình có làm người ta buồn hay không.",
+        "enText": "Once upon a time, there was a boy named Leo 👦. He was very curious about the world, had a huge imagination, and was super smart—he always had an answer for everything. However, Leo had one little problem: he always said what was on his mind without thinking about other people's feelings. If he didn't like something, he said so. If someone made a mistake, he pointed it out right away, not caring if his words hurt.",
+        "image": "http://localhost:3001/cdn/images/runi-va-hon-dao-phep-lich-su_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/runi-va-hon-dao-phep-lich-su_page_1.mp3"
+      },
+      {
+        "text": "Một ngày nọ, khi đang lục lọi trên căn gác xép cũ kỹ đầy bụi bặm của gia đình 🏠, Runi tìm thấy một cuốn sách cũ kỹ 📚. Trên bìa sách, những dòng chữ mạ vàng óng ánh hiện lên: \"Cuốn Sách Vĩ Đại Về Phép Lịch Sự\". Tò mò, Runi mở sách ra, và ngay trong khoảnh khắc ấy, một cơn gió mạnh VÙ VÙ cuốn lấy cậu. Bỗng chốc, Runi không còn ở trên gác xép nữa, mà đã lạc vào một hòn đảo bồng bềnh trên những đám mây, nơi tràn ngập sắc màu rực rỡ và những hàng cây biết thì thầm những lời êm ái vào trong gió 🌳🍃.",
+        "enText": "One day, while exploring the dusty attic in his house 🏠, Leo found an old book 📚. On the cover, in golden letters, it read: \"The Great Book of Manners.\" Curious, Leo opened it, and in that very moment, a strong wind swirled around him. Suddenly, Leo was no longer in the attic. He was on an island floating on the clouds, full of bright colors and trees that whispered nice words to the wind 🌳🍃.",
+        "image": "http://localhost:3001/cdn/images/runi-va-hon-dao-phep-lich-su_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/runi-va-hon-dao-phep-lich-su_page_2.mp3"
+      },
+      {
+        "text": "Nhưng, giữa khung cảnh tuyệt đẹp ấy, một tia sét bất ngờ xé toạc bầu trời, đánh xuống làm mặt đất nứt toác. Cảnh vật xung quanh bắt đầu biến đổi. Những sắc màu tươi vui dần phai nhạt, chỉ còn lại một màu xám xịt nơi tia sét vừa đánh xuống.",
+        "enText": "But in the middle of all that beauty, a bolt of lightning struck from the sky, cracking the ground and changing everything around it. The colors began to fade, leaving a trail of gray wherever the lightning had hit.",
+        "image": "http://localhost:3001/cdn/images/runi-va-hon-dao-phep-lich-su_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/runi-va-hon-dao-phep-lich-su_page_3.mp3"
+      },
+      {
+        "text": "\"Mình đang ở đâu thế này?\" Runi thốt lên.",
+        "enText": "\"Where am I?\" Leo wondered out loud.",
+        "image": "http://localhost:3001/cdn/images/runi-va-hon-dao-phep-lich-su_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/runi-va-hon-dao-phep-lich-su_page_4.mp3"
+      },
+      {
+        "text": "\"Cháu đang ở trên Hòn Đảo Phép Lịch Sự,\" một giọng nói trầm ấm vang lên. Runi nhìn quanh và thấy một bác cú già thông thái đang quan sát cậu từ trên cành của cây ngôn ngữ. Đó chính là Bác Cú Bu 🦉, người gác đền của hòn đảo.",
+        "enText": "\"You are on the Island of Manners,\" answered a deep but kind voice. Leo looked around and saw a large, wise owl watching him from the branch of a word tree. It was Mr. Hoot 🦉, the guardian of the island.",
+        "image": "http://localhost:3001/cdn/images/runi-va-hon-dao-phep-lich-su_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/runi-va-hon-dao-phep-lich-su_page_5.mp3"
+      },
+      {
+        "text": "\"Nơi này lạ lùng quá!\" Runi kêu lên. \"Thế còn bác là ai?\"",
+        "enText": "\"What a strange place!\" exclaimed Leo. \"And who are you?\"",
+        "image": "http://localhost:3001/cdn/images/runi-va-hon-dao-phep-lich-su_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/runi-va-hon-dao-phep-lich-su_page_6.mp3"
+      },
+      {
+        "text": "\"Ta là Bác Cú Bu, ta trông coi hòn đảo này, nơi các Phép Lịch Sự chung sống hòa bình. Mỗi cư dân ở đây đại diện cho một đức tính tốt đẹp. Nhưng có vẻ như sự xuất hiện của cháu đã làm hòn đảo mất cân bằng, chuyện lạ đang xảy ra rồi.\"",
+        "enText": "\"I am Mr. Hoot, and I take care of this island where the Manners live in peace. Each one represents an important way to behave. But it seems your arrival has caused an imbalance; something strange is happening.\"",
+        "image": "http://localhost:3001/cdn/images/runi-va-hon-dao-phep-lich-su_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/runi-va-hon-dao-phep-lich-su_page_7.mp3"
+      },
+      {
+        "text": "Runi cau mày. \"Liên quan gì đến cháu chứ?\" cậu hỏi trống không.",
+        "enText": "Leo frowned. \"What does that have to do with me?\" he asked.",
+        "image": "http://localhost:3001/cdn/images/runi-va-hon-dao-phep-lich-su_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/runi-va-hon-dao-phep-lich-su_page_8.mp3"
+      },
+      {
+        "text": "Bác Cú Bu nhìn Runi bằng đôi mắt hiền từ và chớp chớp chậm rãi. \"Sự hiện diện của cháu dường như đã ảnh hưởng đến hòn đảo, dù ta chưa rõ lý do. Nhưng đừng lo, ta ở đây để giúp cháu,\" bác nói với giọng bình thản.",
+        "enText": "Mr. Hoot looked at Leo with his wise eyes and blinked slowly. \"Your presence here seems to have affected the island somehow, but I don't understand why yet. Don't worry, I'm here to help you,\" he said in a calm voice.",
+        "image": "http://localhost:3001/cdn/images/runi-va-hon-dao-phep-lich-su_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/runi-va-hon-dao-phep-lich-su_page_9.mp3"
+      },
+      {
+        "text": "Runi chẳng suy nghĩ nhiều, gật đầu chấp nhận sự giúp đỡ của Bác Cú Bu mà chẳng thèm nói một lời cảm ơn. Đúng lúc đó, một sinh vật nhỏ bé màu xanh lá với đôi mắt to tròn hiền lành lảo đảo bước tới. Đó là Bạn Biết Ơn 🙏, đại diện cho lòng biết ơn. Những chiếc lá trên người bạn ấy vốn xanh tươi mơn mởn nay bỗng héo úa, rũ rượi như thể bị ai đó hút hết năng lượng. Đi bên cạnh là Bạn Lễ Phép 😊, đại diện cho sự lịch thiệp, một sinh vật màu hồng phấn với nụ cười tươi tắn nay trông thật gượng gạo và nhợt nhạt.",
+        "enText": "Leo, without thinking twice, accepted Mr. Hoot’s offer without even thanking him. Just then, a small green creature with big, kind eyes came wobbling over. It was Thanks 🙏, the Manner of gratitude. Its leaves, usually bright and green, were now wilted and dull, as if it had no energy. Next to it was Please 😊, the Manner of politeness, a pink creature with a big smile that now looked forced and faded.",
+        "image": "http://localhost:3001/cdn/images/runi-va-hon-dao-phep-lich-su_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/runi-va-hon-dao-phep-lich-su_page_10.mp3"
+      },
+      {
+        "text": "\"Bác Cú Bu ơi, có chuyện gì lạ lắm,\" Bạn Biết Ơn nói với giọng yếu ớt. \"Cháu cảm thấy... khác lắm, như chẳng còn sức để nói lời cảm ơn nữa.\"",
+        "enText": "\"Mr. Hoot, something strange is happening,\" said Thanks in a weak voice. \"I feel... different, like I don't have the strength to be myself.\"",
+        "image": "http://localhost:3001/cdn/images/runi-va-hon-dao-phep-lich-su_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/runi-va-hon-dao-phep-lich-su_page_11.mp3"
+      },
+      {
+        "text": "\"Cháu cũng vậy,\" Bạn Lễ Phép thêm vào, mặt nhăn nhó khó chịu. \"Cháu chẳng còn muốn mỉm cười hay chào hỏi ai cả.\"",
+        "enText": "\"Me too,\" added Please, with an uncomfortable look. \"I don't feel like smiling and being polite.\"",
+        "image": "http://localhost:3001/cdn/images/runi-va-hon-dao-phep-lich-su_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/runi-va-hon-dao-phep-lich-su_page_12.mp3"
+      },
+      {
+        "text": "Cả hai nhìn Bác Cú Bu đầy lo lắng, chờ đợi một lời giải thích. Nhưng trước khi bác cú kịp trả lời, Runi, vốn tính thiếu kiên nhẫn, khoanh tay trước ngực và nhăn mặt. \"Này, tôi đến đây trước mà!\" cậu hét lên, chen ngang vào câu chuyện của Bạn Biết Ơn và Bạn Lễ Phép.",
+        "enText": "Both creatures looked at Mr. Hoot with worry, searching for an answer. But before the owl could reply, Leo, who was getting impatient, crossed his arms and scowled. \"Hey, I was here first!\" he exclaimed, interrupting Thanks and Please.",
+        "image": "http://localhost:3001/cdn/images/runi-va-hon-dao-phep-lich-su_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/runi-va-hon-dao-phep-lich-su_page_13.mp3"
+      },
+      {
+        "text": "Bác Cú Bu quan sát kỹ Runi, và rồi mọi chuyện dần sáng tỏ. \"Giờ thì ta đã hiểu,\" bác nói giọng nghiêm nghị. \"Runi, có vẻ như sự thiếu lịch sự của cháu đang làm hòn đảo chao đảo. Việc cháu không biết nói lời cảm ơn và thiếu lễ phép đang làm các bạn ấy yếu đi. Mà các bạn ấy lại chính là nguồn sống giữ cho hòn đảo này được yên bình.\"",
+        "enText": "Mr. Hoot watched Leo closely, and suddenly everything started to make sense. \"Now I understand what's happening,\" he said calmly. \"Leo, it seems your lack of manners is upsetting the balance of the island. Your lack of gratitude and politeness is weakening the Manners, who are essential to keeping this island in harmony.\"",
+        "image": "http://localhost:3001/cdn/images/runi-va-hon-dao-phep-lich-su_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/runi-va-hon-dao-phep-lich-su_page_14.mp3"
+      },
+      {
+        "text": "Runi ngạc nhiên, nhìn sang Bạn Biết Ơn và Bạn Lễ Phép. \"Sao cơ? Tất cả là lỗi tại cháu ư?\" cậu hỏi, cảm thấy hơi xấu hổ khi nhận ra hành động của mình gây rắc rối lớn đến thế.",
+        "enText": "Leo, surprised, looked at Thanks and Please. \"What? This is all my fault?\" he asked, feeling a little embarrassed as he realized his behavior was causing problems.",
+        "image": "http://localhost:3001/cdn/images/runi-va-hon-dao-phep-lich-su_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/runi-va-hon-dao-phep-lich-su_page_15.mp3"
+      },
+      {
+        "text": "\"Đúng vậy, Runi,\" Bác Cú Bu nhẹ nhàng đáp. \"Cách cư xử của cháu làm hòn đảo mất thăng bằng. Thẳng thắn là tốt, nhưng biết cư xử tử tế và tôn trọng người khác cũng quan trọng không kém.\"",
+        "enText": "\"Yes, Leo,\" Mr. Hoot said kindly. \"The way you act has unbalanced the island. It's important to be honest, but it's also essential to be kind and respectful.\"",
+        "image": "http://localhost:3001/cdn/images/runi-va-hon-dao-phep-lich-su_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/runi-va-hon-dao-phep-lich-su_page_16.mp3"
+      },
+      {
+        "text": "Runi cảm thấy nóng bừng cả mặt, cậu cúi gằm xuống. \"Vậy... cháu có thể làm gì để giúp không ạ?\" cậu lí nhí hỏi, lần đầu tiên tỏ ra khiêm tốn.",
+        "enText": "Leo, feeling more and more uncomfortable, hung his head. \"And... how can I help?\" he asked, finally showing a little humility.",
+        "image": "http://localhost:3001/cdn/images/runi-va-hon-dao-phep-lich-su_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/runi-va-hon-dao-phep-lich-su_page_17.mp3"
+      },
+      {
+        "text": "Bác Cú Bu mỉm cười gật đầu. \"Tốt lắm, Runi. Nếu cháu thực sự muốn giúp, ta sẽ dẫn cháu đi gặp các bạn Phép Lịch Sự khác. Để giúp các bạn ấy khỏe lại, cháu phải làm một điều gì đó khiến họ cảm thấy vui vẻ và được trân trọng.\"",
+        "enText": "Mr. Hoot nodded with a gentle smile. \"Very good, Leo. If you really want to help, I will take you to meet the different Manners. To give them back their energy, you will have to do something for them, something that makes them feel good and helps them recover.\"",
+        "image": "http://localhost:3001/cdn/images/runi-va-hon-dao-phep-lich-su_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/runi-va-hon-dao-phep-lich-su_page_18.mp3"
+      },
+      {
+        "text": "Quyết tâm sửa sai, Runi đồng ý ngay. Thế là Bác Cú Bu và Runi cùng nhau bắt đầu hành trình quanh đảo.",
+        "enText": "Leo, determined to fix his mistake, agreed. Together, Mr. Hoot and Leo began their journey across the island.",
+        "image": "http://localhost:3001/cdn/images/runi-va-hon-dao-phep-lich-su_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/runi-va-hon-dao-phep-lich-su_page_19.mp3"
+      },
+      {
+        "text": "Đi được một đoạn, họ đến bên một hồ nước trong vắt, nơi có một sinh vật màu xanh dương đang nằm bồng bềnh trên một chiếc lá sen to bản. Đó là Bạn Điềm Tĩnh 🕰️, đại diện cho sự kiên nhẫn. Trông bạn ấy có vẻ thư thái, nhưng khi lại gần, Runi thấy mắt bạn ấy cứ đảo qua đảo lại đầy lo âu.",
+        "enText": "As they walked, they came to a small lake with crystal-clear water, where a calm, blue creature was floating on a lily pad. It was Patience 🕰️, the Manner of patience. It looked relaxed, but as they got closer, Leo noticed its eyes were darting around restlessly.",
+        "image": "http://localhost:3001/cdn/images/runi-va-hon-dao-phep-lich-su_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/runi-va-hon-dao-phep-lich-su_page_20.mp3"
+      },
+      {
+        "text": "\"Có chuyện gì thế, Bạn Điềm Tĩnh?\" Bác Cú Bu hỏi thăm.",
+        "enText": "\"What's wrong, Patience?\" asked Mr. Hoot.",
+        "image": "http://localhost:3001/cdn/images/runi-va-hon-dao-phep-lich-su_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/runi-va-hon-dao-phep-lich-su_page_21.mp3"
+      },
+      {
+        "text": "\"Cháu đang mất dần sự bình tĩnh, Bác Cú Bu ơi,\" Bạn Điềm Tĩnh thở dài thườn thượt. \"Dạo này ai cũng vội vội vàng vàng, cháu chẳng tìm đâu ra sự yên bình vốn có nữa.\"",
+        "enText": "\"I'm losing my calm, Mr. Hoot,\" Patience replied with a sigh. \"Lately, everyone is in such a hurry, and I can't find the peace I used to have.\"",
+        "image": "http://localhost:3001/cdn/images/runi-va-hon-dao-phep-lich-su_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/runi-va-hon-dao-phep-lich-su_page_22.mp3"
+      },
+      {
+        "text": "Runi nhìn Bạn Điềm Tĩnh và cảm thấy hơi chột dạ. \"Tớ có thể giúp gì cho cậu không?\" cậu hỏi.",
+        "enText": "Leo looked at Patience and felt a little awkward. \"How can I help you?\" he asked.",
+        "image": "http://localhost:3001/cdn/images/runi-va-hon-dao-phep-lich-su_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/runi-va-hon-dao-phep-lich-su_page_23.mp3"
+      },
+      {
+        "text": "Bạn Điềm Tĩnh nhìn cậu với nụ cười hiền hậu. \"Cậu sẽ giúp tớ rất nhiều nếu cậu có thể ngồi yên ở đây cùng tớ, không nóng vội, chờ cho đến khi mặt trời lặn sau dãy núi kia. Đôi khi, kiên nhẫn chỉ đơn giản là biết chờ đợi đúng thời điểm.\"",
+        "enText": "Patience looked at him with a soft smile. \"It would help me a lot if you could wait here with me, without getting impatient, until the sun sets behind the mountains. Sometimes, patience is about knowing how to wait for the right moment.\"",
+        "image": "http://localhost:3001/cdn/images/runi-va-hon-dao-phep-lich-su_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/runi-va-hon-dao-phep-lich-su_page_24.mp3"
+      },
+      {
+        "text": "Runi, vốn là cậu bé hay \"sồn sồn\", chấp nhận thử thách. Cậu ngồi xuống bên cạnh Bạn Điềm Tĩnh và Bác Cú Bu, cùng nhau ngắm mặt trời từ từ trôi về phía chân trời. Lúc đầu, Runi ngọ nguậy không yên, nhưng dần dần, cậu bắt đầu cảm nhận được vẻ đẹp của hoàng hôn và sự dễ chịu của không gian yên tĩnh. Cuối cùng, khi mặt trời khuất hẳn, Bạn Điềm Tĩnh bừng sáng trở lại và mỉm cười đầy biết ơn.",
+        "enText": "Leo, who had always been impulsive, accepted the challenge. He sat down next to Patience and Mr. Hoot, and together they watched the sun move slowly across the sky. At first, Leo felt fidgety, but as time went by, he began to appreciate the beauty of the sunset and the quiet of the moment. Finally, when the sun disappeared, Patience regained its glow and smiled with gratitude.",
+        "image": "http://localhost:3001/cdn/images/runi-va-hon-dao-phep-lich-su_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/runi-va-hon-dao-phep-lich-su_page_25.mp3"
+      },
+      {
+        "text": "\"Cảm ơn cậu, Runi. Cậu đã chứng tỏ được lòng kiên nhẫn và học được cách trân trọng sự bình yên,\" Bạn Điềm Tĩnh nói, lấy lại vẻ thư thái thường ngày.",
+        "enText": "\"Thank you, Leo. You have shown patience and learned to value calmness,\" said Patience, back to its serene self.",
+        "image": "http://localhost:3001/cdn/images/runi-va-hon-dao-phep-lich-su_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/runi-va-hon-dao-phep-lich-su_page_26.mp3"
+      },
+      {
+        "text": "Sau khi giúp Bạn Điềm Tĩnh, Bác Cú Bu và Runi tiếp tục đi đến một khu vườn nơi hoa cỏ đang héo rũ. Ở đó, họ tìm thấy một sinh vật nhỏ màu tím với đôi mắt buồn rười rượi. Đó là Bạn Hối Lỗi 😔, đại diện cho sự tha thứ.",
+        "enText": "After helping Patience, Mr. Hoot and Leo continued on their way until they reached a garden full of withered flowers. There, they found a small purple creature with big, sad eyes. It was Sorry 😔, the Manner of forgiveness.",
+        "image": "http://localhost:3001/cdn/images/runi-va-hon-dao-phep-lich-su_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/runi-va-hon-dao-phep-lich-su_page_27.mp3"
+      },
+      {
+        "text": "\"Chào cháu, Bạn Hối Lỗi,\" Bác Cú Bu ân cần chào. \"Sao cháu buồn thế?\"",
+        "enText": "\"Hello, Sorry,\" greeted Mr. Hoot gently. \"What's troubling you?\"",
+        "image": "http://localhost:3001/cdn/images/runi-va-hon-dao-phep-lich-su_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/runi-va-hon-dao-phep-lich-su_page_28.mp3"
+      },
+      {
+        "text": "Bạn Hối Lỗi thở dài, cúi đầu thấp xuống. \"Dạo này cháu buồn lắm bác ạ. Chẳng ai chịu nhận lỗi khi làm sai cả, điều đó làm cháu cảm thấy mình như người vô hình vậy.\"",
+        "enText": "Sorry sighed and lowered its head. \"I've been feeling so much sadness lately. No one seems to want to apologize when they do something wrong, and that makes me feel invisible.\"",
+        "image": "http://localhost:3001/cdn/images/runi-va-hon-dao-phep-lich-su_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/runi-va-hon-dao-phep-lich-su_page_29.mp3"
+      },
+      {
+        "text": "Runi nghe vậy thì thấy áy náy vô cùng. Cậu nhận ra chính mình cũng chưa từng xin lỗi ai về những lỗi lầm đã gây ra. Cậu bước lại gần Bạn Hối Lỗi, chân thành nói: \"Tớ xin lỗi vì đã không tử tế và chu đáo. Tớ thật lòng xin lỗi vì cách cư xử của mình.\"",
+        "enText": "Leo felt bad hearing this and realized he hadn't apologized for his own mistakes. He walked over to Sorry and, in a sincere voice, said, \"I'm sorry for not being kind or thoughtful. I apologize for how I've acted.\"",
+        "image": "http://localhost:3001/cdn/images/runi-va-hon-dao-phep-lich-su_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/runi-va-hon-dao-phep-lich-su_page_30.mp3"
+      },
+      {
+        "text": "Lời nói của Runi khiến Bạn Hối Lỗi ngước lên, đầy ngạc nhiên. \"Cậu thực sự thấy có lỗi sao?\" bạn ấy hỏi, ánh mắt lóe lên tia hy vọng.",
+        "enText": "Leo's words made Sorry look up, surprised. \"Do you really mean it?\" it asked with a glimmer of hope in its eyes.",
+        "image": "http://localhost:3001/cdn/images/runi-va-hon-dao-phep-lich-su_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/runi-va-hon-dao-phep-lich-su_page_31.mp3"
+      },
+      {
+        "text": "\"Đúng vậy, tớ thật sự xin lỗi. Tớ đã không nhận ra lời nói của mình quan trọng đến thế nào,\" Runi đáp.",
+        "enText": "\"Yes, I'm truly sorry. I didn't realize how much my words mattered,\" Leo replied.",
+        "image": "http://localhost:3001/cdn/images/runi-va-hon-dao-phep-lich-su_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/runi-va-hon-dao-phep-lich-su_page_32.mp3"
+      },
+      {
+        "text": "Ngay lúc đó, Bạn Hối Lỗi tỏa sáng rực rỡ, và ngàn hoa xung quanh bỗng chốc hồi sinh, khoe sắc thắm. \"Cảm ơn cậu, Runi. Lời xin lỗi là món quà kỳ diệu có thể hàn gắn trái tim và mang lại sự hòa hợp,\" Bạn Hối Lỗi mỉm cười rạng rỡ.",
+        "enText": "At that moment, Sorry began to glow brightly, and the flowers all around it regained their color and life. \"Thank you, Leo. Forgiveness is a powerful gift that can heal hearts and restore harmony,\" said Sorry, smiling.",
+        "image": "http://localhost:3001/cdn/images/runi-va-hon-dao-phep-lich-su_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/runi-va-hon-dao-phep-lich-su_page_33.mp3"
+      },
+      {
+        "text": "Qua những cuộc gặp gỡ ấy, Runi bắt đầu hiểu rằng Phép Lịch Sự không chỉ là những quy tắc khô khan, mà là cách để thể hiện sự tôn trọng và quan tâm đến mọi người. Cậu nhận ra hành động và lời nói của mình có tác động lớn lao thế nào đến những người xung quanh.",
+        "enText": "Through these adventures, Leo began to understand that manners weren't just rules, but important ways to show respect and care for others. He realized that his actions and words could have a big impact on those around him.",
+        "image": "http://localhost:3001/cdn/images/runi-va-hon-dao-phep-lich-su_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/runi-va-hon-dao-phep-lich-su_page_34.mp3"
+      },
+      {
+        "text": "Cuối cùng, Bác Cú Bu quay sang cậu với ánh mắt hài lòng. \"Cháu đã học được một bài học quý giá rồi đấy, Runi. Thẳng thắn đôi khi lại thành thô lỗ. Sự tôn trọng, kiên nhẫn và tử tế không chỉ giúp ích cho người khác mà còn làm cho chính cháu cảm thấy hạnh phúc hơn.\"",
+        "enText": "Finally, Mr. Hoot turned to him with a satisfied look. \"You have learned a valuable lesson, Leo. Being blunt can sometimes be rude. Respect, patience, and kindness not only help others, but they also make you feel better about yourself.\"",
+        "image": "http://localhost:3001/cdn/images/runi-va-hon-dao-phep-lich-su_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/runi-va-hon-dao-phep-lich-su_page_35.mp3"
+      },
+      {
+        "text": "Khi Hòn Đảo Phép Lịch Sự đã lấy lại được sự cân bằng, mọi người quyết định tổ chức một bữa tiệc lớn để ăn mừng. Màu sắc rực rỡ lại tràn ngập khắp nơi, các bạn Phép Lịch Sự cùng nhau nhảy múa, cười đùa vui vẻ. Tiếng nhạc và tiếng cười giòn tan vang vọng khắp không gian, và Runi cảm thấy trái tim mình ấm áp lạ thường khi thấy mọi người hạnh phúc đến vậy.",
+        "enText": "With the Island of Manners back in balance, they decided to throw a big party to celebrate. Bright colors filled every corner of the island again, and all the Manners danced and laughed together, enjoying the happy moment. The sound of music and laughter filled the air, and Leo felt a warmth in his heart seeing everyone so happy.",
+        "image": "http://localhost:3001/cdn/images/runi-va-hon-dao-phep-lich-su_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/runi-va-hon-dao-phep-lich-su_page_36.mp3"
+      },
+      {
+        "text": "Đúng lúc bữa tiệc đang vui nhất, Runi cảm thấy một cơn gió mạnh lại cuốn lấy mình. Cậu mở choàng mắt và thấy mình đang ngồi lại trên căn gác xép ở nhà, tay vẫn ôm chặt cuốn sách cũ. Cậu chớp mắt, ngơ ngác, tự hỏi liệu tất cả có phải chỉ là một giấc mơ.",
+        "enText": "Just as the party was at its peak, Leo felt a strong wind swirl around him again. He opened his eyes and found himself back in the attic of his house, holding the old book of manners. He blinked, confused, wondering if it had all been just a dream.",
+        "image": "http://localhost:3001/cdn/images/runi-va-hon-dao-phep-lich-su_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/runi-va-hon-dao-phep-lich-su_page_37.mp3"
+      },
+      {
+        "text": "Nhưng khi nhớ lại những chuyến phiêu lưu và bài học trên đảo, cậu biết rằng có điều gì đó bên trong mình đã thay đổi. Kể từ ngày hôm đó, Runi quyết tâm sẽ luôn giữ gìn phép lịch sự, không để tính nết của mình làm buồn lòng ai nữa.",
+        "enText": "But as he remembered the adventures and the lessons learned on the island, he knew that something inside him had changed. From that day on, Leo decided he would always look out for manners, making sure they were never affected by his behavior.",
+        "image": "http://localhost:3001/cdn/images/runi-va-hon-dao-phep-lich-su_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/runi-va-hon-dao-phep-lich-su_page_38.mp3"
+      },
+      {
+        "text": "Bởi vì Runi đã hiểu rằng lời nói và hành động có sức mạnh phi thường: chúng có thể xây nên những cây cầu kết nối hoặc dựng lên những bức tường ngăn cách, có thể làm người ta cười hoặc khiến người ta khóc. Và cuối cùng, chọn sự tử tế bao giờ cũng là điều tuyệt vời nhất.",
+        "enText": "Because Leo had learned that words and actions have an incredible power: they can build bridges or create walls, make someone smile or make someone cry. And, in the end, it's always better to choose kindness.",
+        "image": "http://localhost:3001/cdn/images/runi-va-hon-dao-phep-lich-su_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/runi-va-hon-dao-phep-lich-su_page_39.mp3"
+      },
+      {
+        "text": "Và thế là, Hòn Đảo Phép Lịch Sự mãi mãi bình yên, nhờ vào một cậu bé nhỏ đã hiểu được giá trị của những lời nói đẹp ✨.",
+        "enText": "And so, the Island of Manners remained in balance, thanks to a little boy who understood the importance of nice words ✨.",
+        "image": "http://localhost:3001/cdn/images/runi-va-hon-dao-phep-lich-su_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/runi-va-hon-dao-phep-lich-su_page_40.mp3"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Hành trình đến Ngọn Núi Hy Vọng",
+    "slug": "hanh-trinh-den-ngon-nui-hy-vong",
+    "category": "Truyện giáo dục nhân cách, Truyện về tình bạn",
+    "age": "6-10 tuổi",
+    "duration": "8 phút",
+    "rating": 4.8,
+    "audio": true,
+    "color": "#FFF8DC",
+    "badgeColor": "#DAA520",
+    "image": "🏔️",
+    "coverImageUrl": "http://localhost:3001/cdn/images/hanh-trinh-den-ngon-nui-hy-vong_cover.png",
+    "description": "Một câu chuyện ấm áp về cựu nữ chiến binh vũ trụ và chú rái cá cưng trên hành tinh lạ. Chuyến phiêu lưu dạy cho các bé bài học quý giá về lòng kiên nhẫn, tình bạn và cách tận hưởng niềm vui trên mỗi chặng đường.",
+    "moral": "Tình bạn và sự hy vọng sẽ dẫn lối chúng ta vượt qua mọi giông bão.",
+    "audioDuration": 240,
+    "author": "Runruneando",
+    "pages": [
+      {
+        "text": "Ở một góc nhỏ xa xôi của vũ trụ bao la, trên hành tinh có tên là Zaltara, có một nữ chiến binh vũ trụ đã giải ngũ tên là Trekxor. Sau bao năm tháng chiến đấu giữa các vì sao, Trekxor đã chuyển đến sống tại thế giới kỳ lạ này, nơi những ngọn núi được bao phủ bởi những đám mây vướng vít trên thảm thực vật xanh rì, và những dòng sông lấp lánh sắc màu cầu vồng. Dù Zaltara đẹp như một bức tranh, trong lòng cô vẫn luôn có một nỗi bồn chồn: cô nhớ Trái Đất và khao khát được gặp lại gia đình. Bên cạnh cô luôn có người bạn đồng hành trung thành là Bi Tròn, một chú rái cá có đôi mắt tò mò và trái tim vui vẻ, luôn tìm mọi cách để mang lại nụ cười cho cô mỗi khi nỗi nhớ nhà ùa về.",
+        "enText": "In a faraway corner of the universe, on a planet called Zaltara, lived Zara, a former space marine. After years of battles among the stars, Zara had been assigned to an exotic world, where mountains were draped in clouds that snagged on lush plants and rivers shimmered with iridescent colors. Despite Zaltara's beauty, something kept her restless: her desire to return to Earth and see her family. By her side was always her loyal companion, Pip, an otter with curious eyes and a cheerful heart, who did his best to make her smile whenever she felt homesick.",
+        "image": "http://localhost:3001/cdn/images/hanh-trinh-den-ngon-nui-hy-vong_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/hanh-trinh-den-ngon-nui-hy-vong_page_1.mp3"
+      },
+      {
+        "text": "Một ngày nọ, khi Trekxor đang kiểm tra phi thuyền của mình, cô phát hiện ra tinh thể năng lượng dùng để khởi động động cơ đã cạn kiệt. Không có tinh thể đó, cô sẽ bị mắc kẹt mãi mãi ở Zaltara và không còn cơ hội trở về nhà. Thất vọng, cô đấm mạnh tay vào thân tàu, cảm thấy sự nóng nảy đang dâng trào trong lòng. Nhưng Bi Tròn liền nhảy phắt lên vai cô, dùng cái mũi ươn ướt dụi nhẹ vào má cô, như muốn nói: \"Mọi chuyện rồi sẽ ổn thôi mà\" 🦦.",
+        "enText": "One day, while Zara was checking her ship, she discovered that the energy crystal powering its engine had run out. Without that crystal, she was stranded on Zaltara, with no way to get home. Frustrated, she banged her fist against the side of the ship, feeling impatience bubble up inside her. But Pip hopped onto her shoulder, nudging her with his little wet nose, as if to say, \"Everything will be okay.\" 🦦.",
+        "image": "http://localhost:3001/cdn/images/hanh-trinh-den-ngon-nui-hy-vong_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/hanh-trinh-den-ngon-nui-hy-vong_page_2.mp3"
+      },
+      {
+        "text": "Được khích lệ bởi sự lạc quan của Bi Tròn, Trekxor nhớ lại những câu chuyện truyền thuyết về Ngọn Núi Hy Vọng, một nơi linh thiêng nằm giữa trái tim của Zaltara, nơi cất giữ nguồn năng lượng mạnh mẽ nhất hành tinh. Nếu đến được đó, có lẽ cô sẽ sạc đầy lại được tinh thể và cuối cùng có thể trở về Trái Đất. Với lòng quyết tâm mới, cùng Bi Tròn bên cạnh, Trekxor bắt đầu hành trình hướng về phía ngọn núi.",
+        "enText": "Inspired by Pip's positive attitude, Zara remembered stories about Hope Mountain, a legendary place in the heart of Zaltara that held the planet's most powerful energy source. If she could get there, maybe she could recharge the crystal and finally return to Earth. With new determination, and Pip by her side, Zara began her journey to the mountain.",
+        "image": "http://localhost:3001/cdn/images/hanh-trinh-den-ngon-nui-hy-vong_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/hanh-trinh-den-ngon-nui-hy-vong_page_3.mp3"
+      },
+      {
+        "text": "Đường đến Ngọn Núi Hy Vọng chẳng hề dễ dàng, và thử thách đầu tiên sớm xuất hiện: một dòng sông dung nham lạnh lẽo uốn lượn qua thung lũng. Dung nham tỏa sáng với sắc xanh lam và xanh lục, tỏa ra hơi nóng nhẹ nhàng nhưng liên tục. Dòng sông này rất đánh lừa thị giác, nó không nóng bỏng như dung nham ở Trái Đất, nhưng lại có tính ăn mòn khủng khiếp. Trekxor, với kinh nghiệm dày dạn, nhanh chóng dùng những vật liệu tìm thấy trong phi thuyền để dựng một chiếc cầu tạm, giúp Bi Tròn băng qua an toàn. Cả hai cùng tiến bước cẩn trọng, nương tựa vào nhau qua từng bước chân.",
+        "enText": "The path to Hope Mountain was not going to be easy, and they soon met their first challenge: a river of cool lava that snaked through a valley. The lava glowed in shades of blue and green, giving off a gentle but constant warmth. It was tricky—it didn't burn like the lava on Earth, but it was super corrosive. Zara, using her military training, quickly built a makeshift bridge with materials from her ship, helping Pip cross safely. Together, they moved forward carefully, supporting each other with every step.",
+        "image": "http://localhost:3001/cdn/images/hanh-trinh-den-ngon-nui-hy-vong_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/hanh-trinh-den-ngon-nui-hy-vong_page_4.mp3"
+      },
+      {
+        "text": "Khi tiến sâu hơn vào Zaltara, họ lạc vào một khu rừng với những cái cây biết hát. Những giai điệu du dương tràn ngập không gian, và từng chiếc lá rung rinh theo mỗi nốt nhạc 🎶. Tuy nhiên, khi họ cố gắng đi qua, cây cối liền khép chặt cành lá, chặn đứng lối đi. Trekxor thử dùng dao để chặt bớt vài cành cây, nhưng điều đó chỉ khiến tiếng hát của khu rừng trở nên to hơn, mang âm hưởng thách thức.",
+        "enText": "As they ventured deeper into Zaltara, they came across a forest of singing plants. The melodies filled the air, and the leaves on the trees vibrated with every note 🎶. However, as they tried to pass, the plants closed their branches, blocking the way. Zara tried to cut some branches with her knife, but that only made the plants sing louder, in a defiant tone.",
+        "image": "http://localhost:3001/cdn/images/hanh-trinh-den-ngon-nui-hy-vong_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/hanh-trinh-den-ngon-nui-hy-vong_page_5.mp3"
+      },
+      {
+        "text": "Bực bội, cô ngồi phịch xuống đất, ôm đầu chán nản. \"Tại sao chúng ta không thể cứ thế mà đi tiếp chứ?\" cô lầm bầm. Nhưng Bi Tròn, với tinh thần lạc quan không gì lay chuyển, bắt đầu lắc lư cái thân hình nhỏ bé theo nhịp điệu của âm nhạc. Trekxor ngạc nhiên nhìn chú rái cá làm cho cây cối tự động mở lối theo từng bước nhảy, và với nụ cười trên môi, cô quyết định làm theo người bạn nhỏ. Cuối cùng, họ nhận ra rằng loài cây này chỉ đáp lại sự kiên nhẫn và hòa hợp, và nhờ thế, họ đã có thể tiếp tục hành trình.",
+        "enText": "Frustrated, she sank to the ground, resting her head in her hands.",
+        "image": "http://localhost:3001/cdn/images/hanh-trinh-den-ngon-nui-hy-vong_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/hanh-trinh-den-ngon-nui-hy-vong_page_6.mp3"
+      },
+      {
+        "text": "Trên suốt chặng đường, Trekxor và Bi Tròn còn đối mặt với nhiều trở ngại khác, mỗi thử thách lại dạy cho họ một bài học về sự kiên trì và tinh thần đồng đội. Zaltara, với tất cả những bí ẩn của nó, đang dạy cho Trekxor hiểu rằng không phải lúc nào sức mạnh và tốc độ cũng giải quyết được vấn đề; đôi khi, ta cần dừng lại lắng nghe, quan sát và học hỏi từ thế giới xung quanh.",
+        "enText": "—\"Why can't we just get through?\" she mumbled.",
+        "image": "http://localhost:3001/cdn/images/hanh-trinh-den-ngon-nui-hy-vong_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/hanh-trinh-den-ngon-nui-hy-vong_page_7.mp3"
+      },
+      {
+        "text": "Cuối cùng, họ cũng đến được chân Ngọn Núi Hy Vọng, sừng sững vươn cao lên bầu trời với vách núi dựng đứng hiểm trở. Những đám mây bao quanh đỉnh núi như một chiếc vương miện, và ở trung tâm, một luồng ánh sáng nhấp nháy báo hiệu nơi chứa nguồn năng lượng.",
+        "enText": "But Pip, with his unbreakable optimism, started to move to the rhythm of the music, swaying his little body from side to side. Zara watched as the little otter made the plants open up for him, and with a smile, she decided to follow his lead. In the end, they discovered that the plants responded to patience and harmony, and just like that, they were able to continue on their way.",
+        "image": "http://localhost:3001/cdn/images/hanh-trinh-den-ngon-nui-hy-vong_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/hanh-trinh-den-ngon-nui-hy-vong_page_8.mp3"
+      },
+      {
+        "text": "Trekxor, với sự giúp đỡ của Bi Tròn, bắt đầu leo lên. Mỗi bước chân là một thử thách, nhưng cũng là cơ hội để chứng minh những gì cô đã học được. Khi đến được trái tim của ngọn núi, cô cảm nhận được một sự bình yên lạ kỳ. Nguồn năng lượng mà cô tìm kiếm bấy lâu đang lơ lửng trong một hang động rực rỡ. Nó đẹp tuyệt vời, tỏa ra ánh sáng dịu nhẹ sưởi ấm cả không gian.",
+        "enText": "Throughout their journey, Zara and Pip faced several more obstacles, each one teaching them a lesson about patience and cooperation. Zaltara, with all its mysteries, was showing Zara that not everything was about strength and speed; sometimes, you have to stop and listen, watch, and learn from the world around you.",
+        "image": "http://localhost:3001/cdn/images/hanh-trinh-den-ngon-nui-hy-vong_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/hanh-trinh-den-ngon-nui-hy-vong_page_9.mp3"
+      },
+      {
+        "text": "Cầm tinh thể trên tay, Trekxor đặt nó vào trung tâm nguồn năng lượng, hy vọng nó sẽ đầy ngay lập tức. Nhưng ngạc nhiên thay, tinh thể bắt đầu nạp điện một cách vô cùng chậm rãi, từng nhịp sáng chầm chậm len lỏi vào bên trong.",
+        "enText": "Finally, they reached the base of Hope Mountain, which rose majestically into the sky, its bottom steep and treacherous. Clouds circled it like a crown, and in its center, a pulsing light showed where the energy source was located.",
+        "image": "http://localhost:3001/cdn/images/hanh-trinh-den-ngon-nui-hy-vong_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/hanh-trinh-den-ngon-nui-hy-vong_page_10.mp3"
+      },
+      {
+        "text": "Thay vì để sự nóng vội chi phối, Trekxor quyết định tận dụng thời gian này để khám phá thêm về Zaltara cùng Bi Tròn. Họ bơi lội trong những dòng sông lấp lánh, trò chuyện với những cái cây biết hát và đơn giản là tận hưởng cuộc sống trên hành tinh xa xôi này. Lần đầu tiên sau rất nhiều năm, cô cho phép mình thư giãn và trân trọng khoảnh khắc hiện tại.",
+        "enText": "Zara, with Pip’s help, began the climb. Every step was a challenge, but it was also a chance to show what she had learned. When she reached the heart of the mountain, she felt an unexpected peace. The energy source she had been searching for was right there, floating in a glowing cavern. It was beautiful, radiating a soft light that filled the space with a warm glow.",
+        "image": "http://localhost:3001/cdn/images/hanh-trinh-den-ngon-nui-hy-vong_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/hanh-trinh-den-ngon-nui-hy-vong_page_11.mp3"
+      },
+      {
+        "text": "Khi tinh thể cuối cùng cũng được nạp đầy, Trekxor không còn cảm thấy vội vã như trước nữa. Với nụ cười bình thản, cô khởi động động cơ phi thuyền và bắt đầu hành trình trở về Trái Đất 🚀.",
+        "enText": "With the crystal in her hand, Zara placed it in the center of the source, expecting it to recharge instantly. To her surprise, the crystal began to charge very, very slowly, sending out pulses of light that took a long time to fill the energy chamber.",
+        "image": "http://localhost:3001/cdn/images/hanh-trinh-den-ngon-nui-hy-vong_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/hanh-trinh-den-ngon-nui-hy-vong_page_12.mp3"
+      },
+      {
+        "text": "Chuyến hồi hương thật đầy cảm xúc khi băng qua những cánh đồng sao và các tinh vân rực rỡ. Từ xa, Trái Đất hiện ra như một viên ngọc xanh biếc, xinh đẹp và thân thương. Khi hạ cánh, gia đình cô đã chờ sẵn, và cuộc đoàn tụ vỡ òa trong những cái ôm và giọt nước mắt hạnh phúc.",
+        "enText": "Instead of letting impatience take over, Zara decided to use the time to explore more of Zaltara with Pip, swimming in the iridescent rivers, chatting with the singing plants, and simply appreciating life on the faraway planet. For the first time in a long while, she allowed herself to relax and enjoy the present moment.",
+        "image": "http://localhost:3001/cdn/images/hanh-trinh-den-ngon-nui-hy-vong_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/hanh-trinh-den-ngon-nui-hy-vong_page_13.mp3"
+      },
+      {
+        "text": "Nhưng có điều gì đó đã thay đổi trong Trekxor. Zaltara đã dạy cô rằng, đôi khi, những điều quý giá nhất trong cuộc sống cần thời gian, sự kiên nhẫn và tâm thế sẵn sàng tận hưởng cuộc hành trình. Và khi ôm lấy gia đình, cô hiểu rằng giá trị của khoảnh khắc này không chỉ nằm ở cuộc gặp gỡ, mà còn ở tất cả những gì cô đã học được để về đến đây.",
+        "enText": "When the crystal was finally fully charged, Zara didn't feel the same rush she had before. With a calm smile, she started her ship's engines and began the journey back to Earth 🚀.",
+        "image": "http://localhost:3001/cdn/images/hanh-trinh-den-ngon-nui-hy-vong_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/hanh-trinh-den-ngon-nui-hy-vong_page_14.mp3"
+      },
+      {
+        "text": "Bi Tròn, tất nhiên, cũng ở đó, đón nhận những cái vuốt ve yêu thương từ mọi người, và chú biết rằng, cuối cùng thì mọi chuyện đều tốt đẹp cả thôi. 🦦",
+        "enText": "The trip home was exciting, flying through fields of stars and shimmering nebulas. In the distance, Earth appeared like a blue jewel, beautiful and familiar. When she landed, her family was waiting, and their reunion was emotional, full of hugs and happy tears.",
+        "image": "http://localhost:3001/cdn/images/hanh-trinh-den-ngon-nui-hy-vong_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/hanh-trinh-den-ngon-nui-hy-vong_page_15.mp3"
+      },
+      {
+        "text": "Bài học nhỏ: \"Những điều tốt đẹp luôn cần thời gian\" – Đôi khi, những thứ quý giá nhất trong đời đòi hỏi sự kiên nhẫn, và việc vội vàng có thể khiến chúng ta bỏ lỡ những bài học và vẻ đẹp trên suốt chặng đường đi.",
+        "enText": "But something in Zara had changed. Zaltara had taught her that sometimes, the most valuable things in life require time, patience, and a willingness to enjoy the journey. And as she hugged her family, she understood that the value of that moment wasn't just in being reunited, but in everything she had learned to get there.",
+        "image": "http://localhost:3001/cdn/images/hanh-trinh-den-ngon-nui-hy-vong_cover.png",
+        "audioUrl": "http://localhost:3001/cdn/audio/hanh-trinh-den-ngon-nui-hy-vong_page_16.mp3"
+      }
+    ]
+  }
+]
