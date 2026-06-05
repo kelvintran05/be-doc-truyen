@@ -1,0 +1,299 @@
+@import "tailwindcss";
+
+@theme {
+  /* Fonts */
+  --font-sans: var(--font-quicksand-next), var(--font-zen-maru-gothic), sans-serif;
+  --font-serif: var(--font-lora), serif;
+  --font-fredoka: var(--font-fredoka-next), var(--font-zen-maru-gothic), sans-serif;
+  --font-quicksand: var(--font-quicksand-next), sans-serif;
+
+  /* Color Palette (Semantic Tokens) - Japanese Zen-Cute Theme */
+  --color-border-default: #4A3F35; /* Warm Sumi Ink / Charcoal Sepia */
+  --color-text-secondary: oklch(0.554 0.046 257.417);
+  --color-text-tertiary: oklch(0.704 0.04 256.788);
+  --color-surface-base: #2D3238; /* Soft Charcoal instead of absolute black */
+  --color-surface-muted: #ffffff;
+  --color-surface-raised: #FAF8F5; /* Warm cream-white card surface */
+  --color-surface-strong: #FAF6EE; /* Washi paper warm cream base */
+  --color-focus-ring: oklab(0.625468 -0.0333733 -0.183575 / 0.5);
+
+  /* Spacing Scale */
+  --spacing-space-1: 4px;
+  --spacing-space-2: 10px;
+  --spacing-space-3: 12px;
+  --spacing-space-4: 16px;
+  --spacing-space-5: 20px;
+  --spacing-space-6: 24px;
+  --spacing-space-7: 272px;
+
+  /* Typography / Text Sizes */
+  --text-xs: 14px;
+  --text-sm: 16px;
+  --text-md: 20px;
+  --text-lg: 24px;
+  --text-xl: 48px;
+
+  /* Radius Scale */
+  --radius-radius-xs: 24px;
+  --radius-radius-sm: 16777200px;
+
+  /* Shadows (Flat/Offset Neobrutalism in Sumi Ink style) */
+  --shadow-shadow-1: 4px 4px 0px 0px #4A3F35;
+  --shadow-shadow-2: 2px 2px 0px 0px #4A3F35;
+
+  /* Transitions */
+  --transition-duration-instant: 150ms;
+}
+
+/* Custom Base Styles */
+@layer base {
+  body {
+    background: radial-gradient(circle at top, #FFFDFC 0%, #FAF6EE 60%, #F5EFE2 100%);
+    color: var(--color-surface-base);
+    font-family: var(--font-sans);
+    margin: 0;
+    padding: 0;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+    font-weight: 700;
+    color: var(--color-surface-base);
+  }
+}
+
+@layer utilities {
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .animate-float-slow {
+    animation: float 9s ease-in-out infinite;
+  }
+
+  .animate-sparkle {
+    animation: sparkle 4s linear infinite;
+  }
+
+  .animate-sakura-fall {
+    animation: sakuraFall 12s linear infinite;
+  }
+
+  .bg-pastel-surface {
+    background: radial-gradient(circle at top left, rgba(255, 183, 197, 0.22), transparent 40%),
+                radial-gradient(circle at 80% 20%, rgba(143, 167, 129, 0.12), transparent 30%),
+                #FAF6EE;
+  }
+
+  .cute-input {
+    border-radius: 9999px;
+    background: rgba(255, 255, 255, 0.94);
+    border: 1px solid rgba(74, 63, 53, 0.2) !important;
+    box-shadow: inset 0 2px 4px rgba(74, 63, 53, 0.04);
+    transition: all 0.2s ease;
+  }
+  .cute-input:focus {
+    outline: none;
+    border-color: #8FA781 !important;
+    box-shadow: 0 0 0 3px rgba(143, 167, 129, 0.25), inset 0 1px 2px rgba(74, 63, 53, 0.04);
+  }
+
+  /* Authentic Japanese Zen-Cute Card style */
+  .washi-card {
+    background: #FFFDFC;
+    border: 1px solid rgba(74, 63, 53, 0.12);
+    border-radius: 28px;
+    box-shadow: 0 10px 30px -5px rgba(74, 63, 53, 0.05), 0 4px 12px -2px rgba(74, 63, 53, 0.02);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+  .washi-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 20px 40px -10px rgba(74, 63, 53, 0.09), 0 8px 20px -4px rgba(74, 63, 53, 0.04);
+    border-color: rgba(74, 63, 53, 0.22);
+  }
+
+  /* Traditional Hanko Seal (Red stamp) */
+  .hanko-seal {
+    background-color: #E55B5B;
+    color: #ffffff;
+    border: 1px solid #D14949;
+    font-weight: 800;
+    border-radius: 4px;
+    box-shadow: inset 0 0 4px rgba(255, 255, 255, 0.15), 0 2px 4px rgba(229, 91, 91, 0.2);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+  }
+
+  /* Traditional Embroidery Sashiko-stitched Badge */
+  .zen-badge {
+    display: inline-flex;
+    align-items: center;
+    font-size: 11px;
+    font-weight: 800;
+    padding: 2px 10px;
+    border-radius: 9999px;
+    border: 1px dashed rgba(74, 63, 53, 0.3);
+    background: rgba(255, 255, 255, 0.85);
+    color: #5C5043;
+    backdrop-filter: blur(4px);
+  }
+
+  /* Soft Japanese-style Buttons */
+  .zen-btn-sakura {
+    background: #FFB7C5;
+    color: #383029;
+    border: 1px solid rgba(74, 63, 53, 0.18);
+    border-radius: 9999px;
+    box-shadow: 0 4px 12px -2px rgba(229, 91, 91, 0.2);
+    font-weight: 700;
+    transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+  .zen-btn-sakura:hover {
+    background: #FFA4B5;
+    transform: translateY(-1.5px);
+    box-shadow: 0 8px 16px -2px rgba(229, 91, 91, 0.3);
+  }
+  .zen-btn-sakura:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 6px -1px rgba(229, 91, 91, 0.2);
+  }
+
+  .zen-btn-matcha {
+    background: #8FA781;
+    color: #383029;
+    border: 1px solid rgba(74, 63, 53, 0.18);
+    border-radius: 9999px;
+    box-shadow: 0 4px 12px -2px rgba(143, 167, 129, 0.2);
+    font-weight: 700;
+    transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+  .zen-btn-matcha:hover {
+    background: #7D956F;
+    transform: translateY(-1.5px);
+    box-shadow: 0 8px 16px -2px rgba(143, 167, 129, 0.3);
+  }
+  .zen-btn-matcha:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 6px -1px rgba(143, 167, 129, 0.2);
+  }
+
+  .zen-btn-white {
+    background: #ffffff;
+    color: #5C5043;
+    border: 1px solid rgba(74, 63, 53, 0.15);
+    border-radius: 9999px;
+    box-shadow: 0 4px 12px -2px rgba(74, 63, 53, 0.05);
+    font-weight: 700;
+    transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+  .zen-btn-white:hover {
+    background: #FAF8F5;
+    transform: translateY(-1.5px);
+    box-shadow: 0 8px 16px -2px rgba(74, 63, 53, 0.1);
+  }
+  .zen-btn-white:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 6px -1px rgba(74, 63, 53, 0.05);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes float-left-book {
+  0%, 100% {
+    transform: translateY(0) rotate(-12deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(-15deg);
+  }
+}
+
+@keyframes float-right-book {
+  0%, 100% {
+    transform: translateY(0) rotate(12deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(15deg);
+  }
+}
+
+@keyframes float-center-book {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-12px) rotate(1.5deg);
+  }
+}
+
+@keyframes float-back-card {
+  0%, 100% {
+    transform: translateY(0) rotate(-3deg) scale(0.95);
+  }
+  50% {
+    transform: translateY(-6px) rotate(-4.5deg) scale(0.95);
+  }
+}
+
+@keyframes float-front-card {
+  0%, 100% {
+    transform: translateY(0) rotate(2deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(-0.5deg);
+  }
+}
+
+@keyframes sparkle {
+  0%, 100% {
+    opacity: 0.25;
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(-6px) scale(1.05);
+  }
+}
+
+@keyframes sakuraFall {
+  0% {
+    transform: translateY(-5vh) translateX(0) rotate(0deg) scale(0.6);
+    opacity: 0;
+  }
+  15% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 0.9;
+  }
+  100% {
+    transform: translateY(105vh) translateX(100px) rotate(360deg) scale(1.2);
+    opacity: 0;
+  }
+}
+
+@layer utilities {
+  .animate-float-left-book {
+    animation: float-left-book 6s ease-in-out infinite;
+  }
+  .animate-float-right-book {
+    animation: float-right-book 7s ease-in-out infinite;
+  }
+  .animate-float-center-book {
+    animation: float-center-book 5s ease-in-out infinite;
+  }
+  .animate-float-back-card {
+    animation: float-back-card 8s ease-in-out infinite;
+  }
+  .animate-float-front-card {
+    animation: float-front-card 6s ease-in-out infinite;
+  }
+}
