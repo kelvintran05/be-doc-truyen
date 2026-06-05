@@ -10,7 +10,7 @@ import { decryptPayload } from "@/lib/crypto";
 import { Course } from "@/lib/courses";
 import { cn } from "@/lib/utils";
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3001";
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://be-doc-truyen.onrender.com";
 
 export default function CourseDetailPage() {
   const { slug } = useParams<{ slug: string }>();

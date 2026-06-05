@@ -86,7 +86,7 @@ export default function StoryDetailPage() {
   // Fetch story details
   React.useEffect(() => {
     setIsLoading(true);
-    const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3001";
+    const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://be-doc-truyen.onrender.com";
 
     fetch(`${API_URL}/stories/${storyId}`)
       .then((res) => {

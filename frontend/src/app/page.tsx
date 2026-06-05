@@ -21,7 +21,7 @@ import {
 import { decryptPayload } from "@/lib/crypto";
 import { Story } from "@/lib/stories";
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3001";
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://be-doc-truyen.onrender.com";
 
 export default function Home() {
   const [stories, setStories] = React.useState<Story[]>([]);

@@ -9,7 +9,7 @@ import { Sparkles, Trophy, BookOpen, ArrowLeft, ArrowRight } from "lucide-react"
 import { decryptPayload } from "@/lib/crypto";
 import { Course } from "@/lib/courses";
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3001";
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://be-doc-truyen.onrender.com";
 
 export default function CoursesPage() {
   const [courses, setCourses] = React.useState<Course[]>([]);

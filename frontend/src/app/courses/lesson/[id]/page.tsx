@@ -10,7 +10,7 @@ import { decryptPayload } from "@/lib/crypto";
 import { Lesson } from "@/lib/courses";
 import { cn } from "@/lib/utils";
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3001";
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://be-doc-truyen.onrender.com";
 
 // Mock vocabulary data for L101 - L102
 const VOCAB_DATA: Record<number, Array<{ word: string; ipa: string; definition: string; vietnamese: string; example: string }>> = {
