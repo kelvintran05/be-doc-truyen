@@ -44,23 +44,23 @@ export default function Home() {
   const previewStory = {
     title: "Luna & Bầu Trời Sao",
     subtitle: "ルナ và Sao 🌸",
-    cover: `${API_URL}/cdn/images/luna-va-nhung-ngoi-sao-nhap-nhay_page_1.png`,
+    cover: "https://pub-2d617d75d4a64687a9a6cb128a9fcb50.r2.dev/images/luna-va-nhung-ngoi-sao-nhap-nhay_page_1.png",
     pages: [
       {
         text: "Một đêm hè yên tĩnh, cô bé thỏ Luna nằm trên bãi cỏ ngắm bầu trời. Trên cao, hàng ngàn ngôi sao đang lấp lánh nhấp nháy, tựa như những chiếc đèn nhỏ.",
-        illustration: `${API_URL}/cdn/images/luna-va-nhung-ngoi-sao-nhap-nhay_page_1.png`
+        illustration: "https://pub-2d617d75d4a64687a9a6cb128a9fcb50.r2.dev/images/luna-va-nhung-ngoi-sao-nhap-nhay_page_1.png"
       },
       {
         text: "Luna thắc mắc: 'Tại sao các ngôi sao lại nhấp nháy nhỉ?' Sáng hôm sau, cô bé mang câu hỏi đến gặp bác Cú thông thái ở cây sồi lớn.",
-        illustration: `${API_URL}/cdn/images/luna-va-nhung-ngoi-sao-nhap-nhay_page_2.png`
+        illustration: "https://pub-2d617d75d4a64687a9a6cb128a9fcb50.r2.dev/images/luna-va-nhung-ngoi-sao-nhap-nhay_page_2.png"
       },
       {
         text: "Đêm đến, bác Cú dẫn Luna ra cánh đồng rộng, lấy tấm khăn mỏng đưa qua đưa lại trước chiếc đèn pin. 'Không khí chuyển động làm bẻ cong ánh sáng đó cháu!'",
-        illustration: `${API_URL}/cdn/images/luna-va-nhung-ngoi-sao-nhap-nhay_page_4.png`
+        illustration: "https://pub-2d617d75d4a64687a9a6cb128a9fcb50.r2.dev/images/luna-va-nhung-ngoi-sao-nhap-nhay_page_4.png"
       },
       {
         text: "Luna reo lên: 'Hóa ra bầu trời đang chơi trò nhấp nháy trốn tìm với mình!' Từ đó, cô bé ngủ thật ngon dưới ánh sao lấp lánh tuyệt đẹp.",
-        illustration: `${API_URL}/cdn/images/luna-va-nhung-ngoi-sao-nhap-nhay_page_8.png`
+        illustration: "https://pub-2d617d75d4a64687a9a6cb128a9fcb50.r2.dev/images/luna-va-nhung-ngoi-sao-nhap-nhay_page_8.png"
       }
     ]
   };
