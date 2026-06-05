@@ -37,6 +37,56 @@ export default function Home() {
 
   const [showScrollTop, setShowScrollTop] = React.useState(false);
 
+  // States for 3D preview book
+  const [bookOpen, setBookOpen] = React.useState(false);
+  const [bookPage, setBookPage] = React.useState(0);
+
+  const previewStory = {
+    title: "Luna & Bầu Trời Sao",
+    subtitle: "ルナ và Sao 🌸",
+    cover: `${API_URL}/cdn/images/luna-va-nhung-ngoi-sao-nhap-nhay_page_1.png`,
+    pages: [
+      {
+        text: "Một đêm hè yên tĩnh, cô bé thỏ Luna nằm trên bãi cỏ ngắm bầu trời. Trên cao, hàng ngàn ngôi sao đang lấp lánh nhấp nháy, tựa như những chiếc đèn nhỏ.",
+        illustration: `${API_URL}/cdn/images/luna-va-nhung-ngoi-sao-nhap-nhay_page_1.png`
+      },
+      {
+        text: "Luna thắc mắc: 'Tại sao các ngôi sao lại nhấp nháy nhỉ?' Sáng hôm sau, cô bé mang câu hỏi đến gặp bác Cú thông thái ở cây sồi lớn.",
+        illustration: `${API_URL}/cdn/images/luna-va-nhung-ngoi-sao-nhap-nhay_page_2.png`
+      },
+      {
+        text: "Đêm đến, bác Cú dẫn Luna ra cánh đồng rộng, lấy tấm khăn mỏng đưa qua đưa lại trước chiếc đèn pin. 'Không khí chuyển động làm bẻ cong ánh sáng đó cháu!'",
+        illustration: `${API_URL}/cdn/images/luna-va-nhung-ngoi-sao-nhap-nhay_page_4.png`
+      },
+      {
+        text: "Luna reo lên: 'Hóa ra bầu trời đang chơi trò nhấp nháy trốn tìm với mình!' Từ đó, cô bé ngủ thật ngon dưới ánh sao lấp lánh tuyệt đẹp.",
+        illustration: `${API_URL}/cdn/images/luna-va-nhung-ngoi-sao-nhap-nhay_page_8.png`
+      }
+    ]
+  };
+
+  const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
+    const card = e.currentTarget;
+    const rect = card.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+    const centerX = rect.width / 2;
+    const centerY = rect.height / 2;
+    const rotateX = ((y - centerY) / centerY) * -10; // max tilt -10 to 10 deg
+    const rotateY = ((x - centerX) / centerX) * 10;  // max tilt -10 to 10 deg
+    card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale3d(1.03, 1.03, 1.03)`;
+    card.style.boxShadow = `0 20px 40px rgba(74, 63, 53, 0.12)`;
+    card.style.zIndex = `10`;
+  };
+
+  const handleMouseLeave = (e: React.MouseEvent<HTMLDivElement>) => {
+    const card = e.currentTarget;
+    card.style.transform = `perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)`;
+    card.style.boxShadow = ``;
+    card.style.zIndex = ``;
+  };
+
+
   // Floating Sakura Petals state (initialized empty to prevent hydration mismatch)
   const [sakuraPetals, setSakuraPetals] = React.useState<
     {
@@ -201,17 +251,18 @@ export default function Home() {
       <main className="flex-1 flex flex-col relative z-10">
         {/* HERO SECTION */}
         <section className="relative w-full py-20 md:py-28 px-space-4 md:px-space-5 bg-pastel-surface border-b border-[#4A3F35]/12 overflow-hidden">
-          {/* Decorative glowing elements and background elements */}
-          <div className="absolute top-8 left-8 w-24 h-24 rounded-full bg-[#FFB7C5]/12 blur-2xl animate-float pointer-events-none hidden md:block" />
-          <div className="absolute top-24 right-16 w-32 h-32 rounded-full bg-[#8FA781]/12 blur-2xl animate-float-slow pointer-events-none hidden md:block" />
-          <div className="absolute bottom-14 left-16 w-28 h-28 rounded-full bg-[#FFB7C5]/12 blur-2xl animate-float pointer-events-none hidden md:block" />
-          {/* Soft big sun glow behind the book fan */}
-          <div className="absolute right-[-10%] top-[-10%] w-[500px] h-[500px] rounded-full bg-[#E55B5B]/3 blur-[120px] pointer-events-none select-none" />
+          {/* 2026 Floating Orbs Background */}
+          <div className="absolute top-10 left-10 w-72 h-72 rounded-full bg-rose-300/10 blur-3xl animate-orb-slow-1 pointer-events-none hidden md:block" />
+          <div className="absolute bottom-10 right-20 w-96 h-96 rounded-full bg-emerald-200/10 blur-3xl animate-orb-slow-2 pointer-events-none hidden md:block" />
+          <div className="absolute top-1/3 right-1/3 w-80 h-80 rounded-full bg-amber-100/15 blur-3xl animate-orb-slow-3 pointer-events-none hidden md:block" />
+
+          {/* Soft big sun glow behind the book */}
+          <div className="absolute right-[-10%] top-[-10%] w-[600px] h-[600px] rounded-full bg-[#E55B5B]/3 blur-[140px] pointer-events-none select-none" />
 
           <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-center gap-16 relative z-10">
             <div className="flex-1 flex flex-col gap-6 items-center lg:items-start text-center lg:text-left">
               <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#FFB7C5]/15 border border-[#4A3F35]/15 font-black text-sm text-[#E55B5B] shadow-[0_2px_8px_rgba(229,91,91,0.08)]">
-                <Sparkles className="h-4 w-4 fill-current" />
+                <Sparkles className="h-4 w-4 fill-current animate-pulse" />
                 Kho Truyện Đọc Tranh Cho Bé Của Nhật 🌸
               </div>
 
@@ -257,95 +308,129 @@ export default function Home() {
               </div>
             </div>
 
-            {/* LARGE HERO SHOWCASE BANNER - Stacked 3D Storybooks Fan */}
+            {/* INTERACTIVE 3D BOOK SHOWCASE - 2026 Premium Redesign */}
             <div className="flex-1 w-full flex justify-center lg:justify-end relative mt-10 lg:mt-0 select-none">
-              <div className="relative w-full max-w-[500px] h-[360px] md:h-[420px] flex items-center justify-center">
-                {/* Decorative Sun Glow behind the books */}
-                <div className="absolute w-[280px] h-[280px] rounded-full bg-[#E55B5B]/6 blur-3xl pointer-events-none" />
+              <div className="relative w-full max-w-[420px] h-[440px] flex items-center justify-center">
+                <div 
+                  className="relative w-[300px] h-[400px] perspective-1000 cursor-pointer"
+                  onClick={() => setBookOpen(!bookOpen)}
+                  title="Nhấp để mở hoặc đóng sách"
+                >
+                  <div 
+                    className="absolute inset-0 preserve-3d transition-transform duration-700 w-full h-full"
+                    style={{ transform: bookOpen ? 'rotateY(-10deg)' : 'rotateY(0deg)' }}
+                  >
+                    {/* Page 3 (Back Page Base) */}
+                    <div className="absolute inset-2 bg-[#FCFAF5] rounded-r-2xl border border-[#4A3F35]/15 shadow-md z-0" />
+                    
+                    {/* Page 2 (Middle Page Base) */}
+                    <div className="absolute inset-1.5 bg-[#FFFDFC] rounded-r-2xl border border-[#4A3F35]/15 shadow-md z-5" />
 
-                {/* Book 1 (Left Fan) */}
-                <div className="absolute left-[5%] bottom-[10%] z-10 hidden sm:block animate-float-left-book">
-                  <div className="w-[190px] md:w-[220px] bg-[#FFFDFC] border border-[#4A3F35]/12 rounded-[24px] p-3 shadow-[0_10px_25px_rgba(74,63,53,0.06)] hover:scale-105 hover:shadow-[0_15px_30px_rgba(74,63,53,0.1)] transition-all duration-500 cursor-pointer">
-                    <div className="aspect-[16/9] w-full bg-slate-50 border border-[#4A3F35]/12 rounded-[18px] overflow-hidden mb-3">
-                      <img
-                        src={`${API_URL}/cdn/images/story1_cover.png`}
-                        className="w-full h-full object-cover"
-                        alt="Truyện cổ tích"
-                      />
-                    </div>
-                    <span className="px-2 py-0.5 rounded-full border border-dashed border-[#4A3F35]/25 text-[8px] font-black bg-[#EBF3E8] text-[#5C7050] uppercase leading-none">
-                      Dân Gian
-                    </span>
-                    <h4 className="font-serif text-[11px] font-bold text-slate-800 mt-2 truncate">
-                      Trí Khôn Của Ta Đây
-                    </h4>
-                    <p className="text-[9px] text-text-tertiary mt-1 font-mono">
-                      BÉĐỌC CLASSIC
-                    </p>
-                  </div>
-                </div>
-
-                {/* Book 2 (Right Fan) */}
-                <div className="absolute right-[5%] bottom-[10%] z-10 hidden sm:block animate-float-right-book">
-                  <div className="w-[190px] md:w-[220px] bg-[#FFFDFC] border border-[#4A3F35]/12 rounded-[24px] p-3 shadow-[0_10px_25px_rgba(74,63,53,0.06)] hover:scale-105 hover:shadow-[0_15px_30px_rgba(74,63,53,0.1)] transition-all duration-500 cursor-pointer">
-                    <div className="aspect-[16/9] w-full bg-slate-50 border border-[#4A3F35]/12 rounded-[18px] overflow-hidden mb-3">
-                      <img
-                        src="https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/f0d34fdd-3a71-457c-8f80-147a50eed2f8/images/page-1.webp"
-                        className="w-full h-full object-cover"
-                        alt="Thỏ và Rùa"
-                      />
-                    </div>
-                    <span className="px-2 py-0.5 rounded-full border border-dashed border-[#4A3F35]/25 text-[8px] font-black bg-[#FFF5F6] text-[#E55B5B] uppercase leading-none">
-                      Ngụ Ngôn
-                    </span>
-                    <h4 className="font-serif text-[11px] font-bold text-slate-800 mt-2 truncate">
-                      Chú Thỏ Thông Minh
-                    </h4>
-                    <p className="text-[9px] text-text-tertiary mt-1 font-mono">
-                      BÉĐỌC ADVENTURE
-                    </p>
-                  </div>
-                </div>
-
-                {/* Book 3 (Center Main Featured Book) */}
-                <div className="absolute bottom-[5%] z-25 animate-float-center-book">
-                  <div className="w-[240px] md:w-[270px] bg-[#FFFDFC] border border-[#4A3F35]/15 rounded-[32px] p-4.5 shadow-[0_20px_50px_rgba(74,63,53,0.12)] hover:scale-[1.04] hover:-translate-y-2 transition-all duration-500 group">
-                    <div className="aspect-[16/9] w-full bg-[#FCFAF5] border border-[#4A3F35]/15 rounded-[24px] flex items-center justify-center shadow-[0_4px_12px_rgba(74,63,53,0.04)] relative overflow-hidden mb-4">
-                      <img
-                        src={`${API_URL}/cdn/images/story8_cover.png`}
-                        className="w-full h-full object-cover"
-                        alt="Sự Tích Hồ Gươm"
-                      />
-                      <div className="absolute top-2.5 right-2.5 hanko-seal text-[8px] px-2.5 py-0.5 font-sans uppercase tracking-wider">
-                        HOT 🌸
+                    {/* Content Page (Active Page) */}
+                    <div className="absolute inset-1 bg-[#FFFDFC] border border-[#4A3F35]/15 rounded-r-2xl p-5 shadow-xl z-10 flex flex-col justify-between">
+                      <div>
+                        <div className="flex justify-between items-center pb-2.5 border-b border-[#4A3F35]/10">
+                          <span className="text-[10px] font-black text-[#8FA781] font-mono uppercase tracking-wider">Đọc Thử Truyện 🌸</span>
+                          <span className="text-[10px] font-bold text-text-tertiary">{bookPage + 1} / {previewStory.pages.length}</span>
+                        </div>
+                        
+                        <div className="flex justify-center items-center my-3 animate-float w-full">
+                          {previewStory.pages[bookPage].illustration.startsWith("http") ? (
+                            <div className="relative w-full h-[125px] rounded-xl overflow-hidden border border-[#4A3F35]/15 shadow-sm">
+                              <img
+                                src={previewStory.pages[bookPage].illustration}
+                                alt={`Page ${bookPage + 1}`}
+                                className="w-full h-full object-cover"
+                              />
+                            </div>
+                          ) : (
+                            <span className="text-7xl">{previewStory.pages[bookPage].illustration}</span>
+                          )}
+                        </div>
+                        
+                        <p className="text-xs text-slate-700 leading-relaxed font-quicksand font-bold text-center px-2">
+                          {previewStory.pages[bookPage].text}
+                        </p>
                       </div>
-                    </div>
 
-                    <div className="flex justify-between items-start mb-1.5">
-                      <span className="px-2 py-0.5 rounded-full border border-dashed border-[#4A3F35]/25 text-[8px] font-black bg-[#EBF3E8] text-[#5C7050] uppercase leading-none">
-                        Cổ Tích Việt Nam
-                      </span>
-                      <div className="flex items-center gap-0.5 text-[9px] font-black text-yellow-600 bg-white border border-[#4A3F35]/15 px-2 py-0.5 rounded-full">
-                        ★ 4.8
-                      </div>
-                    </div>
-
-                    <h3 className="font-serif text-sm md:text-base font-bold text-surface-base mb-1">
-                      Sự Tích Hồ Gươm
-                    </h3>
-                    <p className="text-[10px] text-text-secondary font-quicksand mb-4 leading-relaxed font-semibold line-clamp-2">
-                      Truyền thuyết Rùa Vàng đòi gươm thần giúp vua Lê Lợi dẹp
-                      loạn...
-                    </p>
-                    <div className="flex justify-between items-center pt-2.5 border-t border-dashed border-[#4A3F35]/10">
-                      <span className="text-[9px] font-bold text-text-tertiary">
-                        ⏱️ 10 phút đọc
-                      </span>
-                      <NextLink href="/story/8">
-                        <button className="px-4 py-1.5 zen-btn-sakura text-[10px] cursor-pointer shadow-[0_2px_8px_rgba(229,91,91,0.15)]">
-                          Đọc Ngay
+                      <div className="flex justify-between items-center mt-3 pt-2 border-t border-dashed border-[#4A3F35]/10">
+                        <button 
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            setBookPage((prev) => (prev > 0 ? prev - 1 : previewStory.pages.length - 1));
+                          }}
+                          className="px-3 py-1 text-[9px] font-black bg-[#FAF6EE] hover:bg-[#FAF8F5] border border-[#4A3F35]/15 rounded-full cursor-pointer hover:scale-105 transition-all text-slate-700 select-none"
+                        >
+                          ◀ Trước
                         </button>
-                      </NextLink>
+                        <button 
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            setBookPage((prev) => (prev < previewStory.pages.length - 1 ? prev + 1 : 0));
+                          }}
+                          className="px-3 py-1 text-[9px] font-black bg-[#EBF3E8] hover:bg-[#FAF8F5] border border-[#4A3F35]/15 rounded-full text-[#5C7050] cursor-pointer hover:scale-105 transition-all select-none"
+                        >
+                          Sau ▶
+                        </button>
+                      </div>
+                    </div>
+
+                    {/* Front Cover (Flipped leftward when open) */}
+                    <div 
+                      className="absolute inset-0 origin-left preserve-3d transition-transform duration-700 z-20 rounded-r-2xl shadow-2xl"
+                      style={{ 
+                        transform: bookOpen ? 'rotateY(-150deg)' : 'rotateY(0deg)',
+                      }}
+                    >
+                      {/* Front cover side */}
+                      <div className="absolute inset-0 backface-hidden bg-gradient-to-br from-[#FFB7C5] to-[#E55B5B] rounded-r-2xl border border-white/20 p-6 flex flex-col justify-between text-white shadow-inner">
+                        <div className="flex justify-between items-start">
+                          <div className="hanko-seal text-[8px] px-2 py-0.5 font-sans">HOT 🌸</div>
+                          <span className="text-[9px] font-black font-mono tracking-widest text-white/80">おはなし</span>
+                        </div>
+                        
+                        <div className="my-auto text-center flex flex-col gap-2.5 items-center w-full">
+                          {previewStory.cover ? (
+                            <div className="relative w-[210px] h-[140px] rounded-2xl overflow-hidden border-2 border-white/50 shadow-xl animate-float">
+                              <img
+                                src={previewStory.cover}
+                                alt="Luna & Bầu Trời Sao"
+                                className="w-full h-full object-cover"
+                              />
+                            </div>
+                          ) : (
+                            <span className="text-6xl animate-float">🐰</span>
+                          )}
+                          <div className="flex flex-col gap-1 mt-1">
+                            <h3 className="font-serif text-xl md:text-2xl font-bold tracking-tight text-white drop-shadow-md">
+                              {previewStory.title}
+                            </h3>
+                            <span className="text-[10px] font-bold text-rose-100 font-mono tracking-widest uppercase">
+                              {previewStory.subtitle}
+                            </span>
+                          </div>
+                        </div>
+
+                        <div className="flex justify-between items-center pt-3 border-t border-white/20 text-white/80 text-[10px] font-bold">
+                          <span>Mở sách tương tác</span>
+                          <span className="animate-pulse">🌸 Bấm vào bìa</span>
+                        </div>
+                      </div>
+
+                      {/* Back cover side (inside face when open) */}
+                      <div className="absolute inset-0 backface-hidden [transform:rotateY(180deg)] bg-[#FCFAF5] rounded-l-2xl border-r border-[#4A3F35]/15 shadow-[inset_-10px_0_20px_rgba(0,0,0,0.03)] p-6 flex flex-col justify-between text-surface-base">
+                        <div className="border-b border-[#4A3F35]/10 pb-2">
+                          <h4 className="font-serif font-black text-xs text-[#E55B5B] tracking-wide uppercase">Giới thiệu truyện</h4>
+                        </div>
+                        
+                        <p className="text-[11px] text-text-secondary leading-relaxed font-bold font-quicksand">
+                          Câu chuyện nhỏ đáng yêu về chú thỏ Luna tò mò khám phá bầu trời đầy sao lấp lánh và tìm thấy những câu trả lời thiên văn học bổ ích từ bác Cú thông thái.
+                        </p>
+
+                        <div className="text-[8px] text-text-tertiary text-center border-t border-dashed border-[#4A3F35]/10 pt-2 font-black uppercase font-mono tracking-wider">
+                          BéĐọc Japan Collection
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -353,9 +438,8 @@ export default function Home() {
             </div>
           </div>
         </section>
-
-        
       </main>
+
 
       {/* STORIES GRID & FILTER SECTION */}
       <section
@@ -386,24 +470,28 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Age Filters */}
-        <div className="flex flex-wrap gap-3 justify-center md:justify-start">
+        {/* Age Filters Segmented Capsule Control */}
+        <div className="flex flex-wrap gap-2 p-1.5 bg-[#FAF6EE] border border-[#4A3F35]/15 rounded-3xl w-fit mx-auto md:mx-0 shadow-[inset_0_2px_4px_rgba(74,63,53,0.03)]">
           <button
             onClick={() => setActiveAgeFilter(null)}
             className={cn(
-              "px-4 py-1.5 text-xs font-bold transition-all duration-300 cursor-pointer shadow-[0_4px_10px_rgba(74,63,53,0.04)]",
-              !activeAgeFilter ? "zen-btn-sakura" : "zen-btn-white",
+              "px-5 py-2 text-xs font-bold rounded-2xl transition-all duration-300 cursor-pointer select-none",
+              !activeAgeFilter 
+                ? "bg-[#FFB7C5] text-[#383029] shadow-[0_4px_12px_rgba(229,91,91,0.22)] scale-102 font-bold" 
+                : "text-slate-600 hover:text-slate-900 hover:bg-[#FAF8F5]/80"
             )}
           >
-            Tất Cả Độ Tuổi
+            🌸 Tất Cả Độ Tuổi
           </button>
           {["3-5 tuổi", "4-7 tuổi", "6-8 tuổi", "7-10 tuổi"].map((age) => (
             <button
               key={age}
               onClick={() => setActiveAgeFilter(age)}
               className={cn(
-                "px-4 py-1.5 text-xs font-bold transition-all duration-300 cursor-pointer shadow-[0_4px_10px_rgba(74,63,53,0.04)]",
-                activeAgeFilter === age ? "zen-btn-matcha" : "zen-btn-white",
+                "px-5 py-2 text-xs font-bold rounded-2xl transition-all duration-300 cursor-pointer select-none",
+                activeAgeFilter === age 
+                  ? "bg-[#8FA781] text-[#383029] shadow-[0_4px_12px_rgba(143,167,129,0.25)] scale-102 font-bold" 
+                  : "text-slate-600 hover:text-slate-900 hover:bg-[#FAF8F5]/80"
               )}
             >
               {age}
@@ -434,7 +522,9 @@ export default function Home() {
               <div
                 key={story.id}
                 id={`story-${story.id}`}
-                className="relative washi-card p-5 flex flex-col justify-between overflow-hidden group cursor-pointer"
+                className="relative washi-card p-5 flex flex-col justify-between overflow-hidden group cursor-pointer transition-all duration-300 ease-out"
+                onMouseMove={handleMouseMove}
+                onMouseLeave={handleMouseLeave}
               >
                 <div className="absolute top-4 left-4 w-10 h-10 rounded-full bg-[#FFB7C5]/10 blur-2xl pointer-events-none" />
                 <div className="absolute bottom-6 right-6 w-8 h-8 rounded-full bg-[#8FA781]/10 blur-2xl pointer-events-none" />
@@ -445,6 +535,17 @@ export default function Home() {
                     className="aspect-[16/9] border border-[#4A3F35]/12 rounded-2xl flex items-center justify-center text-7xl mb-4 relative shadow-[0_4px_12px_rgba(74,63,53,0.03)] overflow-hidden"
                     style={{ backgroundColor: story.color }}
                   >
+                    {/* Visualizer active badge */}
+                    {playingAudioId === story.id && (
+                      <div className="absolute top-3 left-3 bg-black/75 backdrop-blur-md px-3 py-1 rounded-full flex items-center gap-1.5 z-20 border border-white/20 shadow-lg">
+                        <span className="text-[9px] text-white font-bold mr-1">Đang đọc</span>
+                        <div className="w-[3px] bg-[#FFB7C5] rounded-full animate-wave-bar-1" style={{ height: '14px' }} />
+                        <div className="w-[3px] bg-[#FFB7C5] rounded-full animate-wave-bar-2" style={{ height: '10px' }} />
+                        <div className="w-[3px] bg-[#FFB7C5] rounded-full animate-wave-bar-3" style={{ height: '16px' }} />
+                        <div className="w-[3px] bg-[#FFB7C5] rounded-full animate-wave-bar-4" style={{ height: '8px' }} />
+                      </div>
+                    )}
+
                     {story.coverImageUrl ? (
                       <img
                         src={story.coverImageUrl}
@@ -798,6 +899,57 @@ export default function Home() {
           </div>
         </div>
       </footer>
+
+      {/* Trình phát Audio nổi (Floating Audio Player) */}
+      {playingAudioId !== null && (() => {
+        const activeStory = stories.find(s => s.id === playingAudioId);
+        if (!activeStory) return null;
+        return (
+          <div className="fixed bottom-24 right-8 z-50 animate-in fade-in slide-in-from-bottom-5 duration-300 select-none">
+            <div className="glass-card rounded-3xl p-3.5 flex items-center gap-3.5 shadow-2xl border border-white/40 max-w-[280px]">
+              {/* Cover image disk */}
+              <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-[#E55B5B] shadow-lg shrink-0 relative animate-spin-slow">
+                {activeStory.coverImageUrl ? (
+                  <img src={activeStory.coverImageUrl} className="w-full h-full object-cover" alt="" />
+                ) : (
+                  <div className="w-full h-full flex items-center justify-center bg-rose-100 text-lg">{activeStory.image}</div>
+                )}
+                <div className="absolute inset-0 bg-black/10 rounded-full" />
+                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-3.5 h-3.5 bg-[#FAF6EE] rounded-full border border-[#4A3F35]/20 shadow-inner" />
+              </div>
+
+              <div className="flex-1 min-w-0">
+                <h4 className="text-xs font-serif font-black text-slate-800 truncate leading-none">
+                  {activeStory.title}
+                </h4>
+                <span className="text-[9px] font-bold text-[#8FA781] uppercase font-mono mt-1.5 block tracking-wider leading-none">
+                  Đang phát 🎙️
+                </span>
+              </div>
+
+              <div className="flex items-center gap-1 shrink-0">
+                {/* Pause/Play Trigger */}
+                <button
+                  onClick={(e) => handleAudioToggle(activeStory.id, e)}
+                  className="p-2 rounded-full bg-[#E55B5B] text-white hover:bg-[#D14949] cursor-pointer shadow-md hover:scale-105 active:scale-95 transition-all flex items-center justify-center"
+                  title="Dừng nghe"
+                >
+                  <Volume2 className="h-3.5 w-3.5" />
+                </button>
+                <button
+                  onClick={() => setPlayingAudioId(null)}
+                  className="p-2 rounded-full bg-white hover:bg-slate-50 border border-slate-200 text-slate-400 hover:text-slate-600 cursor-pointer shadow-sm hover:scale-105 active:scale-95 transition-all flex items-center justify-center"
+                  title="Đóng"
+                >
+                  <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        );
+      })()}
 
       {/* Nút Cuộn Lên Đầu Trang */}
       <button

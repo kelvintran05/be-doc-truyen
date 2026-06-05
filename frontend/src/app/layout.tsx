@@ -1,30 +1,5 @@
 import type { Metadata } from "next";
-import { Quicksand, Fredoka, Lora, Zen_Maru_Gothic } from "next/font/google";
 import "./globals.css";
-
-const lora = Lora({
-  subsets: ["latin", "vietnamese"],
-  weight: ["400", "500", "600", "700"],
-  variable: "--font-lora",
-});
-
-const quicksand = Quicksand({
-  subsets: ["latin", "vietnamese"],
-  weight: ["300", "400", "500", "600", "700"],
-  variable: "--font-quicksand-next",
-});
-
-const fredoka = Fredoka({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  variable: "--font-fredoka-next",
-});
-
-const zenMaruGothic = Zen_Maru_Gothic({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "700", "900"],
-  variable: "--font-zen-maru-gothic",
-});
 
 export const viewport = {
   themeColor: "#FAF6EE",
@@ -58,9 +33,14 @@ export default function RootLayout({
   return (
     <html
       lang="vi"
-      className={`${lora.variable} ${quicksand.variable} ${fredoka.variable} ${zenMaruGothic.variable} h-full antialiased scroll-smooth`}
+      className="h-full antialiased scroll-smooth"
       suppressHydrationWarning
     >
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Quicksand:wght@300..700&family=Fredoka:wght@300..700&family=Zen+Maru+Gothic:wght@300..900&display=swap" rel="stylesheet" />
+      </head>
       <body className="min-h-full flex flex-col bg-surface-strong text-surface-base antialiased" suppressHydrationWarning>
         {/* Early inline script: remove known extension-injected attributes before React hydration */}
         <script
@@ -73,4 +53,5 @@ export default function RootLayout({
     </html>
   );
 }
+
 
