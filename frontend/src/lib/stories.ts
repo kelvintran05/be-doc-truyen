@@ -1394,5 +1394,301 @@ export const STORIES: Story[] = [
         "keyword": "N"
       }
     ]
+  },
+  {
+    "id": 21,
+    "title": "Cậu Bé Chăn Cừu",
+    "slug": "chang-be-chan-cuu-mpr7qxb8",
+    "category": "Cổ tích",
+    "age": "4-8 tuổi",
+    "duration": "6 phút",
+    "rating": 4.8,
+    "audio": true,
+    "color": "#FEF3C7",
+    "badgeColor": "#F59E0B",
+    "image": "🐑",
+    "coverImageUrl": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/d85119ca-79c2-4fad-8b51-979ac0ec5fa2/images/page-1.webp",
+    "description": "Một câu chuyện cổ tích về chàng bé chăn cừu tinh nghịch và bài học về sự trung thực.",
+    "moral": "Hãy luôn trung thực và đáng tin cậy, vì một khi đã nói dối, sẽ chẳng ai tin mình nữa.",
+    "audioDuration": 180,
+    "author": "BéĐọc",
+    "pages": [
+      {
+        "text": "Ngày xưa, trong một ngôi làng nhỏ xinh dưới chân đồi, có một cậu bé chăn cừu tinh nghịch. Mỗi ngày, cậu dẫn đàn cừu lên đồi và trông coi chúng thật cẩn thận.",
+        "image": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/d85119ca-79c2-4fad-8b51-979ac0ec5fa2/images/page-1.webp",
+        "audioUrl": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/d85119ca-79c2-4fad-8b51-979ac0ec5fa2/audio/page-1-vi.wav",
+        "keyword": "Làng"
+      },
+      {
+        "text": "Nhưng cậu bé cảm thấy rất buồn chán khi phải ở một mình trên đồi cả ngày. Cậu nhìn xuống ngôi làng và ao ước có ai đó lên chơi cùng mình.",
+        "image": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/d85119ca-79c2-4fad-8b51-979ac0ec5fa2/images/page-2.webp",
+        "audioUrl": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/d85119ca-79c2-4fad-8b51-979ac0ec5fa2/audio/page-2-vi.wav",
+        "keyword": "Buồn"
+      },
+      {
+        "text": "Một hôm, cậu bé nảy ra một ý định tinh quái. Cậu chạy tới rìa đồi và hét thật to: \"Sói! Sói! Có sói đến bắt cừu kìa! Cứu tôi với!\"",
+        "image": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/d85119ca-79c2-4fad-8b51-979ac0ec5fa2/images/page-3.webp",
+        "audioUrl": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/d85119ca-79c2-4fad-8b51-979ac0ec5fa2/audio/page-3-vi.wav",
+        "keyword": "Sói!"
+      },
+      {
+        "text": "Nghe tiếng kêu, các bác nông dân trong làng vội vã cầm liềm, cầm gậy chạy lên đồi để đuổi sói. Nhưng khi lên tới nơi, họ chẳng thấy con sói nào cả. Cậu bé phá lên cười: \"Ha ha, đùa thôi!\" Các bác nông dân lắc đầu bỏ về.",
+        "image": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/d85119ca-79c2-4fad-8b51-979ac0ec5fa2/images/page-4.webp",
+        "audioUrl": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/d85119ca-79c2-4fad-8b51-979ac0ec5fa2/audio/page-4-vi.wav",
+        "keyword": "Cười"
+      },
+      {
+        "text": "Mấy hôm sau, cậu bé lại nghĩ ra trò đùa cũ. Cậu lại hét toáng lên: \"Sói! Sói! Cứu tôi!\" Dân làng lại tức tốc chạy lên đồi, nhưng lại bị cậu bé lừa thêm một lần nữa. \"Các bác dễ tin quá!\" cậu bé cười khoái chí.",
+        "image": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/d85119ca-79c2-4fad-8b51-979ac0ec5fa2/images/page-5.webp",
+        "audioUrl": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/d85119ca-79c2-4fad-8b51-979ac0ec5fa2/audio/page-5-vi.wav",
+        "keyword": "Lừa"
+      },
+      {
+        "text": "Một ngày nọ, có con sói thật sự xuất hiện. Nó lao vào đàn cừu, nhe hàm răng nhọn hoắt. Cậu bé hoảng sợ chạy thục mạng xuống làng la to: \"Sói! Sói thật! Có sói thật kìa!\"",
+        "image": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/d85119ca-79c2-4fad-8b51-979ac0ec5fa2/images/page-6.webp",
+        "audioUrl": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/d85119ca-79c2-4fad-8b51-979ac0ec5fa2/audio/page-6-vi.wav",
+        "keyword": "Sói thật"
+      },
+      {
+        "text": "Nghe tiếng kêu, dân làng ngước nhìn nhau, lắc đầu: \"Chắc lại trò đùa của cậu bé chăn cừu thôi!\" Họ chẳng thèm để ý và tiếp tục công việc của mình.",
+        "image": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/d85119ca-79c2-4fad-8b51-979ac0ec5fa2/images/page-7.webp",
+        "audioUrl": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/d85119ca-79c2-4fad-8b51-979ac0ec5fa2/audio/page-7-vi.wav",
+        "keyword": "Không tin"
+      },
+      {
+        "text": "Cậu bé chăn cừu nhìn đàn cừu chạy tán loạn vì sói, nước mắt lăn dài trên má. Cậu hối hận vì đã nhiều lần nói dối. Từ đó về sau, cậu không bao giờ nói dối nữa và luôn trung thực với mọi người.",
+        "image": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/d85119ca-79c2-4fad-8b51-979ac0ec5fa2/images/page-8.webp",
+        "audioUrl": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/d85119ca-79c2-4fad-8b51-979ac0ec5fa2/audio/page-8-vi.wav",
+        "keyword": "Hối hận"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Bạch Tuyết Và Bảy Chú Lùn (Cải Biên)",
+    "slug": "bach-tuyet-va-bay-chu-lun-cai-bien-mpp6km50",
+    "category": "Cổ tích",
+    "age": "4-8 tuổi",
+    "duration": "8 phút",
+    "rating": 4.8,
+    "audio": true,
+    "color": "#F5F3FF",
+    "badgeColor": "#8B5CF6",
+    "image": "🍎",
+    "coverImageUrl": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/d27fb59a-da3c-40ea-8f4f-0a82e59e40f0/images/page-1.webp",
+    "description": "Chuyện kể về Bạch Tuyết trốn khỏi âm mưu hoàng hậu độc ác, được bảy chú lùn cưu mang, khôn ngoan từ chối táo độc, gặp hoàng tử, và trở về giành lại ngai vàng trong sự reo hò của toàn dân.",
+    "moral": "Lòng tốt và sự khôn ngoan luôn chiến thắng cái ác.",
+    "audioDuration": 240,
+    "author": "BéĐọc",
+    "pages": [
+      {
+        "text": "Ngày xửa ngày xưa, trong một vương quốc xa xôi, có nàng Bạch Tuyết xinh đẹp với làn da trắng như tuyết và mái tóc đen huyền. Bạch Tuyết sống cùng mẹ kế là Hoàng hậu độc ác, người luôn ghen ghét với sắc đẹp của nàng.",
+        "image": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/d27fb59a-da3c-40ea-8f4f-0a82e59e40f0/images/page-1.webp",
+        "audioUrl": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/d27fb59a-da3c-40ea-8f4f-0a82e59e40f0/audio/page-1-vi.wav",
+        "keyword": "Rừng"
+      },
+      {
+        "text": "Hoàng hậu ra lệnh cho người thợ săn đưa Bạch Tuyết vào rừng sâu và giết nàng. Nhưng người thợ săn tốt bụng đã thả nàng đi. Bạch Tuyết chạy mãi, chạy mãi vào khu rừng tối tăm và lạnh lẽo.",
+        "image": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/d27fb59a-da3c-40ea-8f4f-0a82e59e40f0/images/page-2.webp",
+        "audioUrl": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/d27fb59a-da3c-40ea-8f4f-0a82e59e40f0/audio/page-2-vi.wav",
+        "keyword": "Nhà"
+      },
+      {
+        "text": "Sau một hồi lạc đường, Bạch Tuyết tìm thấy một ngôi nhà nhỏ xinh trong rừng. Nàng gõ cửa và bước vào. Trong nhà có bảy chiếc giường nhỏ, bảy cái bát nhỏ và bảy chiếc ghế nhỏ xinh xắn.",
+        "image": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/d27fb59a-da3c-40ea-8f4f-0a82e59e40f0/images/page-3.webp",
+        "audioUrl": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/d27fb59a-da3c-40ea-8f4f-0a82e59e40f0/audio/page-3-vi.wav",
+        "keyword": "Táo"
+      },
+      {
+        "text": "Đó là nhà của bảy chú lùn tốt bụng. Khi về đến nhà và thấy Bạch Tuyết, các chú lùn vô cùng ngạc nhiên nhưng rất vui mừng chào đón nàng. Họ cho nàng ở lại và cùng nhau sống vui vẻ.",
+        "image": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/d27fb59a-da3c-40ea-8f4f-0a82e59e40f0/images/page-4.webp",
+        "audioUrl": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/d27fb59a-da3c-40ea-8f4f-0a82e59e40f0/audio/page-4-vi.wav",
+        "keyword": "Thất bại"
+      },
+      {
+        "text": "Khi Hoàng hậu độc ác biết Bạch Tuyết vẫn còn sống, bà ta vô cùng tức giận. Bà cải trang thành một bà lão bán táo và mang một quả táo tẩm độc đến cho Bạch Tuyết. Nhưng Bạch Tuyết khôn ngoan đã nhận ra mưu đồ và từ chối.",
+        "image": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/d27fb59a-da3c-40ea-8f4f-0a82e59e40f0/images/page-5.webp",
+        "audioUrl": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/d27fb59a-da3c-40ea-8f4f-0a82e59e40f0/audio/page-5-vi.wav",
+        "keyword": "Yêu"
+      },
+      {
+        "text": "Hoàng hậu không từ bỏ. Bà ta nhiều lần tìm cách hãm hại Bạch Tuyết bằng đủ mọi âm mưu thâm độc. Nhưng lần nào Bạch Tuyết cũng được các chú lùn và các loài vật trong rừng giúp đỡ, cảnh báo kịp thời.",
+        "image": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/d27fb59a-da3c-40ea-8f4f-0a82e59e40f0/images/page-6.webp",
+        "audioUrl": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/d27fb59a-da3c-40ea-8f4f-0a82e59e40f0/audio/page-6-vi.wav",
+        "keyword": "Kế hoạch"
+      },
+      {
+        "text": "Một ngày nọ, chàng Hoàng tử dũng cảm đi ngang qua khu rừng và gặp Bạch Tuyết. Hai người đem lòng yêu thương nhau. Hoàng tử hứa sẽ giúp Bạch Tuyết giành lại ngai vàng từ tay Hoàng hậu độc ác.",
+        "image": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/d27fb59a-da3c-40ea-8f4f-0a82e59e40f0/images/page-7.webp",
+        "audioUrl": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/d27fb59a-da3c-40ea-8f4f-0a82e59e40f0/audio/page-7-vi.wav",
+        "keyword": "Công lý"
+      },
+      {
+        "text": "Cuối cùng, sự thật về tội ác của Hoàng hậu bị phơi bày trước toàn dân. Bà ta bị trừng phạt thích đáng. Bạch Tuyết trở về cung điện và sống hạnh phúc bên Hoàng tử cùng bảy chú lùn. Công lý đã chiến thắng và tình yêu đã ngự trị!",
+        "image": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/d27fb59a-da3c-40ea-8f4f-0a82e59e40f0/images/page-8.webp",
+        "audioUrl": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/d27fb59a-da3c-40ea-8f4f-0a82e59e40f0/audio/page-8-vi.wav",
+        "keyword": "Hạnh phúc"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Jack và cây đậu thần",
+    "slug": "jack-va-cay-au-than-mprszkyr",
+    "category": "Cổ tích",
+    "age": "4-8 tuổi",
+    "duration": "8 phút",
+    "rating": 4.8,
+    "audio": true,
+    "color": "#EFF6FF",
+    "badgeColor": "#3B82F6",
+    "image": "🌱",
+    "coverImageUrl": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/c88bb157-94c7-49e1-b2dc-42fe2b5a35e9/images/page-1.webp",
+    "description": "Cậu bé nghèo Jack đổi con bò lấy những hạt đậu thần kỳ lạ. Cậu leo lên cây đậu khổng lồ để đối đầu với gã khổng lồ hung dữ và giành lại những báu vật của gia đình.",
+    "moral": "Hãy dũng cảm theo đuổi những cơ hội, dù chúng có vẻ nhỏ bé và kỳ lạ.",
+    "audioDuration": 240,
+    "author": "BéĐọc",
+    "pages": [
+      {
+        "text": "Ngày xưa, có cậu bé nghèo tên Jack sống cùng mẹ trong một túp lều tranh nhỏ. Gia đình Jack chỉ có một con bò sữa già, đó là tài sản quý giá nhất của họ.",
+        "image": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/c88bb157-94c7-49e1-b2dc-42fe2b5a35e9/images/page-1.webp",
+        "audioUrl": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/c88bb157-94c7-49e1-b2dc-42fe2b5a35e9/audio/page-1-vi.wav",
+        "keyword": "Jack"
+      },
+      {
+        "text": "Một hôm, mẹ bảo Jack mang con bò ra chợ bán. Trên đường đi, Jack gặp một ông lão kỳ lạ. Ông lão đưa cho Jack một nắm hạt đậu nhỏ và nói đó là hạt đậu thần sẽ mang lại may mắn. Jack tin lời và đổi con bò lấy hạt đậu.",
+        "image": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/c88bb157-94c7-49e1-b2dc-42fe2b5a35e9/images/page-2.webp",
+        "audioUrl": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/c88bb157-94c7-49e1-b2dc-42fe2b5a35e9/audio/page-2-vi.wav",
+        "keyword": "Con bò"
+      },
+      {
+        "text": "Jack mang hạt đậu về nhà. Mẹ cậu vô cùng tức giận, bà ném hạt đậu ra ngoài cửa sổ và mắng Jack vì đã đổi con bò quý giá lấy mấy hạt đậu vô dụng. Cả hai buồn bã đi ngủ.",
+        "image": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/c88bb157-94c7-49e1-b2dc-42fe2b5a35e9/images/page-3.webp",
+        "audioUrl": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/c88bb157-94c7-49e1-b2dc-42fe2b5a35e9/audio/page-3-vi.wav",
+        "keyword": "Ông lão"
+      },
+      {
+        "text": "Sáng hôm sau, Jack thức dậy và ngỡ ngàng. Một cây đậu khổng lồ mọc lên từ hạt đậu thần, vươn cao tít tới tận mây xanh! Jack vô cùng phấn khích và quyết định leo lên cây đậu để xem có điều gì ở phía trên.",
+        "image": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/c88bb157-94c7-49e1-b2dc-42fe2b5a35e9/images/page-4.webp",
+        "audioUrl": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/c88bb157-94c7-49e1-b2dc-42fe2b5a35e9/audio/page-4-vi.wav",
+        "keyword": "Hạt đậu"
+      },
+      {
+        "text": "Jack leo mãi, leo mãi qua những tầng mây trắng xóa. Cuối cùng, cậu tới một xứ sở trên trời với một tòa lâu đài đồ sộ. Jack rón rén bước vào trong lâu đài.",
+        "image": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/c88bb157-94c7-49e1-b2dc-42fe2b5a35e9/images/page-5.webp",
+        "audioUrl": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/c88bb157-94c7-49e1-b2dc-42fe2b5a35e9/audio/page-5-vi.wav",
+        "keyword": "Cây đậu"
+      },
+      {
+        "text": "Trong lâu đài, Jack gặp một gã khổng lồ hung dữ. Gã có đôi mắt to như đĩa và giọng nói ầm ầm như sấm sét. Gã đang ôm một túi vàng to và một con gà mái biết đẻ trứng vàng.",
+        "image": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/c88bb157-94c7-49e1-b2dc-42fe2b5a35e9/images/page-6.webp",
+        "audioUrl": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/c88bb157-94c7-49e1-b2dc-42fe2b5a35e9/audio/page-6-vi.wav",
+        "keyword": "Lâu đài"
+      },
+      {
+        "text": "Khi gã khổng lồ ngủ say, Jack lén lấy túi vàng và chạy trốn. Cậu leo xuống cây đậu thật nhanh. Gã khổng lồ phát hiện và đuổi theo, làm rung chuyển cả cây đậu. Jack cố gắng chạy thật nhanh!",
+        "image": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/c88bb157-94c7-49e1-b2dc-42fe2b5a35e9/images/page-7.webp",
+        "audioUrl": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/c88bb157-94c7-49e1-b2dc-42fe2b5a35e9/audio/page-7-vi.wav",
+        "keyword": "Túi vàng"
+      },
+      {
+        "text": "Jack chạy về nhà và lấy rìu chặt đổ cây đậu. \"Rầm!\" Cây đậu đổ ập xuống mang theo gã khổng lồ. Gã biến mất và không bao giờ quay lại nữa.",
+        "image": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/c88bb157-94c7-49e1-b2dc-42fe2b5a35e9/images/page-8.webp",
+        "audioUrl": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/c88bb157-94c7-49e1-b2dc-42fe2b5a35e9/audio/page-8-vi.wav",
+        "keyword": "Con gà"
+      },
+      {
+        "text": "Jack còn trèo lên lấy thêm con gà đẻ trứng vàng khi gã ngủ quên. Lần này gã khổng lồ tỉnh dậy và đuổi sát Jack. Nhưng Jack nhanh trí chặt đứt cây đậu, gã khổng lồ rơi xuống và tan biến.",
+        "image": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/c88bb157-94c7-49e1-b2dc-42fe2b5a35e9/images/page-9.webp",
+        "audioUrl": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/c88bb157-94c7-49e1-b2dc-42fe2b5a35e9/audio/page-9-vi.wav",
+        "keyword": "Gã khổng lồ"
+      },
+      {
+        "text": "Từ đó, Jack và mẹ sống hạnh phúc bên túi vàng và con gà thần. Họ không còn nghèo khó nữa. Jack học được rằng đôi khi những điều nhỏ bé và kỳ lạ nhất lại mang đến những phép màu lớn lao nhất.",
+        "image": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/c88bb157-94c7-49e1-b2dc-42fe2b5a35e9/images/page-10.webp",
+        "audioUrl": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/c88bb157-94c7-49e1-b2dc-42fe2b5a35e9/audio/page-10-vi.wav",
+        "keyword": "Hạnh phúc"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Lọ Lem (Cải Biên)",
+    "slug": "lo-lem-cai-bien-mpq58rer",
+    "category": "Cổ tích",
+    "age": "4-10 tuổi",
+    "duration": "10 phút",
+    "rating": 4.8,
+    "audio": true,
+    "color": "#FFF1F2",
+    "badgeColor": "#F43F5E",
+    "image": "👗",
+    "coverImageUrl": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/dddb9ea3-0586-4848-819d-25a2802acd99/images/page-1.webp",
+    "description": "Câu chuyện kể về Ella, một cô gái tài giỏi và kiên cường, bị mẹ kế và hai chị em gái áp bức nhưng không bao giờ từ bỏ hy vọng. Với lòng nhân hậu và ý chí không ngừng, cô tự tay viết nên số phận của mình, biến tro tàn thành ánh sáng.",
+    "moral": "Hãy luôn giữ lòng nhân hậu và niềm tin vào những điều tốt đẹp, rồi phép màu sẽ đến.",
+    "audioDuration": 300,
+    "author": "BéĐọc",
+    "pages": [
+      {
+        "text": "Ngày xửa ngày xưa, có một cô gái hiền lành và xinh đẹp tên là Ella. Cô sống hạnh phúc cùng cha mẹ trong một ngôi nhà ấm áp. Nhưng rồi mẹ cô qua đời, để lại nỗi buồn lớn trong lòng Ella.",
+        "image": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/dddb9ea3-0586-4848-819d-25a2802acd99/images/page-1.webp",
+        "audioUrl": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/dddb9ea3-0586-4848-819d-25a2802acd99/audio/page-1-vi.wav",
+        "keyword": "Gia đình"
+      },
+      {
+        "text": "Một thời gian sau, cha Ella tái hôn với một người phụ nữ có hai cô con gái. Mẹ kế và hai chị em tỏ ra rất tốt với Ella lúc ban đầu, nhưng rồi bộ mặt thật dần lộ ra.",
+        "image": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/dddb9ea3-0586-4848-819d-25a2802acd99/images/page-2.webp",
+        "audioUrl": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/dddb9ea3-0586-4848-819d-25a2802acd99/audio/page-2-vi.wav",
+        "keyword": "Mẹ kế"
+      },
+      {
+        "text": "Khi cha Ella qua đời, mẹ kế và hai chị em lập tức lộ rõ bản chất độc ác. Họ biến Ella thành người hầu trong chính ngôi nhà của mình. Ella phải làm tất cả công việc nặng nhọc: lau nhà, giặt giũ và nấu ăn.",
+        "image": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/dddb9ea3-0586-4848-819d-25a2802acd99/images/page-3.webp",
+        "audioUrl": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/dddb9ea3-0586-4848-819d-25a2802acd99/audio/page-3-vi.wav",
+        "keyword": "Mất mát"
+      },
+      {
+        "text": "Ella thường ngồi bên lò sưởi sau khi làm việc mệt mỏi, áo quần lấm lem tro bụi. Vì thế, mẹ kế và hai chị em gọi cô là Lọ Lem với giọng khinh miệt. Nhưng Ella không hề oán hận, cô vẫn giữ trái tim nhân hậu.",
+        "image": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/dddb9ea3-0586-4848-819d-25a2802acd99/images/page-4.webp",
+        "audioUrl": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/dddb9ea3-0586-4848-819d-25a2802acd99/audio/page-4-vi.wav",
+        "keyword": "Tro tàn"
+      },
+      {
+        "text": "Dù cuộc sống khó khăn, Ella vẫn luôn mạnh mẽ và không ngừng hy vọng. Cô kết bạn với những chú chim nhỏ và các loài vật trong vườn. Ella tìm thấy niềm vui trong những điều giản dị và luôn tin rằng một ngày nào đó mọi chuyện sẽ tốt đẹp hơn.",
+        "image": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/dddb9ea3-0586-4848-819d-25a2802acd99/images/page-5.webp",
+        "audioUrl": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/dddb9ea3-0586-4848-819d-25a2802acd99/audio/page-5-vi.wav",
+        "keyword": "Sức mạnh"
+      },
+      {
+        "text": "Một hôm, nhà vua tổ chức dạ hội lớn để chọn vợ cho hoàng tử. Tất cả các cô gái trong vương quốc đều được mời. Hai chị em của Ella hí hửng sửa soạn, còn mẹ kế không cho Ella đi, bắt cô ở nhà làm việc.",
+        "image": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/dddb9ea3-0586-4848-819d-25a2802acd99/images/page-6.webp",
+        "audioUrl": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/dddb9ea3-0586-4848-819d-25a2802acd99/audio/page-6-vi.wav",
+        "keyword": "Dạ tiệc"
+      },
+      {
+        "text": "Bỗng nhiên, một bà tiên xuất hiện! Bà tiên hóa phép cho Lọ Lem một chiếc váy lộng lẫy, đôi giày thủy tinh lấp lánh và một cỗ xe ngựa tuyệt đẹp. Nhưng bà dặn: \"Con nhớ về trước nửa đêm nhé, vì phép màu sẽ tan biến!\"",
+        "image": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/dddb9ea3-0586-4848-819d-25a2802acd99/images/page-7.webp",
+        "audioUrl": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/dddb9ea3-0586-4848-819d-25a2802acd99/audio/page-7-vi.wav",
+        "keyword": "Váy xinh"
+      },
+      {
+        "text": "Tại dạ hội, Lọ Lem lộng lẫy bước vào sảnh đường. Ai nấy đều ngỡ ngàng trước vẻ đẹp của cô. Hoàng tử tiến lại mời Lọ Lem nhảy. Cả hai say sưa nhảy suốt buổi tối, tiếng nhạc du dương vang vọng khắp cung điện.",
+        "image": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/dddb9ea3-0586-4848-819d-25a2802acd99/images/page-8.webp",
+        "audioUrl": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/dddb9ea3-0586-4848-819d-25a2802acd99/audio/page-8-vi.wav",
+        "keyword": "Nhảy múa"
+      },
+      {
+        "text": "Khi đồng hồ điểm 12 tiếng, Lọ Lem vội vàng chạy khỏi cung điện. Trong vội vã, cô đánh rơi một chiếc giày thủy tinh lấp lánh. Hoàng tử nhặt chiếc giày lên và thề sẽ tìm ra cô gái đã mang nó.",
+        "image": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/dddb9ea3-0586-4848-819d-25a2802acd99/images/page-9.webp",
+        "audioUrl": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/dddb9ea3-0586-4848-819d-25a2802acd99/audio/page-9-vi.wav",
+        "keyword": "Chiếc giày"
+      },
+      {
+        "text": "Hoàng tử đi khắp vương quốc để tìm chủ nhân của chiếc giày. Khi đến nhà Lọ Lem, hai chị em cố gắng nhét chân vào giày nhưng không vừa. Đến lượt Lọ Lem, chiếc giày vừa khít một cách hoàn hảo! Hoàng tử nhận ra cô ngay lập tức. Lọ Lem được tự do, cô tha thứ cho mẹ kế và sống hạnh phúc bên hoàng tử mãi mãi về sau.",
+        "image": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/dddb9ea3-0586-4848-819d-25a2802acd99/images/page-10.webp",
+        "audioUrl": "https://qcvgbhxfszxthfygjedh.supabase.co/storage/v1/object/public/story-builder-images/stories/dddb9ea3-0586-4848-819d-25a2802acd99/audio/page-10-vi.wav",
+        "keyword": "Tự do"
+      }
+    ]
   }
 ];
