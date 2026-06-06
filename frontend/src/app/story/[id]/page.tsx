@@ -66,6 +66,14 @@ export default function StoryDetailPage() {
   const [sleepTimer, setSleepTimer] = React.useState<number | null>(null); // in minutes
   const [timerRemaining, setTimerRemaining] = React.useState<number | null>(null); // in seconds
   const [floatingNotes, setFloatingNotes] = React.useState<{ id: number; char: string; left: number; bottom: number }[]>([]);
+  
+  // Voice selector states (Supertonic TTS)
+  const [selectedVoice, setSelectedVoice] = React.useState<string>("F1");
+  const availableVoices = [
+    { id: "F1", name: "Chị Thư", desc: "Giọng nữ ấm áp, nhẹ nhàng" },
+    { id: "F2", name: "Chị Mai", desc: "Giọng nữ trong trẻo, vui tươi" },
+    { id: "M1", name: "Anh Nam", desc: "Giọng nam trầm ấm, kể chuyện" },
+  ];
 
   // Floating Sakura Petals state (initialized empty to prevent hydration mismatch)
   const [sakuraPetals, setSakuraPetals] = React.useState<{ id: number; left: number; duration: number; delay: number; size: number; rotation: number }[]>([]);
@@ -116,7 +124,7 @@ export default function StoryDetailPage() {
   // Reset states when story changes
   React.useEffect(() => {
     setFlipDirection("none");
-                  setCurrentPageIndex(0);
+    setCurrentPageIndex(0);
     setIsCompleted(false);
     setIsPlaying(false);
     setCurrentTime(0);
@@ -127,6 +135,7 @@ export default function StoryDetailPage() {
     setCurrentLanguage("vi");
     setTranslatedPages({});
     setIsTranslating(false);
+    setSelectedVoice("F1");
   }, [storyId]);
 
   // Auto-scroll to quiz when story is completed
@@ -894,7 +903,9 @@ export default function StoryDetailPage() {
                         {isPlaying ? <Pause className="h-5 w-5 fill-current animate-pulse" /> : <Play className="h-5 w-5 fill-current ml-0.5" />}
                       </button>
                       <div className="min-w-0">
-                        <span className="text-[9px] font-black text-slate-400 uppercase tracking-wider block leading-none mb-1">Giọng kể BéĐọc</span>
+                        <span className="text-[9px] font-black text-slate-400 uppercase tracking-wider block leading-none mb-1">
+                          Giọng {availableVoices.find(v => v.id === selectedVoice)?.name || "BéĐọc"}
+                        </span>
                         <span className="text-xs font-bold text-slate-700 font-sans truncate block leading-none">
                           {isPlaying ? "🔊 Đang đọc truyện" : "🔇 Tạm dừng đọc truyện"}
                         </span>
@@ -961,7 +972,33 @@ export default function StoryDetailPage() {
                     <span className="text-[10px] font-black text-slate-500 font-quicksand w-8 select-none">{formatTime(duration)}</span>
                   </div>
 
-                  {/* Row 3: Speed & Sleep Timer Buttons */}
+                  {/* Row 3: Voice Selector (Supertonic TTS) */}
+                  <div className="flex items-center gap-2 pt-2 border-t-2 border-dashed border-slate-200/60 mt-0.5 select-none relative z-10">
+                    <span className="text-[9px] font-black text-slate-400 uppercase tracking-wider whitespace-nowrap">Giọng đọc:</span>
+                    <div className="flex items-center gap-1 flex-wrap">
+                      {availableVoices.map((voice) => (
+                        <button
+                          key={voice.id}
+                          onClick={() => {
+                            setSelectedVoice(voice.id);
+                            setIsPlaying(false);
+                            setCurrentTime(0);
+                          }}
+                          className={cn(
+                            "px-2 py-1 rounded-lg text-[8px] font-black cursor-pointer transition-all border",
+                            selectedVoice === voice.id
+                              ? "bg-[#E55B5B] text-white border-[#E55B5B] shadow-[0_2px_8px_rgba(229,91,91,0.3)]"
+                              : "bg-white text-slate-600 border-[#4A3F35]/15 hover:border-[#E55B5B]/50 hover:text-[#E55B5B]"
+                          )}
+                          title={voice.desc}
+                        >
+                          {voice.name}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+
+                  {/* Row 4: Speed & Sleep Timer Buttons */}
                   <div className="flex flex-wrap items-center justify-between gap-2 pt-2 border-t-2 border-dashed border-slate-200/60 mt-0.5 select-none relative z-10">
                     <div className="flex items-center gap-1.5">
                       <span className="text-[9px] font-black text-slate-400 uppercase tracking-wider">Tốc độ:</span>
@@ -1443,10 +1480,31 @@ export default function StoryDetailPage() {
       {story.pages[currentPageIndex]?.audioUrl && (
         <audio
           ref={audioRef}
-          src={story.pages[currentPageIndex].audioUrl}
+          src={(() => {
+            const page = story.pages[currentPageIndex];
+            const slug = story.slug;
+            const pageNum = currentPageIndex + 1;
+            const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://be-doc-truyen.onrender.com";
+            
+            // Story 19: Use Vietnamese Supertonic audio
+            if (story.id === 19) {
+              return `${API_URL}/cdn/audio/${slug}_page_${pageNum}_vi.mp3`;
+            }
+            
+            // Other stories: Use Supertonic voice files
+            const voiceFile = `${slug}_page_${pageNum}_${selectedVoice.toLowerCase()}.wav`;
+            return `${API_URL}/cdn/audio/${voiceFile}`;
+          })()}
           onTimeUpdate={handleTimeUpdate}
           onLoadedMetadata={handleLoadedMetadata}
           onEnded={handleAudioEnded}
+          onError={(e) => {
+            // Fallback to original audio if voice file not found
+            const target = e.target as HTMLAudioElement;
+            if (target.src && !target.src.includes(story.pages[currentPageIndex].audioUrl)) {
+              target.src = story.pages[currentPageIndex].audioUrl;
+            }
+          }}
         />
       )}
     </div>

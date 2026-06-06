@@ -6,22 +6,22 @@ export const viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "BéĐọc - Đọc truyện cho bé",
+  title: "MiniRead - Đọc truyện cho bé",
   description: "Kho tàng truyện tranh thiếu nhi hấp dẫn với hình ảnh sinh động và âm thanh lôi cuốn, giúp bé phát triển trí tưởng tượng và thói quen đọc sách mỗi ngày.",
   openGraph: {
     type: "website",
-    url: "https://beread.vn/",
-    title: "BéĐọc - Đọc truyện cho bé",
+    url: "https://miniread.app/",
+    title: "MiniRead - Đọc truyện cho bé",
     description: "Kho tàng truyện tranh thiếu nhi hấp dẫn với hình ảnh sinh động và âm thanh lôi cuốn, giúp bé phát triển trí tưởng tượng và thói quen đọc sách mỗi ngày.",
     images: [{ url: "https://miniread.app/og-image.png" }],
-    siteName: "BéĐọc",
+    siteName: "MiniRead",
   },
   twitter: {
     card: "summary_large_image",
-    title: "BéĐọc - Đọc truyện cho bé",
+    title: "MiniRead - Đọc truyện cho bé",
     description: "Kho tàng truyện tranh thiếu nhi hấp dẫn với hình ảnh sinh động và âm thanh lôi cuốn, giúp bé phát triển trí tưởng tượng và thói quen đọc sách mỗi ngày.",
     images: ["https://miniread.app/og-image.png"],
-    creator: "@beread",
+    creator: "@miniread",
   },
 };
 
@@ -39,13 +39,13 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Quicksand:wght@300..700&family=Fredoka:wght@300..700&family=Zen+Maru+Gothic:wght@300..900&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600&family=Barlow:wght@300;400;500;600&family=Quicksand:wght@300..700&family=Fredoka:wght@300..700&family=Zen+Maru+Gothic:wght@300..900&display=swap" rel="stylesheet" />
       </head>
       <body className="min-h-full flex flex-col bg-surface-strong text-surface-base antialiased" suppressHydrationWarning>
-        {/* Early inline script: remove known extension-injected attributes before React hydration */}
+        {/* Strip extension-injected attributes that break React hydration */}
         <script
           dangerouslySetInnerHTML={{
-            __html: `(function(){try{var re=/^(__processed_|bis_|bis_register|__bs__)/i; function clean(el){if(!el||!el.attributes)return; for(var i=el.attributes.length-1;i>=0;i--){var name=el.attributes[i].name; if(re.test(name)) el.removeAttribute(name);} } clean(document.documentElement); clean(document.body); var hidden = document.querySelectorAll('[hidden]'); hidden.forEach(clean); }catch(e){/* ignore */}})();`,
+            __html: `(function(){var r=/^(__processed_|bis_|bis_register|__bs__)/i;function c(n){if(!n||!n.attributes)return;for(var i=n.attributes.length-1;i>=0;i--){var a=n.attributes[i].name;if(r.test(a))n.removeAttribute(a);}}c(document.documentElement);c(document.body);var o=new MutationObserver(function(m){for(var i=0;i<m.length;i++){var t=m[i];if(t.type==='attributes'&&r.test(t.attributeName))t.target.removeAttribute(t.attributeName);}});o.observe(document.documentElement,{attributes:true,subtree:true});document.addEventListener('DOMContentLoaded',function(){setTimeout(function(){c(document.documentElement);c(document.body);},0);});})();`,
           }}
         />
         {children}
@@ -53,5 +53,3 @@ export default function RootLayout({
     </html>
   );
 }
-
-
