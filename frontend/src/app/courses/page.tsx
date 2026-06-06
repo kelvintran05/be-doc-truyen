@@ -8,29 +8,21 @@ import { cn } from "@/lib/utils";
 import { Sparkles, Trophy, BookOpen, ArrowLeft, ArrowRight } from "lucide-react";
 import { decryptPayload } from "@/lib/crypto";
 import { Course } from "@/lib/courses";
+import { useApi } from "@/hooks/useApi";
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3001";
 
 export default function CoursesPage() {
-  const [courses, setCourses] = React.useState<Course[]>([]);
-  const [isLoading, setIsLoading] = React.useState(true);
-
-  React.useEffect(() => {
-    fetch(`${API_URL}/courses`)
-      .then((res) => {
-        if (!res.ok) throw new Error("HTTP error " + res.status);
-        return res.json();
-      })
-      .then((data) => {
-        const decrypted = decryptPayload<Course[]>(data.payload);
-        setCourses(decrypted);
-        setIsLoading(false);
-      })
-      .catch((err) => {
-        console.error("Failed to load courses:", err);
-        setIsLoading(false);
-      });
-  }, []);
+  const { data: courses, isLoading } = useApi(
+    "courses",
+    () =>
+      fetch(`${API_URL}/courses`)
+        .then((res) => {
+          if (!res.ok) throw new Error("HTTP error " + res.status);
+          return res.json();
+        })
+        .then((data) => decryptPayload<Course[]>(data.payload)),
+  );
 
   return (
     <div className="flex-1 flex flex-col min-h-screen bg-[#FAF6EE]">
@@ -83,9 +75,9 @@ export default function CoursesPage() {
                 <div key={idx} className="bg-white border border-[#4A3F35]/12 rounded-[28px] p-6 shadow-[0_10px_30px_rgba(74,63,53,0.03)] animate-pulse min-h-[300px]" />
               ))}
             </div>
-          ) : courses.length > 0 ? (
+          ) : (courses ?? []).length > 0 ? (
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {courses.map((course) => (
+              {(courses ?? []).map((course) => (
                 <div
                   key={course.id}
                   className="bg-[#FFFDFC] border border-[#4A3F35]/12 rounded-[28px] overflow-hidden shadow-[0_8px_25px_rgba(74,63,53,0.04)] hover:-translate-y-0.5 hover:shadow-[0_15px_35px_rgba(74,63,53,0.08)] transition-all duration-300 flex flex-col justify-between"

@@ -3,29 +3,32 @@
 import * as React from "react";
 import { Navbar } from "@/components/ui/Navbar";
 import { Button } from "@/components/ui/Button";
-import { Input } from "@/components/ui/Input";
 import { Link } from "@/components/ui/Link";
-import NextLink from "next/link";
+import { CardSkeleton } from "@/components/ui/Skeleton";
+import { EmptyState } from "@/components/ui/EmptyState";
+import { StoryCard } from "@/components/stories/StoryCard";
+import { StoryFilters } from "@/components/stories/StoryFilters";
 import { cn } from "@/lib/utils";
-import {
-  Search,
-  BookOpen,
-  Volume2,
-  VolumeX,
-  Star,
-  Sparkles,
-  ArrowRight,
-  CheckCircle,
-  ChevronUp,
-} from "lucide-react";
+import { BookOpen, Volume2, VolumeX, Sparkles, ArrowRight, CheckCircle, ChevronUp } from "lucide-react";
 import { decryptPayload } from "@/lib/crypto";
 import { Story } from "@/lib/stories";
+import { useApi } from "@/hooks/useApi";
+import { useScrollTop } from "@/hooks/useScrollTop";
+import { useHashScroll } from "@/hooks/useHashScroll";
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://be-doc-truyen.onrender.com";
 
 export default function Home() {
-  const [stories, setStories] = React.useState<Story[]>([]);
-  const [isLoading, setIsLoading] = React.useState(true);
+  const { data: stories, isLoading } = useApi(
+    "home-stories",
+    () =>
+      fetch(`${API_URL}/stories`)
+        .then((res) => {
+          if (!res.ok) throw new Error("HTTP error " + res.status);
+          return res.json();
+        })
+        .then((data) => decryptPayload<Story[]>(data.payload)),
+  );
   const [searchQuery, setSearchQuery] = React.useState("");
   const [activeAgeFilter, setActiveAgeFilter] = React.useState<string | null>(
     null,
@@ -35,28 +38,7 @@ export default function Home() {
   );
   const audioRef = React.useRef<HTMLAudioElement | null>(null);
 
-  const [showScrollTop, setShowScrollTop] = React.useState(false);
-
-  const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
-    const card = e.currentTarget;
-    const rect = card.getBoundingClientRect();
-    const x = e.clientX - rect.left;
-    const y = e.clientY - rect.top;
-    const centerX = rect.width / 2;
-    const centerY = rect.height / 2;
-    const rotateX = ((y - centerY) / centerY) * -10;
-    const rotateY = ((x - centerX) / centerX) * 10;
-    card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale3d(1.03, 1.03, 1.03)`;
-    card.style.boxShadow = `0 20px 40px rgba(74, 63, 53, 0.12)`;
-    card.style.zIndex = `10`;
-  };
-
-  const handleMouseLeave = (e: React.MouseEvent<HTMLDivElement>) => {
-    const card = e.currentTarget;
-    card.style.transform = `perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)`;
-    card.style.boxShadow = ``;
-    card.style.zIndex = ``;
-  };
+  const { showScrollTop, scrollToTop } = useScrollTop();
 
   React.useEffect(() => {
     if (!audioRef.current) {
@@ -65,7 +47,7 @@ export default function Home() {
     const audio = audioRef.current;
 
     if (playingAudioId !== null) {
-      const activeStory = stories.find((s) => s.id === playingAudioId);
+      const activeStory = storiesList.find((s) => s.id === playingAudioId);
       if (activeStory) {
         let pagesList = activeStory.pages;
         if (typeof pagesList === "string") {
@@ -105,52 +87,10 @@ export default function Home() {
     };
   }, [playingAudioId, stories]);
 
-  React.useEffect(() => {
-    fetch(`${API_URL}/stories`)
-      .then((res) => {
-        if (!res.ok) throw new Error("HTTP error " + res.status);
-        return res.json();
-      })
-      .then((data) => {
-        const decrypted = decryptPayload<Story[]>(data.payload);
-        setStories(decrypted);
-        setIsLoading(false);
-      })
-      .catch((err) => {
-        console.error("Failed to load stories:", err);
-        setIsLoading(false);
-      });
-  }, []);
+  useHashScroll([isLoading]);
 
-  React.useEffect(() => {
-    if (!isLoading && typeof window !== "undefined" && window.location.hash) {
-      setTimeout(() => {
-        const hash = window.location.hash.substring(1);
-        const element = document.getElementById(hash);
-        if (element) {
-          element.scrollIntoView({ behavior: "smooth", block: "center" });
-        }
-      }, 100);
-    }
-  }, [isLoading]);
-
-  React.useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 300) {
-        setShowScrollTop(true);
-      } else {
-        setShowScrollTop(false);
-      }
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
-
-  const filteredStories = stories.filter((story) => {
+  const storiesList = stories ?? [];
+  const filteredStories = storiesList.filter((story) => {
     const matchesSearch =
       story.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
       story.category.toLowerCase().includes(searchQuery.toLowerCase());
@@ -161,7 +101,7 @@ export default function Home() {
   const handleAudioToggle = (storyId: number, e: React.MouseEvent) => {
     e.preventDefault();
     e.stopPropagation();
-    const selectedStory = stories.find((story) => story.id === storyId);
+    const selectedStory = storiesList.find((story) => story.id === storyId);
     if (!selectedStory || !selectedStory.audio) {
       return;
     }
@@ -292,197 +232,44 @@ export default function Home() {
           id="stories"
           className="w-full py-16 px-space-4 md:px-space-5 max-w-6xl mx-auto flex flex-col gap-8"
         >
-          <div className="flex flex-col md:flex-row justify-between items-center gap-6 border-b border-[#4A3F35]/12 pb-6">
-            <div>
-              <h2 className="font-serif text-2xl font-bold text-surface-base flex items-center gap-2 justify-center md:justify-start">
-                📚 Truyện Hay Cho Bé
-              </h2>
-              <p className="text-xs md:text-sm text-text-secondary font-quicksand mt-1 font-semibold">
-                Lọc truyện theo độ tuổi và từ khóa để tìm bài đọc phù hợp cho con
-                yêu
-              </p>
-            </div>
-
-            {/* Search Input */}
-            <div className="w-full max-w-xs relative">
-              <Input
-                type="text"
-                placeholder="Tìm tên truyện, thể loại..."
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                className="pr-10 cute-input text-xs"
-              />
-              <Search className="absolute right-3 top-1/2 -translate-y-1/2 h-4 w-4 text-[#E55B5B]" />
-            </div>
-          </div>
-
-          {/* Age Filters */}
-          <div className="flex flex-wrap gap-2 p-1.5 bg-[#FAF6EE] border border-[#4A3F35]/15 rounded-3xl w-fit mx-auto md:mx-0 shadow-[inset_0_2px_4px_rgba(74,63,53,0.03)]">
-            <button
-              onClick={() => setActiveAgeFilter(null)}
-              className={cn(
-                "px-5 py-2 text-xs font-bold rounded-2xl transition-all duration-300 cursor-pointer select-none",
-                !activeAgeFilter 
-                  ? "bg-[#FFB7C5] text-[#383029] shadow-[0_4px_12px_rgba(229,91,91,0.22)] scale-102 font-bold" 
-                  : "text-slate-600 hover:text-slate-900 hover:bg-[#FAF8F5]/80"
-              )}
-            >
-              🌸 Tất Cả Độ Tuổi
-            </button>
-            {["3-5 tuổi", "4-7 tuổi", "6-8 tuổi", "7-10 tuổi"].map((age) => (
-              <button
-                key={age}
-                onClick={() => setActiveAgeFilter(age)}
-                className={cn(
-                  "px-5 py-2 text-xs font-bold rounded-2xl transition-all duration-300 cursor-pointer select-none",
-                  activeAgeFilter === age 
-                    ? "bg-[#8FA781] text-[#383029] shadow-[0_4px_12px_rgba(143,167,129,0.25)] scale-102 font-bold" 
-                    : "text-slate-600 hover:text-slate-900 hover:bg-[#FAF8F5]/80"
-                )}
-              >
-                {age}
-              </button>
-            ))}
-          </div>
+          <StoryFilters
+            searchQuery={searchQuery}
+            activeAgeFilter={activeAgeFilter}
+            onSearchChange={setSearchQuery}
+            onAgeFilterChange={setActiveAgeFilter}
+          />
 
           {/* Grid Layout */}
           {isLoading ? (
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
               {Array.from({ length: 6 }).map((_, idx) => (
-                <div
-                  key={idx}
-                  className="bg-white/80 border border-[#4A3F35]/12 rounded-[28px] p-5 shadow-[0_10px_30px_-5px_rgba(74,63,53,0.03)] animate-pulse flex flex-col justify-between min-h-[300px]"
-                >
-                  <div>
-                    <div className="aspect-[16/9] bg-slate-200 border border-[#4A3F35]/10 rounded-2xl mb-4" />
-                    <div className="h-6 bg-slate-200 rounded w-3/4 mb-4" />
-                    <div className="h-4 bg-slate-200 rounded w-full mb-2" />
-                    <div className="h-4 bg-slate-200 rounded w-5/6" />
-                  </div>
-                </div>
+                <CardSkeleton key={idx} />
               ))}
             </div>
           ) : filteredStories.length > 0 ? (
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
               {filteredStories.map((story) => (
-                <div
+                <StoryCard
                   key={story.id}
-                  id={`story-${story.id}`}
-                  className="relative washi-card p-5 flex flex-col justify-between overflow-hidden group cursor-pointer transition-all duration-300 ease-out"
-                  onMouseMove={handleMouseMove}
-                  onMouseLeave={handleMouseLeave}
-                >
-                  <div className="absolute top-4 left-4 w-10 h-10 rounded-full bg-[#FFB7C5]/10 blur-2xl pointer-events-none" />
-                  <div className="absolute bottom-6 right-6 w-8 h-8 rounded-full bg-[#8FA781]/10 blur-2xl pointer-events-none" />
-
-                  <div>
-                    {/* Story Preview Icon Frame */}
-                    <div
-                      className="aspect-[16/9] border border-[#4A3F35]/12 rounded-2xl flex items-center justify-center text-7xl mb-4 relative shadow-[0_4px_12px_rgba(74,63,53,0.03)] overflow-hidden"
-                      style={{ backgroundColor: story.color }}
-                    >
-                      {/* Visualizer active badge */}
-                      {playingAudioId === story.id && (
-                        <div className="absolute top-3 left-3 bg-black/75 backdrop-blur-md px-3 py-1 rounded-full flex items-center gap-1.5 z-20 border border-white/20 shadow-lg">
-                          <span className="text-[9px] text-white font-bold mr-1">Đang đọc</span>
-                          <div className="w-[3px] bg-[#FFB7C5] rounded-full animate-wave-bar-1" style={{ height: '14px' }} />
-                          <div className="w-[3px] bg-[#FFB7C5] rounded-full animate-wave-bar-2" style={{ height: '10px' }} />
-                          <div className="w-[3px] bg-[#FFB7C5] rounded-full animate-wave-bar-3" style={{ height: '16px' }} />
-                          <div className="w-[3px] bg-[#FFB7C5] rounded-full animate-wave-bar-4" style={{ height: '8px' }} />
-                        </div>
-                      )}
-
-                      {story.coverImageUrl ? (
-                        <img
-                          src={story.coverImageUrl}
-                          className="w-full h-full object-cover"
-                          alt={story.title}
-                        />
-                      ) : (
-                        story.image
-                      )}
-
-                      {/* Audio Icon Player overlay */}
-                      {story.audio && (
-                        <button
-                          onClick={(e) => handleAudioToggle(story.id, e)}
-                          className={cn(
-                            "absolute bottom-3 right-3 p-2 rounded-full border border-[#4A3F35]/15 shadow-[0_4px_10px_rgba(74,63,53,0.08)] cursor-pointer transition-all hover:scale-105",
-                            playingAudioId === story.id
-                              ? "bg-[#E55B5B] text-white animate-pulse"
-                              : "bg-white text-surface-base hover:bg-[#FAF8F5]",
-                          )}
-                          title={
-                            playingAudioId === story.id
-                              ? "Dừng nghe giọng đọc"
-                              : "Nghe sách nói"
-                          }
-                        >
-                          {playingAudioId === story.id ? (
-                            <Volume2 className="h-4 w-4" />
-                          ) : (
-                            <VolumeX className="h-4 w-4 text-text-secondary" />
-                          )}
-                        </button>
-                      )}
-                    </div>
-
-                    <div className="flex justify-between items-center gap-2 mb-2">
-                      <span
-                        className="px-2.5 py-0.5 rounded-full border border-dashed border-[#4A3F35]/25 text-[9px] font-black uppercase"
-                        style={{
-                          backgroundColor: `${story.badgeColor}15`,
-                          color: story.badgeColor,
-                        }}
-                      >
-                        {story.category}
-                      </span>
-                      <span className="text-[9px] font-black bg-white/90 border border-[#4A3F35]/12 px-2.5 py-0.5 rounded-full text-text-secondary backdrop-blur-sm shadow-[0_2px_6px_rgba(74,63,53,0.03)]">
-                        👶 {story.age}
-                      </span>
-                    </div>
-
-                    <h3 className="font-serif text-sm md:text-base font-bold text-surface-base mb-2 hover:text-[#E55B5B] transition-colors line-clamp-1">
-                      {story.title}
-                    </h3>
-                    <p className="text-xs text-text-secondary font-quicksand line-clamp-3 mb-4 leading-relaxed font-semibold">
-                      {story.description}
-                    </p>
-                  </div>
-
-                  <div className="flex justify-between items-center pt-2 border-t border-dashed border-[#4A3F35]/15">
-                    <span className="text-[10px] text-text-tertiary font-bold">
-                      ⏱️ {story.duration} đọc
-                    </span>
-                    <a
-                      href={`/story/${story.id}`}
-                      className="inline-flex items-center gap-0.5 font-black text-xs text-[#E55B5B] hover:underline outline-none"
-                    >
-                      Đọc ngay <ArrowRight className="h-3 w-3" />
-                    </a>
-                  </div>
-                </div>
+                  story={story}
+                  isPlaying={playingAudioId === story.id}
+                  onAudioToggle={handleAudioToggle}
+                />
               ))}
             </div>
           ) : (
-            <div className="border border-dashed border-[#4A3F35]/25 rounded-[28px] p-12 text-center bg-[#FAF6EE]/50 backdrop-blur-sm flex flex-col items-center gap-3">
-              <span className="text-5xl">🔍</span>
-              <h3 className="font-serif text-lg font-bold">
-                Không tìm thấy truyện phù hợp
-              </h3>
-              <p className="text-sm text-text-secondary font-quicksand">
-                Thử đổi từ khóa hoặc bộ lọc độ tuổi khác xem sao nhé!
-              </p>
-              <Button
-                variant="secondary"
-                onClick={() => {
+            <EmptyState
+              icon="🔍"
+              title="Không tìm thấy truyện phù hợp"
+              description="Thử đổi từ khóa hoặc bộ lọc độ tuổi khác xem sao nhé!"
+              action={{
+                label: "Đặt Lại Bộ Lọc",
+                onClick: () => {
                   setSearchQuery("");
                   setActiveAgeFilter(null);
-                }}
-              >
-                Đặt Lại Bộ Lọc
-              </Button>
-            </div>
+                },
+              }}
+            />
           )}
         </section>
 
@@ -707,7 +494,7 @@ export default function Home() {
 
       {/* Floating Audio Player */}
       {playingAudioId !== null && (() => {
-        const activeStory = stories.find(s => s.id === playingAudioId);
+        const activeStory = storiesList.find(s => s.id === playingAudioId);
         if (!activeStory) return null;
         return (
           <div className="fixed bottom-24 right-8 z-50 animate-in fade-in slide-in-from-bottom-5 duration-300 select-none">

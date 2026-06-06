@@ -8,9 +8,8 @@ import { useParams } from "next/navigation";
 import { ArrowLeft, Volume2, ArrowRight, CheckCircle2, Award, RefreshCw, Star, Languages, HelpCircle } from "lucide-react";
 import { decryptPayload } from "@/lib/crypto";
 import { Lesson } from "@/lib/courses";
+import { useApi } from "@/hooks/useApi";
 import { cn } from "@/lib/utils";
-
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://be-doc-truyen.onrender.com";
 
 // Mock vocabulary data for L101 - L102
 const VOCAB_DATA: Record<number, Array<{ word: string; ipa: string; definition: string; vietnamese: string; example: string }>> = {
@@ -45,8 +44,18 @@ const QUIZ_DATA: Record<number, Array<{ question: string; options: string[]; ans
 export default function LessonPlayerPage() {
   const { id } = useParams<{ id: string }>();
   const lessonId = parseInt(id || "", 10);
-  const [lesson, setLesson] = React.useState<Lesson | null>(null);
-  const [isLoading, setIsLoading] = React.useState(true);
+  const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://be-doc-truyen.onrender.com";
+  const { data: lesson, isLoading } = useApi(
+    lessonId ? `lesson-${lessonId}` : null,
+    () =>
+      fetch(`${API_URL}/courses/lessons/${lessonId}`)
+        .then((res) => {
+          if (!res.ok) throw new Error("HTTP error " + res.status);
+          return res.json();
+        })
+        .then((data) => decryptPayload<Lesson>(data.payload)),
+    { enabled: !!lessonId },
+  );
 
   // STORY state
   const [currentPageIndex, setCurrentPageIndex] = React.useState(0);
@@ -63,24 +72,6 @@ export default function LessonPlayerPage() {
   const [isAnswered, setIsAnswered] = React.useState(false);
   const [score, setScore] = React.useState(0);
   const [showGameResults, setShowGameResults] = React.useState(false);
-
-  React.useEffect(() => {
-    if (!lessonId) return;
-    fetch(`${API_URL}/courses/lessons/${lessonId}`)
-      .then((res) => {
-        if (!res.ok) throw new Error("HTTP error " + res.status);
-        return res.json();
-      })
-      .then((data) => {
-        const decrypted = decryptPayload<Lesson>(data.payload);
-        setLesson(decrypted);
-        setIsLoading(false);
-      })
-      .catch((err) => {
-        console.error("Failed to load lesson:", err);
-        setIsLoading(false);
-      });
-  }, [lessonId]);
 
   // Audio setup
   React.useEffect(() => {

@@ -8,32 +8,24 @@ import { useParams } from "next/navigation";
 import { ArrowLeft, BookOpen, Gamepad2, Languages, Lock, Play, Star, Sparkles, Trophy } from "lucide-react";
 import { decryptPayload } from "@/lib/crypto";
 import { Course } from "@/lib/courses";
+import { useApi } from "@/hooks/useApi";
 import { cn } from "@/lib/utils";
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3001";
 
 export default function CourseDetailPage() {
   const { slug } = useParams<{ slug: string }>();
-  const [course, setCourse] = React.useState<Course | null>(null);
-  const [isLoading, setIsLoading] = React.useState(true);
-
-  React.useEffect(() => {
-    if (!slug) return;
-    fetch(`${API_URL}/courses/${slug}`)
-      .then((res) => {
-        if (!res.ok) throw new Error("HTTP error " + res.status);
-        return res.json();
-      })
-      .then((data) => {
-        const decrypted = decryptPayload<Course>(data.payload);
-        setCourse(decrypted);
-        setIsLoading(false);
-      })
-      .catch((err) => {
-        console.error("Failed to load course details:", err);
-        setIsLoading(false);
-      });
-  }, [slug]);
+  const { data: course, isLoading } = useApi(
+    slug ? `course-${slug}` : null,
+    () =>
+      fetch(`${API_URL}/courses/${slug}`)
+        .then((res) => {
+          if (!res.ok) throw new Error("HTTP error " + res.status);
+          return res.json();
+        })
+        .then((data) => decryptPayload<Course>(data.payload)),
+    { enabled: !!slug },
+  );
 
   if (isLoading) {
     return (

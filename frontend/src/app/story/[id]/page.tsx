@@ -5,6 +5,7 @@ import { useParams } from "next/navigation";
 // Removed unused import
 import { decryptPayload } from "@/lib/crypto";
 import { Story } from "@/lib/stories";
+import { useApi } from "@/hooks/useApi";
 import { Navbar } from "@/components/ui/Navbar";
 import { Link } from "@/components/ui/Link";
 import { Button } from "@/components/ui/Button";
@@ -40,10 +41,31 @@ interface PageProps {
 export default function StoryDetailPage() {
   const { id } = useParams();
   const storyId = parseInt(id as string, 10);
+  const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://be-doc-truyen.onrender.com";
 
-  const [story, setStory] = React.useState<Story | null>(null);
-  const [relatedStories, setRelatedStories] = React.useState<Story[]>([]);
-  const [isLoading, setIsLoading] = React.useState(true);
+  const { data: story, isLoading } = useApi(
+    `story-${storyId}`,
+    () =>
+      fetch(`${API_URL}/stories/${storyId}`)
+        .then((res) => {
+          if (!res.ok) throw new Error("Failed to fetch story");
+          return res.json();
+        })
+        .then((data) => decryptPayload<Story>(data.payload)),
+  );
+
+  const { data: allStories } = useApi(
+    `story-related-${storyId}`,
+    () =>
+      fetch(`${API_URL}/stories`)
+        .then((res) => res.json())
+        .then((data) => decryptPayload<Story[]>(data.payload)),
+  );
+
+  const relatedStories = React.useMemo(
+    () => (allStories ?? []).filter((s) => s.id !== storyId).slice(0, 3),
+    [allStories, storyId],
+  );
 
   // Reader states
   const [readMode, setReadMode] = React.useState<"page" | "full">("page");
@@ -90,36 +112,6 @@ export default function StoryDetailPage() {
       }))
     );
   }, []);
-
-  // Fetch story details
-  React.useEffect(() => {
-    setIsLoading(true);
-    const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://be-doc-truyen.onrender.com";
-
-    fetch(`${API_URL}/stories/${storyId}`)
-      .then((res) => {
-        if (!res.ok) throw new Error("Failed to fetch story");
-        return res.json();
-      })
-      .then((data) => {
-        const decrypted = decryptPayload<Story>(data.payload);
-        setStory(decrypted);
-        setIsLoading(false);
-      })
-      .catch((err) => {
-        console.error("Failed to load story detail:", err);
-        setIsLoading(false);
-      });
-
-    // Fetch all stories for recommendations list
-    fetch(`${API_URL}/stories`)
-      .then((res) => res.json())
-      .then((data) => {
-        const decrypted = decryptPayload<Story[]>(data.payload);
-        setRelatedStories(decrypted.filter((s) => s.id !== storyId).slice(0, 3));
-      })
-      .catch((err) => console.error("Failed to load related stories:", err));
-  }, [storyId]);
 
   // Reset states when story changes
   React.useEffect(() => {

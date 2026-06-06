@@ -1,38 +1,6 @@
-export interface StoryPage {
-  text: string;
-  enText?: string;
-  keyword?: string;
-  image: string; // Emoji or image URL
-  audioUrl?: string; // Audio file URL
-}
+import type { StoryPage, QuizQuestion, Story } from "@/lib/types";
 
-export interface QuizQuestion {
-  question: string;
-  options: { label: 'A' | 'B' | 'C' | 'D'; text: string }[];
-  correctAnswer: 'A' | 'B' | 'C' | 'D';
-  explanation?: string;
-}
-
-export interface Story {
-  id: number;
-  title: string;
-  slug: string;
-  category: string;
-  age: string;
-  duration: string;
-  rating: number;
-  audio: boolean;
-  color: string;
-  badgeColor: string;
-  image: string;
-  coverImageUrl?: string;
-  description: string;
-  moral: string;
-  audioDuration: number;
-  author: string;
-  pages: StoryPage[];
-  questions?: QuizQuestion[];
-}
+export type { StoryPage, QuizQuestion, Story };
 
 export const STORIES: Story[] = [
   {
