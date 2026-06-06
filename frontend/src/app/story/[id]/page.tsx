@@ -1501,8 +1501,9 @@ export default function StoryDetailPage() {
           onError={(e) => {
             // Fallback to original audio if voice file not found
             const target = e.target as HTMLAudioElement;
-            if (target.src && !target.src.includes(story.pages[currentPageIndex].audioUrl)) {
-              target.src = story.pages[currentPageIndex].audioUrl;
+            const originalUrl = story.pages[currentPageIndex]?.audioUrl;
+            if (target.src && originalUrl && !target.src.includes(originalUrl)) {
+              target.src = originalUrl;
             }
           }}
         />
