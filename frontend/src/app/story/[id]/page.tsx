@@ -1472,31 +1472,13 @@ export default function StoryDetailPage() {
       {story.pages[currentPageIndex]?.audioUrl && (
         <audio
           ref={audioRef}
-          src={(() => {
-            const page = story.pages[currentPageIndex];
-            const slug = story.slug;
-            const pageNum = currentPageIndex + 1;
-            const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://be-doc-truyen.onrender.com";
-            
-            // Story 19: Use Vietnamese Supertonic audio
-            if (story.id === 19) {
-              return `${API_URL}/cdn/audio/${slug}_page_${pageNum}_vi.mp3`;
-            }
-            
-            // Other stories: Use Supertonic voice files
-            const voiceFile = `${slug}_page_${pageNum}_${selectedVoice.toLowerCase()}.wav`;
-            return `${API_URL}/cdn/audio/${voiceFile}`;
-          })()}
+          key={`audio-${currentPageIndex}`}
+          src={story.pages[currentPageIndex]!.audioUrl}
           onTimeUpdate={handleTimeUpdate}
           onLoadedMetadata={handleLoadedMetadata}
           onEnded={handleAudioEnded}
           onError={(e) => {
-            // Fallback to original audio if voice file not found
-            const target = e.target as HTMLAudioElement;
-            const originalUrl = story.pages[currentPageIndex]?.audioUrl;
-            if (target.src && originalUrl && !target.src.includes(originalUrl)) {
-              target.src = originalUrl;
-            }
+            console.error("Audio error on:", (e.target as HTMLAudioElement).src);
           }}
         />
       )}

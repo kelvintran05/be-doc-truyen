@@ -12,9 +12,9 @@ def generate_edge_tts(text: str, output_path: str, voice_code: str, speed_rate: 
         elif "male" in voice_code.lower() or "manhdung" in voice_code.lower() or "thanhlong" in voice_code.lower():
             voice = 'vi-VN-NamMinhNeural'
         
-        # Ghi đè tốc độ và cao độ để tạo giọng nhí nhảnh/kể chuyện (theo yêu cầu của user)
-        rate_str = "+10%"
-        pitch_str = "+50Hz"
+        # Ghi đè tốc độ và cao độ để tạo giọng nhí nhảnh/kể chuyện (đã tối ưu tránh lỗi từ MS server)
+        rate_str = "+5%"
+        pitch_str = "+0Hz"
             
         print(f"-> Falling back to Edge-TTS: Voice={voice}, Rate={rate_str}, Pitch={pitch_str}...")
         
